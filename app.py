@@ -12,6 +12,12 @@ import os
 from datetime import datetime
 warnings.filterwarnings('ignore')
 
+# Vercel Python runtime compatibility export
+def handler(*args, **kwargs):
+    return {"statusCode": 200, "body": "Retail Crash-Test Engine (Streamlit)"}
+app = handler
+application = handler
+
 st.set_page_config(
     page_title="Retail Crash-Test Engine",
     page_icon="🚨",
