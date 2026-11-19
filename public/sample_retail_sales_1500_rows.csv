@@ -1,0 +1,1501 @@
+Date,Category,Product,Quantity,Price,Age,CustomerID,Gender,PaymentMethod,StoreLocation,TotalSales
+2025-01-01,Groceries,Biscuits,6,107.28,18,CUST1155,Male,UPI,Mumbai,643.7
+2025-01-01,Home & Kitchen,Lamp,4,1737.78,18,CUST1319,Female,Cash,Gurugram,6951.11
+2025-01-01,Clothing,Hoodie,4,1812.57,18,CUST1207,Female,UPI,Mumbai,7250.29
+2025-01-02,Groceries,Biscuits,5,760.01,41,CUST1255,Female,UPI,Gurugram,3800.07
+2025-01-02,Electronics,USB Cable,1,1948.1,36,CUST1072,Female,UPI,Mumbai,1948.1
+2025-01-02,Home & Kitchen,Water Bottle,2,1782.54,21,CUST1297,Male,Cash,Pune,3565.09
+2025-01-02,Clothing,Hoodie,5,2503.55,31,CUST1313,Male,Cash,Pune,12517.73
+2025-01-02,Beauty,Face Wash,4,383.13,22,CUST1116,Other,Credit Card,Pune,1532.53
+2025-01-02,Sports,Cricket Bat,1,1680.06,23,CUST1131,Male,UPI,Delhi,1680.06
+2025-01-02,Clothing,Sneakers,5,2623.62,25,CUST1395,Male,Credit Card,Delhi,13118.11
+2025-01-03,Home & Kitchen,Lamp,3,1429.79,39,CUST1389,Male,UPI,Delhi,4289.36
+2025-01-03,Home & Kitchen,Lamp,5,789.95,37,CUST1390,Male,Debit Card,Jaipur,3949.73
+2025-01-03,Beauty,Shampoo,5,131.69,26,CUST1259,Female,Debit Card,Pune,658.44
+2025-01-03,Groceries,Cooking Oil,3,607.67,32,CUST1284,Female,Net Banking,Gurugram,1823.02
+2025-01-03,Clothing,Sneakers,3,421.83,47,CUST1391,Female,UPI,Delhi,1265.48
+2025-01-03,Sports,Yoga Mat,1,2941.76,62,CUST1386,Female,Credit Card,Jaipur,2941.76
+2025-01-04,Groceries,Rice,1,173.44,43,CUST1446,Female,Credit Card,Gurugram,173.44
+2025-01-04,Electronics,Headphones,6,1664.98,33,CUST1227,Other,UPI,Gurugram,9989.91
+2025-01-04,Groceries,Cooking Oil,1,305.43,46,CUST1078,Male,Net Banking,Delhi,305.43
+2025-01-05,Clothing,Jeans,3,1627.54,57,CUST1021,Male,Debit Card,Pune,4882.63
+2025-01-05,Clothing,Jacket,2,1202.83,28,CUST1223,Female,Credit Card,Mumbai,2405.66
+2025-01-06,Electronics,Mouse,6,4367.79,24,CUST1244,Male,UPI,Gurugram,26206.73
+2025-01-06,Electronics,USB Cable,3,6436.06,20,CUST1228,Female,Credit Card,Gurugram,19308.17
+2025-01-06,Sports,Skipping Rope,1,2696.34,23,CUST1008,Female,UPI,Pune,2696.34
+2025-01-06,Groceries,Coffee,3,523.41,56,CUST1144,Male,Cash,Mumbai,1570.22
+2025-01-06,Electronics,USB Cable,2,2390.22,24,CUST1450,Male,UPI,Jaipur,4780.44
+2025-01-07,Clothing,Hoodie,6,1362.92,36,CUST1200,Male,Cash,Mumbai,8177.53
+2025-01-07,Clothing,T-Shirt,1,1356.01,22,CUST1396,Male,Debit Card,Mumbai,1356.01
+2025-01-07,Home & Kitchen,Lamp,1,2229.5,51,CUST1423,Male,Cash,Delhi,2229.5
+2025-01-08,Electronics,Power Bank,3,4614.49,43,CUST1445,Male,UPI,Gurugram,13843.47
+2025-01-08,Beauty,Perfume,5,381.14,57,CUST1245,Male,Cash,Jaipur,1905.69
+2025-01-08,Beauty,Moisturizer,6,219.18,19,CUST1253,Female,UPI,Gurugram,1315.06
+2025-01-09,Clothing,T-Shirt,1,1960.41,49,CUST1038,Male,Cash,Gurugram,1960.41
+2025-01-09,Groceries,Cooking Oil,2,588.46,64,CUST1037,Female,UPI,Delhi,1176.93
+2025-01-09,Home & Kitchen,Bedsheet,2,761.3,61,CUST1426,Female,Cash,Gurugram,1522.6
+2025-01-09,Electronics,Mouse,5,854.71,29,CUST1143,Male,UPI,Pune,4273.53
+2025-01-09,Sports,Yoga Mat,1,2915.29,37,CUST1288,Female,Debit Card,Jaipur,2915.29
+2025-01-10,Electronics,Keyboard,4,5423.22,63,CUST1417,Male,UPI,Pune,21692.87
+2025-01-10,Groceries,Rice,6,869.83,40,CUST1268,Male,UPI,Pune,5218.96
+2025-01-10,Groceries,Rice,1,644.93,32,CUST1358,Male,Credit Card,Pune,644.93
+2025-01-10,Groceries,Coffee,4,293.99,20,CUST1218,Male,Cash,Jaipur,1175.96
+2025-01-11,Electronics,USB Cable,2,3223.68,51,CUST1403,Female,UPI,Jaipur,6447.36
+2025-01-11,Groceries,Cooking Oil,3,161.41,45,CUST1127,Male,Credit Card,Delhi,484.22
+2025-01-11,Groceries,Rice,5,198.75,25,CUST1352,Female,Credit Card,Jaipur,993.75
+2025-01-12,Electronics,Power Bank,1,3176.45,27,CUST1079,Male,UPI,Jaipur,3176.45
+2025-01-12,Clothing,Jeans,5,2850.21,32,CUST1213,Other,Credit Card,Gurugram,14251.04
+2025-01-12,Clothing,Hoodie,4,387.96,31,CUST1291,Female,Debit Card,Gurugram,1551.86
+2025-01-13,Home & Kitchen,Lamp,6,2758.09,36,CUST1159,Female,Credit Card,Jaipur,16548.55
+2025-01-13,Electronics,Mouse,5,1966.78,20,CUST1248,Female,Credit Card,Gurugram,9833.92
+2025-01-14,Beauty,Shampoo,4,1351.91,41,CUST1207,Male,Debit Card,Delhi,5407.64
+2025-01-14,Electronics,Keyboard,2,3490.95,62,CUST1345,Male,UPI,Jaipur,6981.89
+2025-01-14,Clothing,Hoodie,2,3141.0,28,CUST1240,Male,UPI,Delhi,6282.0
+2025-01-14,Sports,Cricket Bat,6,1775.98,57,CUST1369,Male,UPI,Delhi,10655.89
+2025-01-14,Clothing,Jeans,2,1463.19,43,CUST1242,Male,UPI,Jaipur,2926.38
+2025-01-14,Electronics,USB Cable,5,2113.24,21,CUST1038,Female,Debit Card,Jaipur,10566.22
+2025-01-15,Beauty,Moisturizer,2,373.01,27,CUST1049,Female,UPI,Jaipur,746.02
+2025-01-15,Beauty,Shampoo,5,1034.27,19,CUST1012,Female,Cash,Mumbai,5171.36
+2025-01-15,Clothing,Jacket,3,441.63,20,CUST1336,Female,UPI,Jaipur,1324.89
+2025-01-16,Clothing,Sneakers,2,614.02,18,CUST1225,Male,Credit Card,Mumbai,1228.04
+2025-01-16,Beauty,Moisturizer,6,1673.19,41,CUST1135,Female,Credit Card,Jaipur,10039.13
+2025-01-16,Clothing,Jeans,5,2211.04,21,CUST1241,Female,UPI,Mumbai,11055.2
+2025-01-16,Home & Kitchen,Water Bottle,6,566.08,55,CUST1307,Female,UPI,Mumbai,3396.48
+2025-01-16,Electronics,Keyboard,1,1088.56,49,CUST1257,Female,Cash,Mumbai,1088.56
+2025-01-16,Groceries,Cooking Oil,3,434.83,33,CUST1314,Male,UPI,Delhi,1304.48
+2025-01-16,Sports,Dumbbells,6,770.96,25,CUST1012,Female,Cash,Gurugram,4625.74
+2025-01-17,Sports,Yoga Mat,2,599.66,30,CUST1127,Female,UPI,Mumbai,1199.33
+2025-01-17,Clothing,T-Shirt,1,966.53,65,CUST1058,Female,UPI,Mumbai,966.53
+2025-01-17,Electronics,USB Cable,1,5395.58,42,CUST1335,Female,Net Banking,Gurugram,5395.58
+2025-01-17,Groceries,Cooking Oil,6,386.62,22,CUST1382,Female,UPI,Jaipur,2319.75
+2025-01-18,Home & Kitchen,Bedsheet,6,2085.27,52,CUST1154,Male,Cash,Delhi,12511.62
+2025-01-18,Home & Kitchen,Lamp,1,2465.2,29,CUST1017,Male,UPI,Gurugram,2465.2
+2025-01-18,Clothing,Hoodie,5,1188.31,22,CUST1400,Male,UPI,Mumbai,5941.57
+2025-01-18,Home & Kitchen,Bedsheet,6,1571.25,29,CUST1291,Other,Credit Card,Pune,9427.48
+2025-01-19,Home & Kitchen,Lamp,6,443.46,41,CUST1322,Female,UPI,Delhi,2660.77
+2025-01-19,Clothing,Hoodie,2,3050.84,50,CUST1054,Male,Credit Card,Mumbai,6101.67
+2025-01-19,Electronics,Keyboard,3,435.2,65,CUST1308,Male,UPI,Gurugram,1305.6
+2025-01-19,Groceries,Biscuits,2,561.31,53,CUST1150,Male,Cash,Delhi,1122.62
+2025-01-19,Beauty,Perfume,1,1742.87,21,CUST1011,Male,Credit Card,Delhi,1742.87
+2025-01-20,Groceries,Coffee,5,163.4,55,CUST1081,Female,UPI,Jaipur,817.02
+2025-01-20,Groceries,Biscuits,2,683.17,26,CUST1155,Male,UPI,Gurugram,1366.34
+2025-01-20,Groceries,Rice,3,735.29,37,CUST1094,Female,Credit Card,Gurugram,2205.86
+2025-01-21,Home & Kitchen,Storage Box,4,1659.32,33,CUST1288,Female,Credit Card,Pune,6637.27
+2025-01-21,Clothing,Jeans,2,2809.06,23,CUST1274,Male,Cash,Gurugram,5618.12
+2025-01-21,Groceries,Rice,3,604.34,58,CUST1201,Female,Credit Card,Delhi,1813.01
+2025-01-21,Clothing,Jacket,3,3040.44,27,CUST1029,Male,Cash,Gurugram,9121.31
+2025-01-21,Beauty,Moisturizer,1,1448.03,54,CUST1229,Male,Cash,Pune,1448.03
+2025-01-22,Beauty,Sunscreen,3,140.59,28,CUST1414,Female,Credit Card,Mumbai,421.77
+2025-01-22,Groceries,Coffee,6,415.7,49,CUST1417,Female,Cash,Pune,2494.22
+2025-01-23,Groceries,Rice,4,106.66,43,CUST1368,Male,Credit Card,Jaipur,426.65
+2025-01-23,Sports,Cricket Bat,2,948.1,45,CUST1181,Female,Cash,Mumbai,1896.19
+2025-01-23,Clothing,Jeans,4,1496.74,34,CUST1049,Female,UPI,Mumbai,5986.96
+2025-01-23,Groceries,Coffee,2,648.64,20,CUST1290,Male,UPI,Jaipur,1297.28
+2025-01-24,Groceries,Milk,6,196.96,65,CUST1065,Female,Credit Card,Pune,1181.77
+2025-01-24,Clothing,Jeans,3,388.92,57,CUST1278,Female,Debit Card,Delhi,1166.75
+2025-01-24,Clothing,Jeans,5,1339.0,18,CUST1222,Male,Credit Card,Gurugram,6695.0
+2025-01-25,Electronics,Headphones,1,4600.73,32,CUST1033,Male,UPI,Jaipur,4600.73
+2025-01-25,Beauty,Shampoo,3,882.92,36,CUST1175,Female,Credit Card,Gurugram,2648.75
+2025-01-25,Beauty,Shampoo,4,1410.15,42,CUST1153,Male,Credit Card,Mumbai,5640.59
+2025-01-25,Clothing,T-Shirt,4,2408.39,43,CUST1082,Male,Debit Card,Gurugram,9633.54
+2025-01-25,Clothing,Jacket,3,1575.59,30,CUST1057,Male,Debit Card,Jaipur,4726.76
+2025-01-26,Sports,Skipping Rope,6,1856.3,50,CUST1115,Female,Credit Card,Delhi,11137.81
+2025-01-27,Electronics,Mouse,3,465.38,28,CUST1411,Male,UPI,Delhi,1396.13
+2025-01-27,Clothing,Jacket,4,373.07,23,CUST1004,Female,UPI,Mumbai,1492.27
+2025-01-28,Beauty,Perfume,6,1583.73,39,CUST1087,Male,Debit Card,Pune,9502.4
+2025-01-28,Sports,Dumbbells,1,1199.55,27,CUST1145,Male,Debit Card,Jaipur,1199.55
+2025-01-28,Beauty,Moisturizer,1,1431.89,21,CUST1318,Female,UPI,Jaipur,1431.89
+2025-01-28,Sports,Yoga Mat,4,2059.66,38,CUST1404,Other,Debit Card,Jaipur,8238.63
+2025-01-29,Groceries,Milk,6,119.67,54,CUST1125,Male,UPI,Mumbai,718.01
+2025-01-29,Groceries,Milk,3,526.46,54,CUST1249,Female,UPI,Mumbai,1579.39
+2025-01-29,Electronics,Headphones,1,1486.28,24,CUST1128,Female,Debit Card,Gurugram,1486.28
+2025-01-30,Groceries,Rice,6,635.5,19,CUST1447,Male,UPI,Jaipur,3812.99
+2025-01-30,Beauty,Shampoo,6,844.58,50,CUST1130,Male,Credit Card,Pune,5067.46
+2025-01-31,Groceries,Milk,3,897.97,25,CUST1052,Female,Cash,Mumbai,2693.9
+2025-01-31,Groceries,Milk,2,107.23,58,CUST1256,Male,Cash,Jaipur,214.46
+2025-01-31,Clothing,Jacket,1,2398.59,21,CUST1446,Female,UPI,Pune,2398.59
+2025-01-31,Electronics,Power Bank,4,3212.09,28,CUST1046,Male,UPI,Jaipur,12848.36
+2025-01-31,Groceries,Milk,3,377.6,19,CUST1327,Female,Net Banking,Jaipur,1132.79
+2025-01-31,Groceries,Biscuits,6,237.95,35,CUST1121,Female,UPI,Gurugram,1427.71
+2025-01-31,Home & Kitchen,Bedsheet,1,2570.11,32,CUST1287,Female,Credit Card,Delhi,2570.11
+2025-01-31,Sports,Dumbbells,1,710.41,34,CUST1059,Male,UPI,Jaipur,710.41
+2025-02-01,Groceries,Cooking Oil,2,393.13,48,CUST1143,Male,UPI,Mumbai,786.27
+2025-02-01,Groceries,Rice,2,358.27,49,CUST1342,Male,UPI,Jaipur,716.53
+2025-02-01,Electronics,Headphones,4,2696.55,23,CUST1359,Female,UPI,Delhi,10786.22
+2025-02-01,Groceries,Rice,4,892.88,50,CUST1256,Male,UPI,Pune,3571.52
+2025-02-02,Sports,Skipping Rope,3,1900.49,48,CUST1325,Female,UPI,Pune,5701.48
+2025-02-02,Clothing,T-Shirt,4,1607.2,45,CUST1297,Male,UPI,Pune,6428.82
+2025-02-02,Groceries,Milk,1,801.1,58,CUST1166,Male,UPI,Pune,801.1
+2025-02-02,Clothing,Jeans,2,1002.44,61,CUST1216,Female,UPI,Mumbai,2004.89
+2025-02-03,Groceries,Rice,4,266.21,29,CUST1100,Male,Debit Card,Delhi,1064.86
+2025-02-03,Sports,Dumbbells,1,1511.16,54,CUST1213,Male,Cash,Delhi,1511.16
+2025-02-03,Groceries,Biscuits,3,253.88,55,CUST1350,Female,UPI,Mumbai,761.63
+2025-02-03,Groceries,Coffee,5,322.56,60,CUST1147,Female,UPI,Jaipur,1612.82
+2025-02-03,Groceries,Milk,4,499.13,57,CUST1196,Male,UPI,Jaipur,1996.53
+2025-02-04,Electronics,Keyboard,2,6412.69,33,CUST1095,Male,Credit Card,Gurugram,12825.37
+2025-02-04,Electronics,Mouse,1,2996.76,28,CUST1352,Other,UPI,Pune,2996.76
+2025-02-04,Home & Kitchen,Water Bottle,2,1419.03,31,CUST1151,Male,UPI,Pune,2838.07
+2025-02-04,Beauty,Sunscreen,2,1091.52,65,CUST1291,Male,UPI,Delhi,2183.05
+2025-02-04,Electronics,Keyboard,2,5950.86,23,CUST1140,Other,UPI,Gurugram,11901.71
+2025-02-04,Sports,Cricket Bat,6,133.55,18,CUST1250,Female,UPI,Pune,801.27
+2025-02-04,Electronics,USB Cable,2,2051.99,27,CUST1274,Female,Debit Card,Jaipur,4103.98
+2025-02-04,Electronics,Mouse,3,5083.62,62,CUST1383,Female,Credit Card,Jaipur,15250.86
+2025-02-04,Electronics,Keyboard,2,1237.81,53,CUST1380,Male,Net Banking,Pune,2475.63
+2025-02-05,Sports,Skipping Rope,3,3242.78,62,CUST1261,Male,UPI,Pune,9728.35
+2025-02-05,Clothing,Hoodie,6,1438.32,38,CUST1022,Male,Cash,Pune,8629.95
+2025-02-06,Home & Kitchen,Storage Box,4,248.48,44,CUST1415,Male,Cash,Gurugram,993.9
+2025-02-06,Electronics,Mouse,1,3919.16,19,CUST1228,Female,Cash,Jaipur,3919.16
+2025-02-07,Electronics,USB Cable,6,3398.26,33,CUST1375,Male,UPI,Pune,20389.57
+2025-02-07,Clothing,T-Shirt,6,2519.2,22,CUST1069,Female,UPI,Pune,15115.18
+2025-02-07,Electronics,Headphones,4,2127.0,38,CUST1390,Female,UPI,Delhi,8507.99
+2025-02-07,Beauty,Perfume,3,1561.7,40,CUST1432,Male,Credit Card,Delhi,4685.1
+2025-02-07,Home & Kitchen,Bedsheet,1,345.0,29,CUST1321,Male,UPI,Gurugram,345.0
+2025-02-07,Home & Kitchen,Water Bottle,3,2041.45,42,CUST1442,Male,Net Banking,Delhi,6124.36
+2025-02-08,Sports,Skipping Rope,2,1089.7,34,CUST1113,Male,Credit Card,Mumbai,2179.39
+2025-02-08,Groceries,Coffee,6,168.66,37,CUST1374,Female,Credit Card,Delhi,1011.93
+2025-02-08,Sports,Yoga Mat,5,3050.24,28,CUST1385,Female,Cash,Mumbai,15251.18
+2025-02-08,Groceries,Milk,4,112.9,18,CUST1300,Female,UPI,Jaipur,451.59
+2025-02-08,Electronics,Mouse,2,6343.52,30,CUST1214,Female,Credit Card,Mumbai,12687.03
+2025-02-08,Home & Kitchen,Storage Box,3,2548.76,32,CUST1266,Female,UPI,Mumbai,7646.28
+2025-02-09,Beauty,Sunscreen,2,607.99,64,CUST1069,Female,UPI,Pune,1215.98
+2025-02-09,Sports,Dumbbells,2,1215.54,45,CUST1003,Female,Credit Card,Delhi,2431.08
+2025-02-09,Clothing,Jacket,4,1377.33,20,CUST1086,Male,Credit Card,Mumbai,5509.34
+2025-02-09,Electronics,Mouse,5,3331.01,58,CUST1328,Female,Credit Card,Gurugram,16655.06
+2025-02-09,Groceries,Coffee,5,599.66,62,CUST1276,Male,UPI,Jaipur,2998.3
+2025-02-10,Groceries,Milk,2,568.34,39,CUST1219,Male,Cash,Gurugram,1136.68
+2025-02-10,Home & Kitchen,Water Bottle,4,2623.91,45,CUST1188,Female,Credit Card,Gurugram,10495.65
+2025-02-10,Groceries,Cooking Oil,1,740.78,59,CUST1161,Male,UPI,Pune,740.78
+2025-02-10,Clothing,Jacket,2,844.07,24,CUST1070,Male,UPI,Mumbai,1688.14
+2025-02-11,Groceries,Cooking Oil,2,592.81,33,CUST1272,Other,UPI,Pune,1185.61
+2025-02-11,Beauty,Sunscreen,5,679.45,47,CUST1238,Female,Cash,Delhi,3397.24
+2025-02-11,Home & Kitchen,Storage Box,5,614.23,35,CUST1355,Male,UPI,Gurugram,3071.14
+2025-02-11,Home & Kitchen,Bedsheet,1,1152.86,19,CUST1276,Female,Cash,Gurugram,1152.86
+2025-02-11,Home & Kitchen,Cookware Set,3,2407.45,37,CUST1109,Female,UPI,Jaipur,7222.35
+2025-02-12,Beauty,Sunscreen,3,909.16,42,CUST1238,Male,Cash,Mumbai,2727.48
+2025-02-12,Electronics,Power Bank,5,1941.32,65,CUST1123,Male,UPI,Pune,9706.58
+2025-02-12,Groceries,Biscuits,1,161.2,21,CUST1432,Male,UPI,Pune,161.2
+2025-02-12,Home & Kitchen,Water Bottle,2,296.29,56,CUST1065,Male,Credit Card,Mumbai,592.57
+2025-02-13,Electronics,Power Bank,2,592.34,49,CUST1063,Female,Debit Card,Delhi,1184.68
+2025-02-13,Clothing,Hoodie,1,638.26,55,CUST1047,Female,UPI,Delhi,638.26
+2025-02-13,Groceries,Rice,6,333.28,38,CUST1333,Female,Cash,Jaipur,1999.67
+2025-02-13,Home & Kitchen,Bedsheet,6,2625.4,64,CUST1088,Female,UPI,Pune,15752.37
+2025-02-13,Groceries,Coffee,2,467.4,34,CUST1148,Female,Credit Card,Pune,934.8
+2025-02-13,Sports,Skipping Rope,1,2317.44,63,CUST1274,Male,UPI,Jaipur,2317.44
+2025-02-13,Clothing,T-Shirt,1,746.97,23,CUST1375,Male,Credit Card,Pune,746.97
+2025-02-13,Electronics,Mouse,4,3840.39,53,CUST1403,Female,Credit Card,Jaipur,15361.55
+2025-02-13,Electronics,USB Cable,3,6343.85,52,CUST1247,Female,UPI,Pune,19031.56
+2025-02-13,Groceries,Milk,5,692.64,45,CUST1277,Female,Debit Card,Gurugram,3463.19
+2025-02-14,Groceries,Cooking Oil,2,67.27,56,CUST1040,Male,Credit Card,Jaipur,134.55
+2025-02-14,Beauty,Moisturizer,3,110.42,31,CUST1329,Female,Credit Card,Mumbai,331.27
+2025-02-14,Clothing,T-Shirt,4,1264.52,30,CUST1290,Male,Cash,Gurugram,5058.1
+2025-02-14,Home & Kitchen,Storage Box,4,405.44,61,CUST1394,Female,Credit Card,Jaipur,1621.77
+2025-02-15,Beauty,Perfume,4,661.69,53,CUST1260,Female,Credit Card,Gurugram,2646.75
+2025-02-15,Electronics,Headphones,2,965.33,36,CUST1059,Male,UPI,Gurugram,1930.66
+2025-02-15,Home & Kitchen,Cookware Set,1,345.34,54,CUST1282,Male,Debit Card,Mumbai,345.34
+2025-02-16,Groceries,Cooking Oil,4,564.52,40,CUST1333,Female,UPI,Mumbai,2258.07
+2025-02-16,Beauty,Moisturizer,6,1524.67,25,CUST1064,Female,UPI,Delhi,9148.02
+2025-02-16,Home & Kitchen,Storage Box,6,2224.84,45,CUST1200,Female,Cash,Jaipur,13349.07
+2025-02-16,Electronics,Keyboard,1,6436.39,22,CUST1034,Male,Cash,Mumbai,6436.39
+2025-02-16,Groceries,Cooking Oil,5,355.09,58,CUST1391,Male,UPI,Mumbai,1775.47
+2025-02-17,Groceries,Cooking Oil,6,413.67,25,CUST1155,Female,Debit Card,Delhi,2482.02
+2025-02-17,Beauty,Perfume,1,1563.11,41,CUST1255,Male,Debit Card,Pune,1563.11
+2025-02-17,Groceries,Coffee,2,561.45,39,CUST1283,Female,UPI,Pune,1122.9
+2025-02-17,Sports,Yoga Mat,5,1708.45,40,CUST1379,Male,UPI,Pune,8542.26
+2025-02-18,Home & Kitchen,Lamp,5,2292.39,65,CUST1298,Female,Credit Card,Delhi,11461.95
+2025-02-18,Beauty,Moisturizer,5,1052.67,55,CUST1399,Female,Debit Card,Jaipur,5263.35
+2025-02-18,Beauty,Perfume,5,1057.1,32,CUST1304,Female,Cash,Jaipur,5285.49
+2025-02-18,Groceries,Rice,3,319.4,33,CUST1199,Female,UPI,Jaipur,958.2
+2025-02-19,Home & Kitchen,Water Bottle,2,1256.97,52,CUST1336,Female,UPI,Jaipur,2513.95
+2025-02-19,Electronics,Keyboard,6,2165.5,19,CUST1386,Female,UPI,Delhi,12993.01
+2025-02-19,Home & Kitchen,Cookware Set,4,1623.89,28,CUST1259,Male,UPI,Mumbai,6495.58
+2025-02-19,Groceries,Rice,6,358.99,38,CUST1030,Female,Debit Card,Delhi,2153.91
+2025-02-20,Clothing,T-Shirt,3,2207.95,33,CUST1193,Female,UPI,Gurugram,6623.86
+2025-02-20,Home & Kitchen,Bedsheet,5,1109.79,63,CUST1021,Male,Cash,Mumbai,5548.96
+2025-02-20,Electronics,Headphones,6,3401.31,43,CUST1201,Male,UPI,Mumbai,20407.89
+2025-02-21,Beauty,Shampoo,6,1255.78,42,CUST1031,Male,Net Banking,Gurugram,7534.7
+2025-02-21,Clothing,Sneakers,3,3104.72,50,CUST1163,Female,Credit Card,Jaipur,9314.16
+2025-02-21,Electronics,Mouse,3,718.74,38,CUST1211,Male,Debit Card,Jaipur,2156.22
+2025-02-21,Clothing,Hoodie,4,1088.2,40,CUST1360,Female,Debit Card,Jaipur,4352.81
+2025-02-21,Beauty,Face Wash,5,363.94,43,CUST1032,Female,UPI,Pune,1819.72
+2025-02-21,Groceries,Cooking Oil,2,509.36,33,CUST1100,Male,Cash,Delhi,1018.73
+2025-02-21,Sports,Skipping Rope,1,1420.23,18,CUST1082,Male,UPI,Delhi,1420.23
+2025-02-21,Clothing,T-Shirt,1,2117.42,53,CUST1102,Male,UPI,Pune,2117.42
+2025-02-21,Groceries,Rice,6,602.02,44,CUST1297,Female,Debit Card,Gurugram,3612.15
+2025-02-21,Beauty,Shampoo,4,625.58,27,CUST1387,Female,Credit Card,Jaipur,2502.33
+2025-02-22,Home & Kitchen,Lamp,5,1746.58,40,CUST1437,Female,Net Banking,Delhi,8732.89
+2025-02-22,Electronics,Mouse,2,5011.01,27,CUST1358,Female,UPI,Gurugram,10022.02
+2025-02-22,Electronics,USB Cable,1,938.56,51,CUST1216,Male,Cash,Mumbai,938.56
+2025-02-22,Electronics,Power Bank,1,1943.65,55,CUST1270,Male,UPI,Pune,1943.65
+2025-02-22,Clothing,Jeans,4,3002.57,50,CUST1409,Male,Credit Card,Pune,12010.28
+2025-02-22,Groceries,Milk,6,887.76,49,CUST1306,Female,UPI,Pune,5326.58
+2025-02-23,Groceries,Rice,6,96.53,23,CUST1189,Male,Debit Card,Mumbai,579.16
+2025-02-23,Beauty,Shampoo,5,453.1,63,CUST1285,Female,Debit Card,Delhi,2265.49
+2025-02-23,Beauty,Moisturizer,2,1305.48,56,CUST1286,Female,UPI,Delhi,2610.95
+2025-02-24,Home & Kitchen,Bedsheet,6,1194.83,57,CUST1425,Female,UPI,Gurugram,7168.99
+2025-02-24,Sports,Football,1,2563.16,34,CUST1116,Male,UPI,Mumbai,2563.16
+2025-02-24,Beauty,Perfume,5,1341.18,37,CUST1361,Female,Credit Card,Jaipur,6705.91
+2025-02-25,Home & Kitchen,Cookware Set,2,198.86,39,CUST1245,Female,Debit Card,Mumbai,397.72
+2025-02-25,Electronics,Keyboard,3,4404.0,19,CUST1016,Male,UPI,Delhi,13212.0
+2025-02-25,Clothing,T-Shirt,3,1487.54,49,CUST1082,Female,Credit Card,Delhi,4462.63
+2025-02-25,Clothing,Sneakers,1,622.09,20,CUST1111,Female,Debit Card,Mumbai,622.09
+2025-02-25,Groceries,Biscuits,2,176.17,37,CUST1254,Male,Debit Card,Delhi,352.35
+2025-02-26,Electronics,Power Bank,4,5453.31,26,CUST1071,Female,Credit Card,Gurugram,21813.23
+2025-02-26,Clothing,Jacket,3,2513.01,21,CUST1124,Female,UPI,Jaipur,7539.02
+2025-02-26,Electronics,Headphones,2,5918.47,30,CUST1234,Female,Cash,Pune,11836.94
+2025-02-26,Clothing,Sneakers,2,2227.57,58,CUST1262,Female,UPI,Jaipur,4455.14
+2025-02-26,Groceries,Rice,5,256.25,64,CUST1311,Female,Debit Card,Jaipur,1281.25
+2025-02-26,Groceries,Coffee,2,639.87,29,CUST1161,Male,UPI,Gurugram,1279.74
+2025-02-26,Sports,Football,6,1981.66,32,CUST1213,Male,UPI,Gurugram,11889.98
+2025-02-26,Clothing,Jacket,4,952.84,59,CUST1109,Female,UPI,Mumbai,3811.36
+2025-02-27,Groceries,Biscuits,1,83.37,29,CUST1287,Other,Cash,Mumbai,83.37
+2025-02-27,Clothing,T-Shirt,5,892.89,40,CUST1194,Male,Cash,Gurugram,4464.46
+2025-02-27,Electronics,Power Bank,2,3018.18,32,CUST1246,Female,UPI,Mumbai,6036.36
+2025-02-28,Clothing,Jeans,6,2675.67,43,CUST1222,Female,UPI,Jaipur,16054.03
+2025-02-28,Home & Kitchen,Cookware Set,6,2621.87,53,CUST1177,Male,Credit Card,Pune,15731.2
+2025-02-28,Electronics,Mouse,1,5554.95,25,CUST1234,Male,Credit Card,Mumbai,5554.95
+2025-03-01,Electronics,Mouse,4,3003.16,42,CUST1353,Female,Cash,Gurugram,12012.65
+2025-03-01,Clothing,Jacket,4,365.93,25,CUST1059,Female,UPI,Mumbai,1463.7
+2025-03-02,Home & Kitchen,Storage Box,4,1402.88,47,CUST1428,Male,UPI,Jaipur,5611.51
+2025-03-02,Groceries,Biscuits,4,395.92,48,CUST1258,Male,Debit Card,Mumbai,1583.7
+2025-03-02,Electronics,USB Cable,1,4090.17,53,CUST1413,Male,UPI,Mumbai,4090.17
+2025-03-02,Clothing,Jeans,3,1439.82,53,CUST1267,Female,UPI,Gurugram,4319.46
+2025-03-02,Clothing,Sneakers,4,2918.08,58,CUST1415,Female,UPI,Gurugram,11672.3
+2025-03-02,Sports,Cricket Bat,2,733.32,65,CUST1085,Male,Cash,Gurugram,1466.63
+2025-03-02,Electronics,Headphones,3,2949.66,54,CUST1243,Male,Credit Card,Mumbai,8848.98
+2025-03-02,Sports,Football,1,2946.07,31,CUST1420,Male,Credit Card,Mumbai,2946.07
+2025-03-03,Home & Kitchen,Storage Box,3,1199.56,43,CUST1019,Female,UPI,Mumbai,3598.67
+2025-03-03,Groceries,Cooking Oil,3,686.61,28,CUST1245,Male,UPI,Pune,2059.84
+2025-03-04,Electronics,Keyboard,6,4213.65,59,CUST1158,Male,UPI,Jaipur,25281.87
+2025-03-04,Home & Kitchen,Bedsheet,6,2491.68,22,CUST1218,Female,UPI,Delhi,14950.1
+2025-03-04,Groceries,Cooking Oil,1,50.82,59,CUST1350,Male,Credit Card,Gurugram,50.82
+2025-03-04,Groceries,Rice,5,539.28,46,CUST1156,Female,Debit Card,Mumbai,2696.38
+2025-03-05,Groceries,Cooking Oil,5,556.75,63,CUST1128,Female,Cash,Gurugram,2783.75
+2025-03-05,Home & Kitchen,Lamp,4,2156.98,20,CUST1373,Female,Credit Card,Gurugram,8627.9
+2025-03-05,Electronics,Headphones,6,410.65,61,CUST1078,Female,Net Banking,Delhi,2463.89
+2025-03-05,Clothing,Hoodie,4,2581.47,52,CUST1026,Female,Cash,Gurugram,10325.87
+2025-03-05,Electronics,Power Bank,1,2471.03,47,CUST1352,Female,UPI,Jaipur,2471.03
+2025-03-06,Groceries,Coffee,2,660.53,58,CUST1191,Male,Credit Card,Gurugram,1321.07
+2025-03-06,Clothing,Jeans,1,1216.39,44,CUST1180,Male,Net Banking,Gurugram,1216.39
+2025-03-06,Beauty,Sunscreen,6,397.16,31,CUST1160,Male,UPI,Pune,2382.96
+2025-03-06,Groceries,Rice,1,497.27,44,CUST1386,Female,UPI,Jaipur,497.27
+2025-03-06,Groceries,Cooking Oil,6,291.79,20,CUST1211,Male,UPI,Delhi,1750.75
+2025-03-07,Electronics,USB Cable,6,4013.25,45,CUST1061,Female,Cash,Jaipur,24079.48
+2025-03-07,Beauty,Moisturizer,5,572.91,60,CUST1320,Female,UPI,Gurugram,2864.54
+2025-03-07,Groceries,Coffee,2,460.2,41,CUST1005,Female,Credit Card,Pune,920.41
+2025-03-08,Clothing,Hoodie,5,1994.55,52,CUST1234,Female,UPI,Gurugram,9972.75
+2025-03-08,Electronics,USB Cable,1,3764.56,23,CUST1294,Female,Debit Card,Mumbai,3764.56
+2025-03-08,Electronics,Mouse,5,5756.48,34,CUST1126,Male,UPI,Gurugram,28782.38
+2025-03-08,Electronics,Headphones,1,4142.87,32,CUST1063,Male,UPI,Delhi,4142.87
+2025-03-08,Clothing,T-Shirt,5,450.67,53,CUST1102,Male,Debit Card,Jaipur,2253.35
+2025-03-08,Groceries,Cooking Oil,4,411.35,50,CUST1020,Male,Cash,Jaipur,1645.4
+2025-03-09,Home & Kitchen,Water Bottle,5,1243.51,58,CUST1202,Male,UPI,Jaipur,6217.55
+2025-03-10,Home & Kitchen,Water Bottle,1,1719.15,34,CUST1341,Male,UPI,Delhi,1719.15
+2025-03-10,Home & Kitchen,Water Bottle,4,2684.47,54,CUST1408,Male,Cash,Jaipur,10737.87
+2025-03-10,Groceries,Coffee,1,695.02,30,CUST1179,Female,Debit Card,Mumbai,695.02
+2025-03-11,Electronics,Mouse,4,3926.63,58,CUST1310,Female,UPI,Pune,15706.52
+2025-03-11,Groceries,Biscuits,5,368.34,30,CUST1060,Male,Credit Card,Gurugram,1841.72
+2025-03-12,Home & Kitchen,Bedsheet,5,1875.79,28,CUST1154,Other,Credit Card,Delhi,9378.96
+2025-03-12,Groceries,Milk,3,255.76,20,CUST1015,Female,Credit Card,Jaipur,767.27
+2025-03-12,Sports,Dumbbells,1,3040.2,43,CUST1025,Male,UPI,Gurugram,3040.2
+2025-03-12,Sports,Dumbbells,3,1466.42,25,CUST1404,Female,Net Banking,Mumbai,4399.25
+2025-03-13,Home & Kitchen,Storage Box,5,1141.9,34,CUST1155,Male,Net Banking,Pune,5709.49
+2025-03-13,Sports,Skipping Rope,6,2970.43,64,CUST1010,Female,Debit Card,Mumbai,17822.59
+2025-03-13,Clothing,Sneakers,1,375.01,29,CUST1203,Male,Credit Card,Delhi,375.01
+2025-03-13,Beauty,Face Wash,2,170.56,42,CUST1183,Female,UPI,Gurugram,341.11
+2025-03-14,Electronics,USB Cable,4,1467.74,41,CUST1347,Male,Cash,Jaipur,5870.96
+2025-03-14,Sports,Skipping Rope,6,3225.91,54,CUST1413,Male,Credit Card,Mumbai,19355.49
+2025-03-14,Electronics,USB Cable,1,5670.64,51,CUST1244,Other,Cash,Pune,5670.64
+2025-03-15,Electronics,Headphones,6,1257.45,32,CUST1196,Female,Credit Card,Jaipur,7544.71
+2025-03-15,Electronics,Power Bank,2,6106.57,60,CUST1117,Male,Credit Card,Jaipur,12213.14
+2025-03-15,Groceries,Coffee,4,853.97,43,CUST1419,Male,UPI,Jaipur,3415.88
+2025-03-15,Sports,Dumbbells,6,2468.85,48,CUST1193,Male,Credit Card,Delhi,14813.09
+2025-03-15,Beauty,Face Wash,6,1587.88,62,CUST1070,Female,UPI,Gurugram,9527.26
+2025-03-15,Sports,Dumbbells,1,143.25,34,CUST1385,Female,UPI,Mumbai,143.25
+2025-03-15,Clothing,Sneakers,6,1400.08,22,CUST1123,Male,Cash,Pune,8400.47
+2025-03-15,Sports,Yoga Mat,4,545.97,55,CUST1065,Female,UPI,Mumbai,2183.88
+2025-03-17,Electronics,Keyboard,3,1724.35,27,CUST1210,Female,UPI,Delhi,5173.05
+2025-03-18,Clothing,Jeans,3,2252.89,20,CUST1127,Female,UPI,Jaipur,6758.66
+2025-03-18,Groceries,Coffee,2,238.94,31,CUST1343,Female,Cash,Jaipur,477.88
+2025-03-20,Clothing,Sneakers,6,445.6,59,CUST1244,Female,Debit Card,Delhi,2673.63
+2025-03-20,Groceries,Coffee,4,82.99,34,CUST1436,Male,UPI,Mumbai,331.96
+2025-03-21,Electronics,Mouse,4,6353.39,18,CUST1179,Male,Net Banking,Mumbai,25413.58
+2025-03-21,Electronics,Headphones,6,1033.65,32,CUST1186,Female,UPI,Jaipur,6201.93
+2025-03-22,Electronics,Headphones,4,894.3,49,CUST1066,Male,UPI,Delhi,3577.21
+2025-03-23,Beauty,Shampoo,4,1248.91,45,CUST1150,Female,UPI,Jaipur,4995.63
+2025-03-23,Groceries,Biscuits,2,498.08,63,CUST1099,Female,Debit Card,Gurugram,996.15
+2025-03-24,Electronics,Headphones,3,970.79,47,CUST1184,Female,Debit Card,Jaipur,2912.37
+2025-03-24,Clothing,Jeans,3,1250.88,41,CUST1321,Female,Debit Card,Gurugram,3752.65
+2025-03-24,Clothing,Jeans,1,766.8,63,CUST1034,Female,Credit Card,Pune,766.8
+2025-03-25,Electronics,USB Cable,2,5887.22,56,CUST1375,Male,Credit Card,Jaipur,11774.43
+2025-03-25,Home & Kitchen,Cookware Set,3,1216.92,25,CUST1159,Male,Cash,Gurugram,3650.77
+2025-03-26,Sports,Cricket Bat,1,1566.74,18,CUST1100,Female,Credit Card,Delhi,1566.74
+2025-03-26,Groceries,Coffee,4,358.83,50,CUST1044,Female,Credit Card,Pune,1435.31
+2025-03-26,Home & Kitchen,Water Bottle,5,2030.02,38,CUST1371,Female,UPI,Mumbai,10150.1
+2025-03-26,Electronics,Keyboard,6,2842.83,23,CUST1380,Female,Cash,Gurugram,17056.95
+2025-03-26,Groceries,Rice,2,47.2,55,CUST1307,Female,Net Banking,Pune,94.41
+2025-03-27,Electronics,USB Cable,6,3797.9,47,CUST1368,Female,Net Banking,Pune,22787.43
+2025-03-27,Electronics,USB Cable,4,2827.34,60,CUST1044,Female,UPI,Delhi,11309.37
+2025-03-27,Beauty,Face Wash,6,284.5,23,CUST1313,Male,Net Banking,Delhi,1707.01
+2025-03-27,Electronics,Keyboard,4,4024.85,39,CUST1441,Female,UPI,Mumbai,16099.4
+2025-03-27,Home & Kitchen,Water Bottle,3,1806.92,54,CUST1143,Male,Credit Card,Jaipur,5420.75
+2025-03-28,Sports,Cricket Bat,1,1314.52,65,CUST1174,Female,Cash,Jaipur,1314.52
+2025-03-28,Electronics,Power Bank,4,3110.84,18,CUST1010,Male,UPI,Pune,12443.38
+2025-03-28,Beauty,Shampoo,5,1743.56,51,CUST1339,Female,UPI,Jaipur,8717.8
+2025-03-28,Clothing,Jacket,2,2016.99,36,CUST1245,Male,UPI,Jaipur,4033.99
+2025-03-28,Groceries,Milk,3,350.27,47,CUST1077,Male,UPI,Pune,1050.81
+2025-03-29,Groceries,Milk,2,824.68,54,CUST1241,Female,UPI,Pune,1649.37
+2025-03-29,Clothing,T-Shirt,3,2106.57,34,CUST1416,Other,Debit Card,Delhi,6319.71
+2025-03-29,Beauty,Face Wash,6,1467.44,48,CUST1344,Other,UPI,Delhi,8804.67
+2025-03-29,Sports,Dumbbells,5,2022.82,62,CUST1355,Male,Credit Card,Delhi,10114.12
+2025-03-29,Sports,Dumbbells,1,2322.64,65,CUST1393,Female,Credit Card,Jaipur,2322.64
+2025-03-29,Electronics,Keyboard,6,4445.5,50,CUST1135,Male,Debit Card,Pune,26673.02
+2025-03-29,Clothing,Jacket,6,1120.08,38,CUST1095,Male,UPI,Jaipur,6720.46
+2025-03-29,Home & Kitchen,Water Bottle,3,613.24,36,CUST1099,Male,Cash,Gurugram,1839.72
+2025-03-30,Groceries,Coffee,2,483.52,42,CUST1049,Female,UPI,Jaipur,967.04
+2025-03-30,Clothing,Sneakers,6,2301.89,46,CUST1078,Female,Debit Card,Delhi,13811.35
+2025-03-30,Groceries,Coffee,6,684.91,61,CUST1339,Female,Credit Card,Mumbai,4109.44
+2025-03-31,Home & Kitchen,Water Bottle,4,1558.47,34,CUST1318,Female,Credit Card,Pune,6233.89
+2025-03-31,Sports,Skipping Rope,1,788.11,36,CUST1132,Female,Cash,Mumbai,788.11
+2025-03-31,Clothing,Jacket,3,912.69,21,CUST1399,Male,Debit Card,Gurugram,2738.06
+2025-03-31,Home & Kitchen,Lamp,2,1111.17,21,CUST1310,Female,Credit Card,Jaipur,2222.34
+2025-03-31,Home & Kitchen,Water Bottle,4,1099.75,24,CUST1003,Male,Net Banking,Pune,4399.01
+2025-03-31,Home & Kitchen,Cookware Set,5,1014.85,53,CUST1414,Female,Cash,Delhi,5074.24
+2025-03-31,Sports,Yoga Mat,3,454.95,50,CUST1449,Female,Debit Card,Mumbai,1364.86
+2025-03-31,Electronics,Mouse,5,6427.8,56,CUST1381,Female,Debit Card,Pune,32138.98
+2025-04-01,Clothing,Jeans,3,1067.99,35,CUST1038,Female,Debit Card,Mumbai,3203.97
+2025-04-01,Beauty,Shampoo,6,802.64,61,CUST1110,Male,Credit Card,Gurugram,4815.82
+2025-04-02,Beauty,Moisturizer,2,500.93,32,CUST1156,Male,UPI,Delhi,1001.86
+2025-04-02,Beauty,Moisturizer,4,226.91,56,CUST1307,Female,UPI,Delhi,907.66
+2025-04-02,Groceries,Cooking Oil,6,69.01,45,CUST1445,Female,Cash,Gurugram,414.07
+2025-04-02,Sports,Dumbbells,4,1523.11,48,CUST1446,Male,Cash,Delhi,6092.43
+2025-04-03,Sports,Skipping Rope,3,1777.55,63,CUST1296,Female,Cash,Pune,5332.64
+2025-04-03,Sports,Yoga Mat,2,1788.49,44,CUST1014,Male,UPI,Jaipur,3576.98
+2025-04-03,Beauty,Moisturizer,4,863.53,58,CUST1178,Male,UPI,Jaipur,3454.11
+2025-04-04,Groceries,Biscuits,5,180.26,48,CUST1129,Male,UPI,Mumbai,901.32
+2025-04-04,Groceries,Cooking Oil,1,522.0,40,CUST1372,Male,Net Banking,Mumbai,522.0
+2025-04-04,Groceries,Cooking Oil,6,191.63,44,CUST1144,Female,Credit Card,Jaipur,1149.76
+2025-04-05,Home & Kitchen,Lamp,6,1954.69,63,CUST1309,Female,Debit Card,Mumbai,11728.17
+2025-04-06,Electronics,Mouse,2,4924.39,35,CUST1275,Male,UPI,Jaipur,9848.77
+2025-04-06,Sports,Football,2,253.71,63,CUST1049,Male,UPI,Pune,507.43
+2025-04-06,Sports,Skipping Rope,6,1768.06,20,CUST1223,Female,UPI,Gurugram,10608.33
+2025-04-07,Beauty,Perfume,6,1130.71,25,CUST1320,Female,Net Banking,Gurugram,6784.27
+2025-04-07,Electronics,Mouse,1,2507.0,40,CUST1238,Female,UPI,Mumbai,2507.0
+2025-04-08,Clothing,Jacket,3,2256.63,30,CUST1228,Male,Debit Card,Delhi,6769.9
+2025-04-08,Home & Kitchen,Lamp,1,2798.59,43,CUST1424,Female,Debit Card,Mumbai,2798.59
+2025-04-08,Electronics,Headphones,1,680.95,30,CUST1345,Female,Debit Card,Pune,680.95
+2025-04-08,Groceries,Milk,5,832.5,42,CUST1073,Male,Debit Card,Gurugram,4162.5
+2025-04-08,Groceries,Coffee,2,781.43,31,CUST1373,Female,Cash,Pune,1562.86
+2025-04-09,Electronics,Mouse,3,1962.92,65,CUST1139,Male,Credit Card,Mumbai,5888.77
+2025-04-09,Electronics,USB Cable,6,6317.7,19,CUST1207,Male,UPI,Mumbai,37906.22
+2025-04-09,Home & Kitchen,Storage Box,4,1169.09,33,CUST1429,Female,Net Banking,Mumbai,4676.38
+2025-04-09,Groceries,Milk,6,216.06,50,CUST1322,Other,Credit Card,Gurugram,1296.34
+2025-04-09,Groceries,Milk,3,751.39,33,CUST1383,Male,Net Banking,Jaipur,2254.16
+2025-04-09,Beauty,Shampoo,1,1383.17,57,CUST1232,Male,Debit Card,Gurugram,1383.17
+2025-04-10,Beauty,Perfume,2,257.65,49,CUST1061,Female,Cash,Jaipur,515.31
+2025-04-11,Electronics,Power Bank,4,4943.8,40,CUST1373,Female,Credit Card,Delhi,19775.22
+2025-04-11,Sports,Dumbbells,2,3205.47,43,CUST1414,Male,UPI,Gurugram,6410.93
+2025-04-11,Electronics,Headphones,5,6115.7,23,CUST1328,Male,Cash,Jaipur,30578.48
+2025-04-11,Home & Kitchen,Storage Box,4,1422.08,49,CUST1408,Female,UPI,Mumbai,5688.33
+2025-04-11,Groceries,Milk,4,535.45,32,CUST1082,Male,Cash,Jaipur,2141.82
+2025-04-12,Home & Kitchen,Water Bottle,3,755.91,54,CUST1325,Male,Cash,Mumbai,2267.73
+2025-04-12,Sports,Cricket Bat,5,2021.35,26,CUST1251,Other,UPI,Mumbai,10106.73
+2025-04-12,Groceries,Cooking Oil,1,684.77,55,CUST1264,Female,UPI,Gurugram,684.77
+2025-04-12,Groceries,Biscuits,6,802.78,47,CUST1283,Male,Cash,Gurugram,4816.7
+2025-04-12,Electronics,Mouse,6,2005.6,60,CUST1028,Male,UPI,Gurugram,12033.61
+2025-04-13,Home & Kitchen,Water Bottle,4,832.67,59,CUST1101,Female,UPI,Mumbai,3330.69
+2025-04-13,Beauty,Perfume,2,984.83,27,CUST1154,Female,UPI,Jaipur,1969.66
+2025-04-13,Home & Kitchen,Cookware Set,5,1970.15,43,CUST1261,Male,Cash,Pune,9850.76
+2025-04-13,Sports,Yoga Mat,2,665.94,46,CUST1450,Female,Debit Card,Pune,1331.89
+2025-04-14,Clothing,Hoodie,3,2268.74,21,CUST1087,Female,UPI,Pune,6806.21
+2025-04-14,Beauty,Perfume,2,1650.89,31,CUST1333,Male,Credit Card,Delhi,3301.77
+2025-04-14,Sports,Skipping Rope,2,3180.99,62,CUST1126,Female,UPI,Pune,6361.97
+2025-04-14,Clothing,Jeans,6,2220.02,48,CUST1189,Male,Debit Card,Mumbai,13320.12
+2025-04-14,Clothing,Jeans,5,2060.42,63,CUST1317,Male,Net Banking,Delhi,10302.12
+2025-04-14,Beauty,Shampoo,4,282.16,48,CUST1421,Male,UPI,Pune,1128.63
+2025-04-14,Home & Kitchen,Water Bottle,2,1504.53,25,CUST1427,Male,Cash,Delhi,3009.06
+2025-04-15,Groceries,Cooking Oil,6,346.34,47,CUST1333,Male,Cash,Delhi,2078.05
+2025-04-16,Groceries,Milk,3,206.42,60,CUST1346,Female,Debit Card,Jaipur,619.25
+2025-04-16,Clothing,Sneakers,2,622.52,57,CUST1054,Other,UPI,Delhi,1245.05
+2025-04-16,Beauty,Moisturizer,5,623.29,23,CUST1286,Female,UPI,Pune,3116.44
+2025-04-16,Electronics,Mouse,5,2637.43,48,CUST1270,Male,UPI,Mumbai,13187.14
+2025-04-16,Clothing,T-Shirt,2,1297.35,22,CUST1231,Male,Cash,Pune,2594.71
+2025-04-16,Home & Kitchen,Storage Box,5,172.54,49,CUST1301,Female,Credit Card,Jaipur,862.69
+2025-04-16,Groceries,Biscuits,4,174.98,34,CUST1326,Male,Debit Card,Gurugram,699.93
+2025-04-16,Electronics,Headphones,5,1961.55,62,CUST1156,Male,Credit Card,Mumbai,9807.76
+2025-04-17,Clothing,Jeans,6,1963.73,26,CUST1115,Female,UPI,Gurugram,11782.35
+2025-04-17,Clothing,Jacket,4,3040.31,63,CUST1381,Female,Credit Card,Mumbai,12161.25
+2025-04-18,Electronics,Mouse,6,6106.64,20,CUST1240,Female,Credit Card,Mumbai,36639.85
+2025-04-18,Beauty,Sunscreen,4,597.23,40,CUST1316,Female,UPI,Jaipur,2388.91
+2025-04-18,Home & Kitchen,Storage Box,6,2121.59,43,CUST1047,Male,Debit Card,Gurugram,12729.52
+2025-04-18,Home & Kitchen,Bedsheet,1,2090.77,40,CUST1121,Female,Cash,Delhi,2090.77
+2025-04-19,Clothing,Hoodie,2,3103.58,57,CUST1198,Male,Credit Card,Gurugram,6207.16
+2025-04-19,Groceries,Cooking Oil,1,388.65,25,CUST1080,Male,UPI,Pune,388.65
+2025-04-19,Clothing,Jeans,4,1581.55,30,CUST1306,Female,UPI,Mumbai,6326.2
+2025-04-19,Sports,Cricket Bat,3,2504.64,32,CUST1219,Male,Credit Card,Mumbai,7513.93
+2025-04-20,Groceries,Cooking Oil,2,508.97,35,CUST1226,Male,UPI,Mumbai,1017.94
+2025-04-20,Electronics,Keyboard,2,2253.65,64,CUST1229,Male,Credit Card,Mumbai,4507.3
+2025-04-20,Clothing,Hoodie,4,1400.57,29,CUST1416,Female,Credit Card,Delhi,5602.26
+2025-04-20,Groceries,Cooking Oil,6,156.41,63,CUST1263,Male,UPI,Pune,938.47
+2025-04-20,Home & Kitchen,Lamp,2,401.28,55,CUST1392,Male,Credit Card,Delhi,802.56
+2025-04-20,Sports,Football,1,1551.53,45,CUST1001,Female,UPI,Jaipur,1551.53
+2025-04-20,Clothing,Jacket,6,1903.51,58,CUST1218,Male,UPI,Delhi,11421.04
+2025-04-20,Beauty,Sunscreen,4,1013.3,19,CUST1273,Male,UPI,Pune,4053.2
+2025-04-21,Clothing,Sneakers,3,2377.75,55,CUST1213,Male,Net Banking,Pune,7133.24
+2025-04-21,Groceries,Biscuits,1,765.41,43,CUST1079,Female,UPI,Gurugram,765.41
+2025-04-21,Home & Kitchen,Lamp,5,2717.04,51,CUST1105,Male,Debit Card,Delhi,13585.2
+2025-04-21,Electronics,Mouse,2,4425.35,32,CUST1388,Male,Credit Card,Jaipur,8850.7
+2025-04-21,Clothing,Jacket,4,2792.59,36,CUST1090,Male,Credit Card,Pune,11170.35
+2025-04-21,Clothing,T-Shirt,3,1488.55,41,CUST1334,Female,Debit Card,Pune,4465.65
+2025-04-22,Groceries,Biscuits,6,832.84,22,CUST1405,Female,Cash,Jaipur,4997.04
+2025-04-22,Home & Kitchen,Bedsheet,2,1145.24,36,CUST1098,Female,UPI,Pune,2290.49
+2025-04-22,Clothing,Jacket,3,312.78,28,CUST1312,Male,Credit Card,Mumbai,938.35
+2025-04-22,Electronics,USB Cable,5,5458.52,21,CUST1310,Male,Debit Card,Mumbai,27292.58
+2025-04-22,Groceries,Coffee,5,637.79,48,CUST1021,Female,Credit Card,Mumbai,3188.96
+2025-04-23,Sports,Yoga Mat,4,788.75,21,CUST1143,Female,Debit Card,Pune,3155.01
+2025-04-23,Electronics,USB Cable,1,4809.34,65,CUST1427,Female,Credit Card,Delhi,4809.34
+2025-04-24,Sports,Dumbbells,4,2500.86,59,CUST1068,Female,Debit Card,Jaipur,10003.45
+2025-04-24,Electronics,Mouse,5,266.12,41,CUST1354,Female,UPI,Pune,1330.58
+2025-04-24,Groceries,Biscuits,1,587.52,29,CUST1321,Male,Credit Card,Jaipur,587.52
+2025-04-24,Groceries,Rice,5,616.18,56,CUST1062,Female,UPI,Gurugram,3080.91
+2025-04-25,Electronics,Mouse,4,3987.19,38,CUST1133,Male,Debit Card,Mumbai,15948.76
+2025-04-25,Groceries,Rice,4,67.45,62,CUST1018,Other,Cash,Mumbai,269.8
+2025-04-25,Clothing,Sneakers,4,2118.29,59,CUST1103,Male,Cash,Pune,8473.17
+2025-04-25,Electronics,USB Cable,1,1579.95,26,CUST1421,Female,UPI,Mumbai,1579.95
+2025-04-25,Beauty,Sunscreen,2,456.54,61,CUST1140,Male,UPI,Pune,913.08
+2025-04-25,Sports,Dumbbells,6,2291.25,41,CUST1014,Female,Credit Card,Jaipur,13747.48
+2025-04-25,Groceries,Coffee,3,57.95,53,CUST1068,Female,Credit Card,Pune,173.85
+2025-04-26,Electronics,Power Bank,2,4865.82,60,CUST1100,Female,UPI,Pune,9731.65
+2025-04-26,Groceries,Coffee,4,758.16,28,CUST1312,Female,UPI,Delhi,3032.65
+2025-04-26,Beauty,Sunscreen,1,195.65,55,CUST1018,Male,UPI,Delhi,195.65
+2025-04-26,Clothing,Sneakers,6,2662.96,26,CUST1299,Male,UPI,Delhi,15977.73
+2025-04-26,Electronics,Headphones,4,3670.8,52,CUST1341,Other,Cash,Gurugram,14683.2
+2025-04-26,Home & Kitchen,Bedsheet,3,671.52,43,CUST1209,Female,Credit Card,Jaipur,2014.55
+2025-04-26,Beauty,Face Wash,1,1599.41,37,CUST1359,Female,Debit Card,Gurugram,1599.41
+2025-04-27,Sports,Football,3,2709.19,60,CUST1328,Female,UPI,Gurugram,8127.58
+2025-04-27,Sports,Yoga Mat,1,1644.13,29,CUST1094,Female,UPI,Gurugram,1644.13
+2025-04-27,Sports,Cricket Bat,2,2824.54,43,CUST1077,Female,Credit Card,Gurugram,5649.08
+2025-04-27,Groceries,Rice,2,320.72,46,CUST1313,Female,UPI,Delhi,641.45
+2025-04-27,Sports,Skipping Rope,1,906.06,39,CUST1439,Female,Cash,Pune,906.06
+2025-04-28,Clothing,Sneakers,3,1641.58,27,CUST1372,Female,Debit Card,Pune,4924.74
+2025-04-28,Clothing,T-Shirt,5,1653.82,56,CUST1146,Male,UPI,Gurugram,8269.1
+2025-04-28,Groceries,Milk,3,867.3,42,CUST1203,Male,UPI,Jaipur,2601.91
+2025-04-28,Electronics,USB Cable,3,5379.92,49,CUST1117,Male,UPI,Delhi,16139.76
+2025-04-28,Home & Kitchen,Water Bottle,3,798.09,38,CUST1328,Female,UPI,Delhi,2394.27
+2025-04-29,Beauty,Moisturizer,4,213.91,42,CUST1213,Male,UPI,Gurugram,855.63
+2025-04-29,Clothing,Hoodie,3,2190.34,51,CUST1181,Male,Debit Card,Jaipur,6571.01
+2025-04-29,Home & Kitchen,Cookware Set,4,1486.07,54,CUST1322,Male,UPI,Gurugram,5944.29
+2025-04-30,Electronics,Power Bank,1,3374.73,22,CUST1336,Male,UPI,Pune,3374.73
+2025-04-30,Sports,Cricket Bat,4,1916.49,56,CUST1022,Female,Debit Card,Gurugram,7665.94
+2025-04-30,Beauty,Sunscreen,6,312.18,22,CUST1059,Male,Debit Card,Pune,1873.08
+2025-05-01,Sports,Cricket Bat,3,990.75,27,CUST1227,Female,Credit Card,Jaipur,2972.24
+2025-05-01,Clothing,Jeans,2,2070.02,38,CUST1093,Female,Cash,Mumbai,4140.03
+2025-05-01,Clothing,Jacket,3,2109.11,37,CUST1361,Female,Cash,Jaipur,6327.33
+2025-05-02,Sports,Dumbbells,5,3094.59,57,CUST1385,Male,UPI,Mumbai,15472.95
+2025-05-02,Beauty,Shampoo,3,995.58,26,CUST1412,Female,Net Banking,Delhi,2986.75
+2025-05-02,Sports,Cricket Bat,3,1453.16,45,CUST1242,Male,Cash,Jaipur,4359.48
+2025-05-02,Beauty,Face Wash,4,906.18,57,CUST1390,Male,UPI,Jaipur,3624.7
+2025-05-02,Groceries,Biscuits,3,552.64,46,CUST1019,Male,Net Banking,Gurugram,1657.93
+2025-05-02,Groceries,Biscuits,2,248.93,32,CUST1263,Male,Cash,Delhi,497.87
+2025-05-03,Clothing,T-Shirt,1,464.11,55,CUST1413,Male,Net Banking,Jaipur,464.11
+2025-05-03,Electronics,Headphones,6,1296.03,37,CUST1282,Male,Debit Card,Delhi,7776.19
+2025-05-04,Electronics,USB Cable,4,5024.03,61,CUST1129,Female,Debit Card,Delhi,20096.1
+2025-05-04,Sports,Football,1,804.16,36,CUST1376,Female,Credit Card,Pune,804.16
+2025-05-04,Groceries,Milk,1,524.54,50,CUST1052,Male,Debit Card,Gurugram,524.54
+2025-05-04,Groceries,Cooking Oil,5,272.57,40,CUST1300,Female,UPI,Delhi,1362.85
+2025-05-05,Electronics,Mouse,1,1297.96,37,CUST1176,Male,UPI,Pune,1297.96
+2025-05-05,Electronics,Keyboard,3,4184.37,58,CUST1114,Male,Debit Card,Gurugram,12553.12
+2025-05-06,Groceries,Cooking Oil,3,735.91,18,CUST1171,Female,Credit Card,Jaipur,2207.74
+2025-05-06,Groceries,Biscuits,2,316.06,32,CUST1074,Female,Credit Card,Gurugram,632.13
+2025-05-06,Home & Kitchen,Lamp,4,801.27,50,CUST1365,Male,Debit Card,Mumbai,3205.08
+2025-05-06,Clothing,Jacket,4,2720.6,21,CUST1386,Other,Net Banking,Mumbai,10882.41
+2025-05-07,Beauty,Shampoo,6,1464.43,48,CUST1120,Male,UPI,Delhi,8786.57
+2025-05-07,Sports,Yoga Mat,4,1822.85,18,CUST1005,Female,Credit Card,Pune,7291.41
+2025-05-07,Beauty,Shampoo,4,1464.4,23,CUST1416,Female,UPI,Mumbai,5857.6
+2025-05-07,Beauty,Sunscreen,2,502.71,46,CUST1181,Female,UPI,Jaipur,1005.42
+2025-05-07,Electronics,Headphones,1,3935.97,48,CUST1011,Male,Debit Card,Delhi,3935.97
+2025-05-08,Sports,Football,5,2220.16,46,CUST1009,Female,UPI,Jaipur,11100.79
+2025-05-09,Groceries,Biscuits,2,851.37,39,CUST1229,Female,Net Banking,Delhi,1702.75
+2025-05-09,Groceries,Rice,3,162.44,62,CUST1432,Female,Debit Card,Jaipur,487.33
+2025-05-10,Groceries,Milk,4,657.61,42,CUST1327,Male,Debit Card,Pune,2630.45
+2025-05-11,Home & Kitchen,Storage Box,4,1282.69,24,CUST1230,Female,UPI,Jaipur,5130.75
+2025-05-12,Clothing,Jeans,4,869.83,35,CUST1346,Female,UPI,Mumbai,3479.32
+2025-05-12,Beauty,Shampoo,6,266.28,64,CUST1046,Female,UPI,Delhi,1597.65
+2025-05-13,Home & Kitchen,Storage Box,4,1177.84,53,CUST1366,Female,Credit Card,Gurugram,4711.36
+2025-05-13,Electronics,Mouse,2,3811.5,48,CUST1306,Male,Credit Card,Pune,7623.0
+2025-05-13,Groceries,Coffee,3,242.8,47,CUST1291,Male,UPI,Gurugram,728.39
+2025-05-13,Beauty,Face Wash,2,931.24,24,CUST1122,Female,UPI,Jaipur,1862.48
+2025-05-14,Electronics,USB Cable,3,5191.56,44,CUST1434,Male,Net Banking,Delhi,15574.68
+2025-05-14,Electronics,Headphones,3,5743.31,38,CUST1292,Male,UPI,Delhi,17229.92
+2025-05-14,Electronics,Keyboard,4,671.99,42,CUST1024,Male,Credit Card,Pune,2687.96
+2025-05-14,Sports,Yoga Mat,1,1649.48,22,CUST1380,Male,Credit Card,Jaipur,1649.48
+2025-05-14,Beauty,Perfume,1,1551.87,33,CUST1090,Female,UPI,Gurugram,1551.87
+2025-05-14,Clothing,Jeans,5,1121.08,34,CUST1340,Female,UPI,Mumbai,5605.42
+2025-05-15,Electronics,Mouse,6,2837.42,55,CUST1353,Female,UPI,Pune,17024.53
+2025-05-15,Home & Kitchen,Lamp,1,1601.69,59,CUST1314,Male,Credit Card,Pune,1601.69
+2025-05-15,Groceries,Rice,1,850.27,40,CUST1144,Male,Net Banking,Jaipur,850.27
+2025-05-16,Electronics,USB Cable,3,6481.68,36,CUST1301,Other,UPI,Mumbai,19445.04
+2025-05-16,Electronics,Headphones,2,794.56,36,CUST1313,Male,Net Banking,Jaipur,1589.12
+2025-05-16,Electronics,Keyboard,2,1267.95,50,CUST1022,Female,UPI,Delhi,2535.89
+2025-05-16,Home & Kitchen,Bedsheet,4,1530.44,62,CUST1170,Female,Net Banking,Gurugram,6121.75
+2025-05-16,Groceries,Biscuits,6,891.69,24,CUST1445,Male,UPI,Mumbai,5350.12
+2025-05-16,Electronics,USB Cable,5,1267.8,19,CUST1428,Female,UPI,Gurugram,6338.98
+2025-05-17,Electronics,Power Bank,5,5668.79,35,CUST1315,Female,Cash,Jaipur,28343.93
+2025-05-17,Groceries,Rice,2,537.78,29,CUST1005,Male,UPI,Delhi,1075.56
+2025-05-17,Clothing,Jacket,1,3132.59,19,CUST1052,Female,UPI,Delhi,3132.59
+2025-05-17,Clothing,T-Shirt,6,1847.03,43,CUST1391,Other,UPI,Pune,11082.19
+2025-05-18,Sports,Skipping Rope,5,244.38,36,CUST1132,Female,UPI,Mumbai,1221.91
+2025-05-18,Electronics,Headphones,3,4378.32,24,CUST1400,Female,Cash,Gurugram,13134.97
+2025-05-19,Electronics,Keyboard,1,845.96,48,CUST1159,Female,Cash,Pune,845.96
+2025-05-19,Electronics,Power Bank,3,2083.59,29,CUST1093,Female,Credit Card,Gurugram,6250.78
+2025-05-20,Groceries,Rice,3,516.49,30,CUST1437,Male,Credit Card,Jaipur,1549.48
+2025-05-20,Beauty,Sunscreen,4,714.23,44,CUST1103,Female,UPI,Gurugram,2856.9
+2025-05-20,Home & Kitchen,Water Bottle,4,2399.79,40,CUST1326,Male,Net Banking,Gurugram,9599.17
+2025-05-21,Home & Kitchen,Storage Box,6,1001.82,43,CUST1213,Female,UPI,Jaipur,6010.9
+2025-05-21,Groceries,Biscuits,3,647.78,30,CUST1064,Male,Debit Card,Gurugram,1943.35
+2025-05-21,Sports,Yoga Mat,2,3134.0,41,CUST1238,Male,Debit Card,Jaipur,6268.01
+2025-05-21,Home & Kitchen,Lamp,2,1956.77,20,CUST1157,Female,UPI,Jaipur,3913.54
+2025-05-22,Groceries,Biscuits,1,439.81,43,CUST1122,Other,Cash,Delhi,439.81
+2025-05-22,Home & Kitchen,Lamp,6,2370.77,47,CUST1060,Female,Cash,Delhi,14224.6
+2025-05-22,Electronics,USB Cable,4,3502.86,40,CUST1196,Male,Debit Card,Mumbai,14011.44
+2025-05-23,Groceries,Milk,1,87.73,24,CUST1225,Female,Cash,Delhi,87.73
+2025-05-23,Clothing,Jeans,1,1523.03,37,CUST1247,Male,UPI,Delhi,1523.03
+2025-05-24,Clothing,Sneakers,1,569.02,44,CUST1120,Female,Credit Card,Mumbai,569.02
+2025-05-24,Electronics,USB Cable,1,3212.85,58,CUST1306,Male,UPI,Jaipur,3212.85
+2025-05-24,Sports,Football,1,1789.08,62,CUST1376,Female,UPI,Delhi,1789.08
+2025-05-24,Groceries,Cooking Oil,6,519.55,53,CUST1105,Female,Credit Card,Gurugram,3117.31
+2025-05-24,Beauty,Shampoo,2,433.88,29,CUST1334,Female,Credit Card,Pune,867.76
+2025-05-25,Groceries,Coffee,3,493.57,42,CUST1432,Male,Credit Card,Jaipur,1480.71
+2025-05-26,Beauty,Sunscreen,1,285.3,37,CUST1184,Male,Credit Card,Mumbai,285.3
+2025-05-26,Sports,Dumbbells,4,133.53,24,CUST1112,Male,UPI,Delhi,534.12
+2025-05-27,Groceries,Coffee,2,247.39,53,CUST1005,Male,UPI,Pune,494.77
+2025-05-27,Groceries,Milk,1,766.61,53,CUST1278,Female,UPI,Jaipur,766.61
+2025-05-27,Electronics,USB Cable,4,3611.54,58,CUST1078,Female,Credit Card,Mumbai,14446.16
+2025-05-28,Electronics,Mouse,5,4303.56,45,CUST1237,Female,Credit Card,Mumbai,21517.8
+2025-05-28,Sports,Dumbbells,2,2572.89,40,CUST1128,Male,Debit Card,Delhi,5145.79
+2025-05-29,Clothing,T-Shirt,5,1578.23,53,CUST1347,Female,Credit Card,Delhi,7891.16
+2025-05-29,Beauty,Moisturizer,1,998.82,34,CUST1204,Female,UPI,Mumbai,998.82
+2025-05-29,Groceries,Coffee,4,153.95,27,CUST1017,Female,Net Banking,Jaipur,615.8
+2025-05-29,Electronics,USB Cable,3,1781.88,24,CUST1434,Female,UPI,Gurugram,5345.63
+2025-05-30,Electronics,USB Cable,4,6416.19,49,CUST1303,Female,Net Banking,Gurugram,25664.78
+2025-05-30,Home & Kitchen,Storage Box,5,1958.86,47,CUST1034,Male,UPI,Gurugram,9794.29
+2025-05-30,Home & Kitchen,Water Bottle,1,2018.27,53,CUST1113,Female,UPI,Pune,2018.27
+2025-05-30,Beauty,Moisturizer,4,1492.46,20,CUST1042,Male,Debit Card,Gurugram,5969.84
+2025-05-30,Groceries,Coffee,4,782.24,53,CUST1180,Female,Credit Card,Mumbai,3128.95
+2025-05-30,Home & Kitchen,Bedsheet,1,2324.34,53,CUST1280,Male,UPI,Delhi,2324.34
+2025-05-31,Groceries,Coffee,1,742.79,46,CUST1093,Male,Debit Card,Jaipur,742.79
+2025-05-31,Clothing,Jacket,2,2124.3,46,CUST1361,Male,UPI,Jaipur,4248.61
+2025-05-31,Home & Kitchen,Lamp,1,215.39,41,CUST1352,Male,Credit Card,Jaipur,215.39
+2025-05-31,Groceries,Rice,4,158.99,63,CUST1258,Female,UPI,Jaipur,635.96
+2025-06-01,Electronics,Keyboard,2,1688.82,45,CUST1352,Female,UPI,Pune,3377.64
+2025-06-01,Beauty,Moisturizer,6,206.89,32,CUST1360,Female,UPI,Gurugram,1241.31
+2025-06-01,Clothing,Hoodie,4,3111.1,26,CUST1390,Male,Debit Card,Jaipur,12444.38
+2025-06-01,Home & Kitchen,Lamp,5,2337.3,27,CUST1095,Female,Cash,Delhi,11686.51
+2025-06-01,Groceries,Coffee,6,468.07,65,CUST1181,Female,UPI,Jaipur,2808.43
+2025-06-01,Electronics,Mouse,3,5876.58,51,CUST1363,Female,UPI,Mumbai,17629.73
+2025-06-02,Electronics,Mouse,3,4162.81,59,CUST1239,Male,UPI,Delhi,12488.42
+2025-06-02,Groceries,Coffee,3,215.55,20,CUST1143,Female,Debit Card,Gurugram,646.65
+2025-06-02,Beauty,Perfume,3,948.13,21,CUST1279,Female,Credit Card,Pune,2844.39
+2025-06-02,Clothing,T-Shirt,3,478.37,36,CUST1057,Female,Cash,Pune,1435.1
+2025-06-02,Groceries,Milk,5,624.39,40,CUST1126,Female,Debit Card,Jaipur,3121.94
+2025-06-02,Sports,Yoga Mat,3,1224.99,22,CUST1142,Male,Cash,Delhi,3674.96
+2025-06-02,Electronics,Power Bank,6,1618.47,56,CUST1164,Female,Net Banking,Gurugram,9710.81
+2025-06-02,Groceries,Cooking Oil,1,601.88,22,CUST1228,Male,Debit Card,Mumbai,601.88
+2025-06-02,Electronics,Keyboard,3,3783.97,58,CUST1159,Female,UPI,Mumbai,11351.92
+2025-06-02,Home & Kitchen,Bedsheet,5,193.68,19,CUST1432,Female,Cash,Jaipur,968.39
+2025-06-02,Electronics,Mouse,1,471.62,26,CUST1158,Female,UPI,Delhi,471.62
+2025-06-03,Groceries,Coffee,5,130.51,33,CUST1357,Female,UPI,Pune,652.55
+2025-06-03,Electronics,Mouse,2,3941.46,51,CUST1208,Male,Credit Card,Gurugram,7882.93
+2025-06-04,Beauty,Face Wash,4,982.46,47,CUST1409,Female,UPI,Pune,3929.84
+2025-06-04,Sports,Skipping Rope,1,2953.49,41,CUST1229,Female,Cash,Mumbai,2953.49
+2025-06-05,Clothing,Jeans,5,339.98,22,CUST1382,Male,UPI,Gurugram,1699.91
+2025-06-05,Home & Kitchen,Lamp,4,1056.96,51,CUST1161,Male,Net Banking,Gurugram,4227.83
+2025-06-05,Home & Kitchen,Bedsheet,5,1996.97,60,CUST1374,Male,Credit Card,Mumbai,9984.86
+2025-06-06,Home & Kitchen,Lamp,3,2041.73,26,CUST1449,Male,UPI,Delhi,6125.19
+2025-06-06,Beauty,Shampoo,6,1329.73,52,CUST1440,Female,Credit Card,Mumbai,7978.4
+2025-06-07,Home & Kitchen,Storage Box,3,306.72,19,CUST1432,Other,UPI,Jaipur,920.17
+2025-06-07,Home & Kitchen,Lamp,6,2186.57,38,CUST1283,Female,UPI,Gurugram,13119.42
+2025-06-07,Groceries,Rice,5,255.75,29,CUST1166,Female,Cash,Gurugram,1278.73
+2025-06-07,Electronics,Mouse,4,1953.55,48,CUST1119,Female,Cash,Pune,7814.21
+2025-06-07,Home & Kitchen,Lamp,2,1767.88,32,CUST1273,Male,Debit Card,Delhi,3535.77
+2025-06-07,Groceries,Coffee,1,505.36,19,CUST1404,Female,Credit Card,Jaipur,505.36
+2025-06-08,Groceries,Rice,3,602.34,46,CUST1083,Female,UPI,Jaipur,1807.01
+2025-06-08,Electronics,Keyboard,2,3035.83,31,CUST1146,Male,Cash,Gurugram,6071.66
+2025-06-08,Electronics,Mouse,2,3408.74,23,CUST1399,Male,Debit Card,Pune,6817.47
+2025-06-08,Clothing,Sneakers,1,2325.74,29,CUST1439,Male,Debit Card,Pune,2325.74
+2025-06-08,Clothing,T-Shirt,6,2653.89,20,CUST1158,Female,UPI,Delhi,15923.36
+2025-06-08,Groceries,Milk,1,703.59,65,CUST1385,Male,Cash,Gurugram,703.59
+2025-06-08,Sports,Football,2,1678.12,48,CUST1307,Male,Cash,Pune,3356.23
+2025-06-08,Beauty,Perfume,2,1109.86,64,CUST1396,Male,UPI,Delhi,2219.72
+2025-06-08,Beauty,Shampoo,3,280.27,41,CUST1287,Female,UPI,Pune,840.82
+2025-06-08,Clothing,Jacket,6,2957.19,28,CUST1264,Other,Cash,Jaipur,17743.15
+2025-06-09,Electronics,Headphones,1,5663.4,46,CUST1260,Male,Credit Card,Delhi,5663.4
+2025-06-09,Sports,Yoga Mat,6,1478.92,28,CUST1182,Male,UPI,Pune,8873.53
+2025-06-09,Groceries,Milk,4,55.8,21,CUST1226,Female,UPI,Delhi,223.21
+2025-06-09,Electronics,Power Bank,5,4917.03,38,CUST1236,Female,UPI,Jaipur,24585.15
+2025-06-10,Clothing,Jacket,2,1950.28,46,CUST1310,Male,Cash,Pune,3900.57
+2025-06-10,Beauty,Perfume,1,360.09,45,CUST1300,Female,UPI,Delhi,360.09
+2025-06-10,Electronics,Headphones,1,4806.08,55,CUST1103,Female,Debit Card,Mumbai,4806.08
+2025-06-10,Clothing,Jeans,1,1895.25,57,CUST1318,Male,Credit Card,Delhi,1895.25
+2025-06-10,Groceries,Milk,1,158.78,64,CUST1279,Male,UPI,Jaipur,158.78
+2025-06-11,Electronics,USB Cable,2,1901.2,20,CUST1243,Male,Debit Card,Mumbai,3802.4
+2025-06-11,Electronics,Keyboard,3,6140.65,45,CUST1428,Male,Debit Card,Gurugram,18421.96
+2025-06-11,Sports,Dumbbells,3,232.9,54,CUST1259,Female,UPI,Mumbai,698.7
+2025-06-11,Electronics,USB Cable,2,1903.37,58,CUST1278,Male,Credit Card,Jaipur,3806.75
+2025-06-11,Clothing,Jeans,1,1301.53,36,CUST1158,Female,Net Banking,Mumbai,1301.53
+2025-06-12,Sports,Football,3,1377.87,28,CUST1303,Female,UPI,Mumbai,4133.61
+2025-06-12,Sports,Football,2,3181.95,64,CUST1087,Male,Cash,Gurugram,6363.9
+2025-06-12,Electronics,USB Cable,1,865.06,35,CUST1275,Female,Credit Card,Jaipur,865.06
+2025-06-12,Electronics,Mouse,1,3253.21,56,CUST1200,Male,UPI,Delhi,3253.21
+2025-06-12,Clothing,Sneakers,5,674.28,59,CUST1124,Male,UPI,Delhi,3371.41
+2025-06-12,Clothing,T-Shirt,1,2042.85,21,CUST1342,Female,UPI,Jaipur,2042.85
+2025-06-13,Sports,Dumbbells,4,913.76,63,CUST1048,Male,Cash,Pune,3655.04
+2025-06-13,Electronics,Keyboard,5,3999.17,23,CUST1002,Female,UPI,Delhi,19995.87
+2025-06-13,Sports,Yoga Mat,3,2848.64,54,CUST1237,Male,Credit Card,Delhi,8545.92
+2025-06-13,Home & Kitchen,Water Bottle,6,2504.53,61,CUST1115,Female,UPI,Delhi,15027.21
+2025-06-13,Clothing,Sneakers,5,576.06,24,CUST1334,Male,UPI,Delhi,2880.29
+2025-06-13,Groceries,Coffee,2,469.67,20,CUST1188,Male,Credit Card,Jaipur,939.35
+2025-06-13,Beauty,Face Wash,1,622.55,33,CUST1210,Female,UPI,Gurugram,622.55
+2025-06-14,Groceries,Milk,1,307.11,55,CUST1031,Female,Cash,Mumbai,307.11
+2025-06-14,Home & Kitchen,Cookware Set,4,2502.06,36,CUST1282,Female,Credit Card,Delhi,10008.25
+2025-06-14,Clothing,Sneakers,5,2768.72,45,CUST1394,Male,Credit Card,Mumbai,13843.61
+2025-06-14,Home & Kitchen,Cookware Set,4,2437.84,18,CUST1353,Female,Debit Card,Mumbai,9751.36
+2025-06-14,Groceries,Biscuits,5,289.12,42,CUST1309,Female,Cash,Gurugram,1445.6
+2025-06-14,Sports,Skipping Rope,6,1062.62,28,CUST1435,Female,Credit Card,Jaipur,6375.69
+2025-06-15,Groceries,Rice,4,734.52,47,CUST1357,Female,UPI,Delhi,2938.06
+2025-06-15,Electronics,Keyboard,6,4558.36,18,CUST1253,Male,Credit Card,Delhi,27350.13
+2025-06-15,Groceries,Coffee,1,142.28,36,CUST1296,Female,UPI,Delhi,142.28
+2025-06-15,Groceries,Milk,4,767.96,19,CUST1315,Male,Cash,Mumbai,3071.83
+2025-06-16,Electronics,Mouse,2,2651.92,56,CUST1391,Female,Debit Card,Mumbai,5303.83
+2025-06-16,Sports,Dumbbells,2,1138.73,27,CUST1014,Male,UPI,Mumbai,2277.47
+2025-06-16,Home & Kitchen,Storage Box,6,703.2,39,CUST1293,Male,UPI,Delhi,4219.21
+2025-06-16,Home & Kitchen,Lamp,5,1906.98,51,CUST1336,Female,Debit Card,Mumbai,9534.91
+2025-06-16,Groceries,Biscuits,1,262.88,62,CUST1424,Female,Debit Card,Jaipur,262.88
+2025-06-17,Electronics,Power Bank,1,6383.67,40,CUST1223,Male,UPI,Pune,6383.67
+2025-06-17,Electronics,USB Cable,1,4463.4,46,CUST1027,Female,Debit Card,Gurugram,4463.4
+2025-06-17,Clothing,Sneakers,4,1196.67,29,CUST1043,Female,UPI,Delhi,4786.67
+2025-06-17,Home & Kitchen,Water Bottle,6,1625.18,29,CUST1135,Other,UPI,Mumbai,9751.05
+2025-06-17,Home & Kitchen,Bedsheet,4,684.21,36,CUST1315,Female,UPI,Mumbai,2736.85
+2025-06-18,Home & Kitchen,Lamp,1,152.83,18,CUST1096,Female,Debit Card,Mumbai,152.83
+2025-06-18,Clothing,Hoodie,5,2075.7,21,CUST1346,Female,UPI,Delhi,10378.52
+2025-06-18,Home & Kitchen,Bedsheet,2,2115.83,47,CUST1108,Other,UPI,Pune,4231.65
+2025-06-18,Beauty,Face Wash,1,858.13,28,CUST1048,Female,UPI,Mumbai,858.13
+2025-06-18,Clothing,T-Shirt,3,686.27,44,CUST1087,Male,Cash,Mumbai,2058.81
+2025-06-18,Groceries,Milk,2,859.78,34,CUST1449,Male,Debit Card,Gurugram,1719.56
+2025-06-18,Groceries,Biscuits,6,474.99,33,CUST1233,Male,Debit Card,Gurugram,2849.94
+2025-06-19,Beauty,Face Wash,6,1726.43,30,CUST1145,Male,UPI,Delhi,10358.57
+2025-06-19,Clothing,Jacket,2,2117.79,33,CUST1175,Male,Credit Card,Pune,4235.58
+2025-06-20,Groceries,Coffee,1,269.19,33,CUST1362,Female,Credit Card,Pune,269.19
+2025-06-20,Beauty,Shampoo,1,1195.47,21,CUST1382,Female,Cash,Jaipur,1195.47
+2025-06-20,Groceries,Rice,3,243.4,21,CUST1371,Male,Debit Card,Jaipur,730.2
+2025-06-20,Electronics,Keyboard,6,4227.31,64,CUST1114,Male,Net Banking,Mumbai,25363.87
+2025-06-20,Groceries,Milk,4,224.31,57,CUST1131,Male,UPI,Pune,897.24
+2025-06-20,Groceries,Biscuits,3,873.99,39,CUST1078,Male,UPI,Gurugram,2621.97
+2025-06-21,Groceries,Coffee,4,405.48,64,CUST1433,Female,UPI,Mumbai,1621.94
+2025-06-21,Electronics,Keyboard,5,2992.64,32,CUST1388,Male,Debit Card,Delhi,14963.18
+2025-06-21,Sports,Yoga Mat,3,3165.74,43,CUST1045,Male,Debit Card,Gurugram,9497.21
+2025-06-21,Beauty,Sunscreen,1,964.85,35,CUST1425,Male,UPI,Pune,964.85
+2025-06-21,Home & Kitchen,Cookware Set,5,1651.01,44,CUST1173,Female,UPI,Pune,8255.07
+2025-06-22,Beauty,Sunscreen,6,690.78,23,CUST1041,Male,Credit Card,Mumbai,4144.68
+2025-06-22,Clothing,Jeans,4,538.12,41,CUST1375,Female,Credit Card,Pune,2152.49
+2025-06-23,Electronics,Mouse,4,1091.83,59,CUST1082,Male,UPI,Delhi,4367.3
+2025-06-23,Beauty,Perfume,2,921.52,51,CUST1428,Female,Cash,Gurugram,1843.04
+2025-06-23,Groceries,Coffee,3,232.0,65,CUST1180,Female,Cash,Jaipur,695.99
+2025-06-23,Home & Kitchen,Cookware Set,4,443.41,52,CUST1158,Male,UPI,Pune,1773.63
+2025-06-23,Electronics,Headphones,3,4326.12,37,CUST1043,Female,Net Banking,Pune,12978.35
+2025-06-23,Home & Kitchen,Storage Box,4,2546.55,32,CUST1418,Female,UPI,Mumbai,10186.19
+2025-06-24,Home & Kitchen,Storage Box,6,944.91,59,CUST1404,Male,Cash,Delhi,5669.47
+2025-06-24,Groceries,Biscuits,1,612.85,61,CUST1076,Female,Debit Card,Delhi,612.85
+2025-06-24,Sports,Skipping Rope,2,458.36,64,CUST1354,Other,Cash,Jaipur,916.71
+2025-06-24,Groceries,Rice,5,610.52,55,CUST1098,Male,Credit Card,Delhi,3052.6
+2025-06-24,Home & Kitchen,Cookware Set,1,512.6,50,CUST1205,Male,UPI,Gurugram,512.6
+2025-06-25,Home & Kitchen,Cookware Set,4,1818.94,55,CUST1122,Female,UPI,Delhi,7275.75
+2025-06-25,Clothing,Jacket,4,3040.93,36,CUST1299,Female,UPI,Delhi,12163.7
+2025-06-26,Sports,Yoga Mat,1,3175.26,42,CUST1327,Male,Credit Card,Mumbai,3175.26
+2025-06-26,Electronics,Keyboard,2,3435.84,42,CUST1001,Male,UPI,Gurugram,6871.68
+2025-06-27,Beauty,Sunscreen,1,307.01,62,CUST1172,Female,UPI,Jaipur,307.01
+2025-06-27,Home & Kitchen,Storage Box,4,1128.97,46,CUST1213,Female,UPI,Mumbai,4515.9
+2025-06-28,Electronics,Headphones,4,6282.14,46,CUST1349,Female,UPI,Gurugram,25128.55
+2025-06-28,Groceries,Rice,3,215.16,54,CUST1366,Female,Cash,Mumbai,645.49
+2025-06-28,Electronics,USB Cable,4,3722.64,22,CUST1258,Male,UPI,Gurugram,14890.55
+2025-06-28,Sports,Dumbbells,6,2211.53,44,CUST1313,Female,UPI,Jaipur,13269.19
+2025-06-28,Clothing,Sneakers,3,2863.01,30,CUST1411,Female,UPI,Mumbai,8589.04
+2025-06-28,Clothing,Hoodie,6,3060.96,44,CUST1018,Male,UPI,Pune,18365.77
+2025-06-29,Clothing,Jacket,3,2026.67,44,CUST1414,Male,Cash,Mumbai,6080.02
+2025-06-29,Beauty,Moisturizer,5,1618.21,49,CUST1389,Male,Cash,Jaipur,8091.07
+2025-06-29,Beauty,Shampoo,4,662.37,27,CUST1316,Male,UPI,Mumbai,2649.48
+2025-06-29,Groceries,Biscuits,6,506.18,19,CUST1255,Male,Cash,Gurugram,3037.06
+2025-06-29,Groceries,Milk,5,763.72,43,CUST1392,Male,Credit Card,Mumbai,3818.62
+2025-06-30,Electronics,Keyboard,1,303.86,20,CUST1133,Other,UPI,Mumbai,303.86
+2025-06-30,Home & Kitchen,Cookware Set,1,2763.03,59,CUST1430,Male,Credit Card,Jaipur,2763.03
+2025-06-30,Beauty,Moisturizer,3,1624.98,57,CUST1190,Male,UPI,Jaipur,4874.95
+2025-06-30,Electronics,Mouse,3,6063.16,53,CUST1227,Other,UPI,Pune,18189.48
+2025-06-30,Clothing,Hoodie,5,1712.1,36,CUST1404,Other,Credit Card,Mumbai,8560.51
+2025-06-30,Clothing,Jacket,6,350.81,32,CUST1417,Female,UPI,Pune,2104.89
+2025-07-01,Groceries,Coffee,4,618.48,50,CUST1096,Male,Debit Card,Jaipur,2473.91
+2025-07-01,Clothing,Hoodie,5,2733.44,29,CUST1063,Female,UPI,Jaipur,13667.22
+2025-07-01,Beauty,Shampoo,5,273.86,59,CUST1214,Female,UPI,Jaipur,1369.29
+2025-07-02,Clothing,Jacket,1,305.99,34,CUST1448,Male,UPI,Mumbai,305.99
+2025-07-02,Electronics,Power Bank,6,3093.28,32,CUST1430,Male,Cash,Gurugram,18559.7
+2025-07-02,Groceries,Biscuits,4,210.32,50,CUST1435,Female,Credit Card,Gurugram,841.27
+2025-07-02,Groceries,Cooking Oil,3,68.66,29,CUST1271,Male,Credit Card,Delhi,205.97
+2025-07-02,Electronics,Mouse,5,1517.44,49,CUST1064,Female,Net Banking,Mumbai,7587.2
+2025-07-02,Groceries,Rice,4,844.1,42,CUST1211,Male,UPI,Delhi,3376.42
+2025-07-03,Groceries,Cooking Oil,3,356.03,47,CUST1408,Female,Cash,Delhi,1068.08
+2025-07-03,Sports,Football,5,2190.64,45,CUST1366,Male,Cash,Gurugram,10953.21
+2025-07-03,Home & Kitchen,Lamp,2,1690.58,38,CUST1188,Male,Cash,Jaipur,3381.16
+2025-07-03,Clothing,Jeans,2,2384.13,34,CUST1334,Male,Cash,Gurugram,4768.25
+2025-07-03,Home & Kitchen,Lamp,4,359.97,61,CUST1180,Male,Debit Card,Mumbai,1439.87
+2025-07-04,Sports,Dumbbells,6,2174.56,60,CUST1004,Female,Credit Card,Jaipur,13047.36
+2025-07-04,Beauty,Sunscreen,4,1428.77,61,CUST1193,Female,Cash,Mumbai,5715.07
+2025-07-04,Beauty,Shampoo,5,1077.1,41,CUST1315,Female,Cash,Pune,5385.5
+2025-07-04,Groceries,Coffee,3,439.52,21,CUST1077,Female,UPI,Gurugram,1318.56
+2025-07-04,Groceries,Milk,5,408.97,57,CUST1194,Female,Credit Card,Pune,2044.85
+2025-07-04,Groceries,Cooking Oil,5,676.56,29,CUST1341,Female,Net Banking,Gurugram,3382.81
+2025-07-04,Home & Kitchen,Storage Box,5,1030.36,50,CUST1372,Male,UPI,Pune,5151.82
+2025-07-05,Groceries,Cooking Oil,4,418.69,63,CUST1341,Other,Net Banking,Delhi,1674.75
+2025-07-05,Beauty,Shampoo,6,1096.47,18,CUST1434,Female,UPI,Gurugram,6578.82
+2025-07-05,Sports,Cricket Bat,6,214.82,52,CUST1009,Male,UPI,Mumbai,1288.91
+2025-07-05,Beauty,Face Wash,2,1467.53,42,CUST1241,Male,UPI,Jaipur,2935.07
+2025-07-05,Groceries,Milk,5,38.41,48,CUST1282,Female,UPI,Delhi,192.05
+2025-07-05,Clothing,Jeans,2,840.88,49,CUST1221,Female,Credit Card,Delhi,1681.75
+2025-07-05,Electronics,Mouse,5,2355.79,29,CUST1081,Male,UPI,Delhi,11778.96
+2025-07-07,Groceries,Coffee,2,448.9,43,CUST1400,Other,Credit Card,Mumbai,897.79
+2025-07-07,Groceries,Biscuits,3,424.64,32,CUST1009,Male,UPI,Jaipur,1273.91
+2025-07-07,Groceries,Biscuits,1,888.93,60,CUST1004,Female,Credit Card,Jaipur,888.93
+2025-07-07,Clothing,Jeans,3,2426.87,48,CUST1396,Male,Credit Card,Jaipur,7280.61
+2025-07-07,Groceries,Biscuits,5,275.66,22,CUST1324,Male,UPI,Mumbai,1378.29
+2025-07-07,Electronics,Headphones,2,2144.48,26,CUST1169,Male,UPI,Mumbai,4288.95
+2025-07-08,Home & Kitchen,Water Bottle,4,265.34,36,CUST1393,Male,UPI,Delhi,1061.35
+2025-07-08,Beauty,Shampoo,4,523.12,57,CUST1033,Male,UPI,Jaipur,2092.49
+2025-07-08,Sports,Yoga Mat,6,1153.7,54,CUST1193,Male,Credit Card,Pune,6922.22
+2025-07-08,Groceries,Cooking Oil,5,341.78,25,CUST1074,Male,Cash,Pune,1708.89
+2025-07-08,Clothing,Jacket,5,307.88,39,CUST1279,Female,Cash,Jaipur,1539.4
+2025-07-08,Clothing,Sneakers,5,997.14,21,CUST1348,Male,Debit Card,Mumbai,4985.68
+2025-07-09,Clothing,Jacket,6,456.93,35,CUST1142,Female,UPI,Mumbai,2741.59
+2025-07-09,Groceries,Rice,4,369.6,31,CUST1056,Female,UPI,Gurugram,1478.41
+2025-07-09,Groceries,Rice,4,662.96,43,CUST1151,Male,Debit Card,Jaipur,2651.83
+2025-07-09,Groceries,Cooking Oil,5,199.71,27,CUST1124,Male,Debit Card,Gurugram,998.56
+2025-07-10,Sports,Dumbbells,5,932.8,30,CUST1189,Male,UPI,Pune,4664.0
+2025-07-10,Electronics,USB Cable,1,3983.35,49,CUST1235,Male,Debit Card,Mumbai,3983.35
+2025-07-10,Home & Kitchen,Lamp,2,2438.25,35,CUST1109,Female,UPI,Pune,4876.51
+2025-07-10,Groceries,Cooking Oil,3,296.03,64,CUST1447,Female,UPI,Pune,888.09
+2025-07-10,Groceries,Rice,2,439.19,47,CUST1256,Male,Credit Card,Gurugram,878.38
+2025-07-11,Groceries,Coffee,4,865.42,45,CUST1178,Female,Cash,Delhi,3461.68
+2025-07-11,Groceries,Rice,5,569.63,40,CUST1004,Male,UPI,Jaipur,2848.17
+2025-07-11,Groceries,Biscuits,3,136.96,30,CUST1416,Male,Debit Card,Mumbai,410.89
+2025-07-11,Home & Kitchen,Cookware Set,3,2410.16,41,CUST1409,Female,UPI,Mumbai,7230.48
+2025-07-12,Home & Kitchen,Storage Box,1,221.26,29,CUST1144,Male,Net Banking,Pune,221.26
+2025-07-12,Sports,Yoga Mat,6,1932.36,25,CUST1280,Male,UPI,Gurugram,11594.14
+2025-07-13,Electronics,Headphones,4,530.96,27,CUST1096,Male,UPI,Mumbai,2123.84
+2025-07-13,Clothing,Jeans,1,3144.6,58,CUST1117,Female,UPI,Pune,3144.6
+2025-07-13,Beauty,Perfume,3,1380.7,51,CUST1061,Female,Credit Card,Gurugram,4142.11
+2025-07-13,Groceries,Cooking Oil,5,605.11,47,CUST1209,Male,Credit Card,Mumbai,3025.57
+2025-07-13,Sports,Skipping Rope,2,1188.63,19,CUST1077,Male,Credit Card,Delhi,2377.25
+2025-07-13,Beauty,Perfume,4,1122.04,44,CUST1367,Male,Debit Card,Pune,4488.17
+2025-07-13,Groceries,Cooking Oil,3,506.3,49,CUST1348,Male,Cash,Gurugram,1518.89
+2025-07-14,Beauty,Shampoo,1,564.61,26,CUST1071,Other,UPI,Pune,564.61
+2025-07-14,Home & Kitchen,Storage Box,2,1217.52,29,CUST1276,Male,Debit Card,Gurugram,2435.05
+2025-07-14,Groceries,Biscuits,4,93.22,31,CUST1404,Female,Credit Card,Gurugram,372.87
+2025-07-14,Electronics,Keyboard,2,5623.0,18,CUST1272,Male,Cash,Delhi,11246.0
+2025-07-14,Electronics,Keyboard,4,1520.5,31,CUST1272,Female,UPI,Delhi,6081.98
+2025-07-15,Clothing,T-Shirt,5,1804.42,29,CUST1295,Male,Credit Card,Mumbai,9022.09
+2025-07-15,Home & Kitchen,Storage Box,2,2791.81,34,CUST1011,Male,Cash,Delhi,5583.62
+2025-07-15,Beauty,Shampoo,1,512.32,35,CUST1303,Male,UPI,Mumbai,512.32
+2025-07-16,Groceries,Milk,5,199.39,23,CUST1251,Male,UPI,Delhi,996.93
+2025-07-16,Home & Kitchen,Lamp,2,2730.13,59,CUST1285,Male,UPI,Delhi,5460.26
+2025-07-17,Clothing,T-Shirt,1,2300.97,42,CUST1211,Female,Debit Card,Jaipur,2300.97
+2025-07-17,Sports,Skipping Rope,3,1305.03,59,CUST1275,Male,UPI,Gurugram,3915.08
+2025-07-17,Groceries,Rice,3,539.29,60,CUST1210,Other,Credit Card,Gurugram,1617.86
+2025-07-17,Clothing,Hoodie,6,1956.09,25,CUST1191,Female,UPI,Jaipur,11736.54
+2025-07-17,Electronics,USB Cable,2,5251.25,31,CUST1154,Male,UPI,Gurugram,10502.5
+2025-07-17,Electronics,Power Bank,2,3298.71,30,CUST1288,Female,UPI,Jaipur,6597.43
+2025-07-18,Groceries,Biscuits,3,179.28,38,CUST1240,Female,UPI,Jaipur,537.84
+2025-07-18,Beauty,Shampoo,1,768.27,42,CUST1402,Male,UPI,Jaipur,768.27
+2025-07-18,Electronics,Mouse,1,1285.11,23,CUST1216,Female,UPI,Jaipur,1285.11
+2025-07-18,Groceries,Coffee,1,629.97,50,CUST1434,Female,Credit Card,Jaipur,629.97
+2025-07-18,Groceries,Biscuits,3,247.77,26,CUST1222,Female,Cash,Mumbai,743.32
+2025-07-19,Electronics,Keyboard,6,1525.08,59,CUST1281,Male,UPI,Gurugram,9150.49
+2025-07-19,Electronics,Power Bank,6,4928.22,37,CUST1395,Male,UPI,Pune,29569.29
+2025-07-19,Groceries,Rice,2,620.41,45,CUST1062,Male,Debit Card,Pune,1240.82
+2025-07-19,Groceries,Rice,5,703.09,20,CUST1094,Female,UPI,Delhi,3515.43
+2025-07-19,Sports,Football,1,586.43,46,CUST1356,Male,Cash,Delhi,586.43
+2025-07-20,Clothing,Jacket,4,1973.01,18,CUST1180,Female,Debit Card,Mumbai,7892.06
+2025-07-20,Home & Kitchen,Lamp,4,2039.11,62,CUST1102,Female,Debit Card,Mumbai,8156.44
+2025-07-20,Groceries,Cooking Oil,3,461.19,56,CUST1138,Male,Cash,Pune,1383.58
+2025-07-21,Groceries,Biscuits,1,453.64,39,CUST1196,Male,Cash,Jaipur,453.64
+2025-07-21,Sports,Yoga Mat,4,3006.82,20,CUST1156,Male,UPI,Pune,12027.28
+2025-07-21,Home & Kitchen,Cookware Set,5,591.59,63,CUST1020,Male,Debit Card,Mumbai,2957.93
+2025-07-21,Clothing,Jacket,1,391.63,57,CUST1353,Male,UPI,Gurugram,391.63
+2025-07-22,Clothing,Jacket,5,840.51,41,CUST1446,Male,Debit Card,Jaipur,4202.53
+2025-07-22,Groceries,Coffee,5,670.08,59,CUST1083,Other,Debit Card,Mumbai,3350.39
+2025-07-22,Electronics,Power Bank,1,3970.79,62,CUST1327,Male,Debit Card,Delhi,3970.79
+2025-07-22,Groceries,Milk,3,399.83,64,CUST1031,Female,UPI,Mumbai,1199.48
+2025-07-22,Home & Kitchen,Cookware Set,6,1476.51,26,CUST1362,Female,Debit Card,Gurugram,8859.03
+2025-07-22,Electronics,Headphones,6,1165.92,65,CUST1257,Female,Net Banking,Mumbai,6995.51
+2025-07-22,Groceries,Biscuits,1,859.52,25,CUST1168,Male,UPI,Gurugram,859.52
+2025-07-22,Groceries,Coffee,4,346.73,35,CUST1130,Male,Cash,Mumbai,1386.92
+2025-07-22,Home & Kitchen,Bedsheet,1,168.54,34,CUST1307,Male,Debit Card,Gurugram,168.54
+2025-07-22,Home & Kitchen,Water Bottle,3,2308.36,29,CUST1433,Other,UPI,Delhi,6925.07
+2025-07-23,Electronics,Power Bank,4,591.18,64,CUST1145,Female,Cash,Mumbai,2364.73
+2025-07-23,Electronics,Power Bank,4,1037.0,43,CUST1369,Female,UPI,Gurugram,4148.02
+2025-07-23,Beauty,Moisturizer,3,1172.18,60,CUST1139,Female,Debit Card,Mumbai,3516.54
+2025-07-24,Clothing,Hoodie,6,408.34,18,CUST1332,Male,Credit Card,Jaipur,2450.03
+2025-07-24,Groceries,Milk,1,70.25,22,CUST1070,Female,UPI,Pune,70.25
+2025-07-24,Clothing,Sneakers,4,311.49,45,CUST1164,Male,UPI,Pune,1245.96
+2025-07-25,Sports,Cricket Bat,2,1459.78,64,CUST1075,Male,Credit Card,Delhi,2919.56
+2025-07-26,Beauty,Sunscreen,4,1794.35,39,CUST1020,Male,UPI,Gurugram,7177.39
+2025-07-26,Home & Kitchen,Storage Box,1,175.61,38,CUST1196,Male,UPI,Jaipur,175.61
+2025-07-26,Beauty,Moisturizer,4,1623.74,36,CUST1200,Male,Debit Card,Mumbai,6494.97
+2025-07-26,Groceries,Coffee,1,279.81,36,CUST1105,Female,Credit Card,Jaipur,279.81
+2025-07-26,Sports,Skipping Rope,3,2795.11,40,CUST1343,Male,Credit Card,Jaipur,8385.32
+2025-07-26,Home & Kitchen,Storage Box,2,614.97,28,CUST1366,Male,Cash,Mumbai,1229.95
+2025-07-26,Electronics,Keyboard,2,2486.31,55,CUST1150,Female,Cash,Mumbai,4972.63
+2025-07-27,Clothing,Jacket,5,2221.0,50,CUST1419,Male,Credit Card,Pune,11104.99
+2025-07-27,Sports,Skipping Rope,5,1439.71,23,CUST1218,Female,UPI,Gurugram,7198.55
+2025-07-28,Home & Kitchen,Water Bottle,1,2134.15,49,CUST1344,Female,Debit Card,Delhi,2134.15
+2025-07-28,Electronics,Mouse,4,5514.01,64,CUST1273,Female,Credit Card,Mumbai,22056.06
+2025-07-28,Clothing,Hoodie,4,2796.43,57,CUST1412,Female,Net Banking,Pune,11185.72
+2025-07-28,Clothing,Jeans,6,1958.09,20,CUST1359,Male,Debit Card,Delhi,11748.53
+2025-07-28,Groceries,Rice,3,720.52,33,CUST1131,Male,UPI,Gurugram,2161.57
+2025-07-28,Beauty,Shampoo,3,930.29,48,CUST1316,Female,Credit Card,Gurugram,2790.86
+2025-07-29,Sports,Football,6,1329.23,65,CUST1055,Female,UPI,Mumbai,7975.39
+2025-07-29,Groceries,Coffee,2,559.45,48,CUST1423,Male,Credit Card,Mumbai,1118.9
+2025-07-30,Beauty,Sunscreen,5,736.54,33,CUST1034,Female,Debit Card,Mumbai,3682.7
+2025-07-30,Electronics,Power Bank,3,1205.08,57,CUST1099,Female,Credit Card,Pune,3615.25
+2025-07-31,Home & Kitchen,Cookware Set,4,327.96,19,CUST1053,Male,Debit Card,Mumbai,1311.85
+2025-07-31,Clothing,Jeans,6,2898.02,55,CUST1218,Female,UPI,Jaipur,17388.1
+2025-07-31,Electronics,Power Bank,4,5559.14,59,CUST1149,Male,UPI,Delhi,22236.55
+2025-08-01,Home & Kitchen,Lamp,6,1366.68,53,CUST1004,Female,UPI,Pune,8200.07
+2025-08-01,Groceries,Biscuits,3,528.49,18,CUST1275,Female,Credit Card,Mumbai,1585.47
+2025-08-01,Groceries,Coffee,2,353.52,20,CUST1353,Male,UPI,Jaipur,707.04
+2025-08-02,Clothing,Hoodie,5,1961.41,37,CUST1139,Male,Cash,Mumbai,9807.03
+2025-08-02,Beauty,Face Wash,4,943.19,62,CUST1380,Male,UPI,Jaipur,3772.75
+2025-08-03,Home & Kitchen,Lamp,1,1943.72,35,CUST1101,Male,Debit Card,Jaipur,1943.72
+2025-08-03,Groceries,Cooking Oil,2,121.89,43,CUST1123,Male,Credit Card,Gurugram,243.79
+2025-08-03,Home & Kitchen,Cookware Set,1,2685.97,46,CUST1086,Male,Debit Card,Mumbai,2685.97
+2025-08-03,Electronics,Keyboard,3,3042.17,19,CUST1140,Male,UPI,Delhi,9126.51
+2025-08-03,Clothing,Jeans,5,2411.8,32,CUST1271,Female,Debit Card,Jaipur,12058.98
+2025-08-03,Clothing,T-Shirt,4,424.74,57,CUST1379,Female,Credit Card,Gurugram,1698.94
+2025-08-03,Home & Kitchen,Cookware Set,4,1653.6,35,CUST1020,Female,Cash,Jaipur,6614.41
+2025-08-04,Groceries,Rice,5,332.78,63,CUST1007,Female,Cash,Mumbai,1663.91
+2025-08-04,Groceries,Rice,5,799.88,57,CUST1422,Female,Credit Card,Pune,3999.4
+2025-08-04,Groceries,Cooking Oil,6,254.73,45,CUST1349,Female,Cash,Jaipur,1528.4
+2025-08-04,Clothing,Sneakers,2,3159.85,36,CUST1427,Male,Cash,Jaipur,6319.71
+2025-08-04,Groceries,Biscuits,4,64.3,50,CUST1348,Female,UPI,Pune,257.22
+2025-08-04,Groceries,Coffee,1,861.53,45,CUST1391,Male,Net Banking,Pune,861.53
+2025-08-05,Electronics,Headphones,6,5363.43,35,CUST1206,Male,UPI,Gurugram,32180.61
+2025-08-05,Sports,Dumbbells,1,635.67,42,CUST1363,Female,Cash,Gurugram,635.67
+2025-08-05,Clothing,Hoodie,3,408.85,32,CUST1032,Male,Credit Card,Jaipur,1226.55
+2025-08-06,Clothing,Hoodie,4,2284.17,43,CUST1028,Male,UPI,Delhi,9136.68
+2025-08-06,Electronics,Keyboard,6,5977.05,48,CUST1386,Female,UPI,Jaipur,35862.29
+2025-08-06,Sports,Skipping Rope,6,552.24,34,CUST1280,Male,UPI,Mumbai,3313.45
+2025-08-07,Groceries,Biscuits,1,800.19,50,CUST1079,Male,UPI,Jaipur,800.19
+2025-08-07,Sports,Yoga Mat,6,2303.44,63,CUST1134,Female,Credit Card,Pune,13820.67
+2025-08-07,Electronics,Power Bank,2,636.78,19,CUST1213,Male,Cash,Gurugram,1273.57
+2025-08-07,Groceries,Milk,5,470.21,43,CUST1341,Male,Cash,Delhi,2351.05
+2025-08-07,Home & Kitchen,Water Bottle,3,882.05,29,CUST1227,Male,UPI,Delhi,2646.16
+2025-08-08,Sports,Skipping Rope,1,893.8,30,CUST1095,Male,UPI,Gurugram,893.8
+2025-08-08,Clothing,Sneakers,4,1231.84,59,CUST1117,Female,UPI,Pune,4927.37
+2025-08-09,Groceries,Rice,1,890.55,63,CUST1301,Male,UPI,Jaipur,890.55
+2025-08-09,Sports,Yoga Mat,3,1483.34,29,CUST1416,Male,Debit Card,Jaipur,4450.01
+2025-08-09,Groceries,Coffee,4,412.35,37,CUST1261,Female,Debit Card,Pune,1649.41
+2025-08-10,Beauty,Sunscreen,4,1532.49,19,CUST1201,Female,Debit Card,Jaipur,6129.95
+2025-08-10,Sports,Yoga Mat,5,1916.23,46,CUST1106,Male,Credit Card,Gurugram,9581.14
+2025-08-10,Electronics,Headphones,1,3133.22,28,CUST1278,Male,UPI,Gurugram,3133.22
+2025-08-10,Clothing,T-Shirt,6,2201.52,49,CUST1436,Male,Credit Card,Gurugram,13209.11
+2025-08-11,Sports,Yoga Mat,5,2762.07,30,CUST1176,Male,Cash,Mumbai,13810.33
+2025-08-12,Clothing,T-Shirt,2,2870.45,24,CUST1307,Female,UPI,Gurugram,5740.9
+2025-08-12,Clothing,Hoodie,2,2936.37,35,CUST1151,Female,UPI,Jaipur,5872.74
+2025-08-12,Electronics,USB Cable,6,5772.91,49,CUST1235,Female,UPI,Mumbai,34637.49
+2025-08-12,Groceries,Milk,2,812.07,51,CUST1015,Female,Credit Card,Gurugram,1624.13
+2025-08-13,Home & Kitchen,Storage Box,1,2630.53,23,CUST1012,Female,Debit Card,Pune,2630.53
+2025-08-13,Groceries,Biscuits,5,204.0,63,CUST1425,Male,UPI,Mumbai,1020.0
+2025-08-13,Clothing,Sneakers,6,832.59,31,CUST1171,Male,UPI,Gurugram,4995.56
+2025-08-13,Beauty,Moisturizer,5,313.74,50,CUST1057,Male,Cash,Gurugram,1568.68
+2025-08-13,Electronics,USB Cable,2,4676.37,63,CUST1223,Female,Credit Card,Pune,9352.74
+2025-08-13,Sports,Skipping Rope,5,1299.9,29,CUST1404,Male,UPI,Delhi,6499.5
+2025-08-13,Clothing,Jacket,2,2004.27,60,CUST1105,Male,Debit Card,Mumbai,4008.54
+2025-08-14,Electronics,USB Cable,4,3058.09,26,CUST1257,Female,Cash,Jaipur,12232.38
+2025-08-15,Home & Kitchen,Cookware Set,1,398.15,53,CUST1014,Female,UPI,Gurugram,398.15
+2025-08-15,Sports,Skipping Rope,4,2890.0,27,CUST1295,Female,Debit Card,Mumbai,11560.02
+2025-08-15,Groceries,Milk,1,821.74,38,CUST1224,Male,Credit Card,Delhi,821.74
+2025-08-15,Electronics,Power Bank,2,3235.95,35,CUST1394,Female,UPI,Delhi,6471.9
+2025-08-15,Clothing,Sneakers,6,1761.99,53,CUST1408,Female,Debit Card,Gurugram,10571.93
+2025-08-16,Sports,Yoga Mat,1,1362.87,62,CUST1271,Male,UPI,Gurugram,1362.87
+2025-08-16,Home & Kitchen,Storage Box,4,1967.9,58,CUST1081,Female,Cash,Jaipur,7871.59
+2025-08-17,Clothing,Jacket,2,866.58,28,CUST1199,Female,UPI,Jaipur,1733.16
+2025-08-17,Groceries,Milk,5,315.82,43,CUST1253,Female,Cash,Gurugram,1579.08
+2025-08-18,Beauty,Perfume,3,1064.74,49,CUST1032,Male,UPI,Gurugram,3194.21
+2025-08-18,Home & Kitchen,Water Bottle,2,735.46,44,CUST1091,Male,Credit Card,Gurugram,1470.92
+2025-08-18,Beauty,Face Wash,5,295.5,37,CUST1403,Male,UPI,Mumbai,1477.51
+2025-08-18,Electronics,Keyboard,1,4769.46,64,CUST1176,Male,Credit Card,Mumbai,4769.46
+2025-08-18,Groceries,Cooking Oil,3,774.84,29,CUST1388,Female,Cash,Mumbai,2324.53
+2025-08-19,Beauty,Sunscreen,4,1542.22,57,CUST1040,Male,Debit Card,Delhi,6168.9
+2025-08-19,Clothing,Jacket,3,505.68,40,CUST1340,Male,UPI,Mumbai,1517.04
+2025-08-19,Home & Kitchen,Water Bottle,1,1191.26,62,CUST1292,Female,Credit Card,Delhi,1191.26
+2025-08-19,Groceries,Biscuits,3,357.55,44,CUST1403,Male,Debit Card,Pune,1072.65
+2025-08-20,Clothing,Jacket,6,1020.65,63,CUST1133,Male,Cash,Gurugram,6123.91
+2025-08-20,Beauty,Perfume,2,317.0,23,CUST1443,Female,Cash,Mumbai,634.01
+2025-08-20,Electronics,Keyboard,5,1469.91,20,CUST1284,Male,Cash,Pune,7349.55
+2025-08-20,Home & Kitchen,Storage Box,3,1395.98,31,CUST1131,Male,Debit Card,Pune,4187.95
+2025-08-20,Groceries,Coffee,1,771.15,38,CUST1326,Female,Net Banking,Pune,771.15
+2025-08-20,Sports,Football,5,2973.34,55,CUST1198,Female,UPI,Delhi,14866.69
+2025-08-20,Groceries,Rice,3,126.41,47,CUST1110,Other,UPI,Delhi,379.22
+2025-08-20,Beauty,Sunscreen,6,270.4,53,CUST1267,Male,Credit Card,Delhi,1622.37
+2025-08-20,Home & Kitchen,Storage Box,3,2123.15,28,CUST1061,Male,UPI,Delhi,6369.46
+2025-08-20,Beauty,Perfume,3,1594.37,48,CUST1146,Female,Credit Card,Mumbai,4783.12
+2025-08-20,Groceries,Cooking Oil,6,770.01,56,CUST1136,Female,Cash,Jaipur,4620.05
+2025-08-21,Clothing,Jacket,4,1823.15,56,CUST1176,Male,UPI,Mumbai,7292.59
+2025-08-21,Sports,Cricket Bat,5,2663.35,21,CUST1305,Male,Credit Card,Jaipur,13316.73
+2025-08-21,Electronics,Mouse,4,1765.8,64,CUST1286,Male,Credit Card,Pune,7063.19
+2025-08-21,Groceries,Rice,2,371.87,19,CUST1113,Female,Credit Card,Delhi,743.74
+2025-08-21,Beauty,Face Wash,4,574.3,43,CUST1340,Female,UPI,Jaipur,2297.19
+2025-08-21,Electronics,Mouse,4,4141.44,44,CUST1139,Male,Credit Card,Mumbai,16565.74
+2025-08-21,Clothing,Hoodie,6,429.88,32,CUST1422,Female,UPI,Delhi,2579.27
+2025-08-22,Groceries,Biscuits,4,617.34,35,CUST1183,Male,Credit Card,Delhi,2469.34
+2025-08-22,Beauty,Sunscreen,6,287.48,27,CUST1112,Male,Credit Card,Gurugram,1724.87
+2025-08-23,Clothing,T-Shirt,5,3184.92,62,CUST1087,Male,Credit Card,Delhi,15924.62
+2025-08-23,Beauty,Sunscreen,6,285.49,61,CUST1207,Male,Credit Card,Delhi,1712.94
+2025-08-24,Sports,Skipping Rope,3,3440.4,63,CUST1265,Male,UPI,Jaipur,10321.2
+2025-08-25,Clothing,Hoodie,4,2138.77,27,CUST1056,Other,Debit Card,Jaipur,8555.09
+2025-08-25,Electronics,Mouse,5,2369.63,21,CUST1048,Other,UPI,Delhi,11848.13
+2025-08-25,Groceries,Rice,2,651.64,54,CUST1181,Female,Debit Card,Jaipur,1303.28
+2025-08-26,Groceries,Cooking Oil,1,461.63,38,CUST1108,Male,UPI,Delhi,461.63
+2025-08-26,Groceries,Milk,2,360.88,57,CUST1139,Male,Debit Card,Jaipur,721.75
+2025-08-26,Groceries,Rice,4,206.07,58,CUST1122,Male,Net Banking,Pune,824.27
+2025-08-26,Electronics,Power Bank,2,4135.81,18,CUST1071,Female,UPI,Delhi,8271.62
+2025-08-26,Electronics,Keyboard,4,5105.48,32,CUST1390,Male,UPI,Gurugram,20421.92
+2025-08-26,Clothing,Hoodie,2,3164.81,47,CUST1094,Female,UPI,Gurugram,6329.63
+2025-08-26,Sports,Yoga Mat,5,1284.33,34,CUST1427,Male,UPI,Jaipur,6421.67
+2025-08-26,Electronics,Mouse,2,1259.87,47,CUST1129,Male,Cash,Delhi,2519.73
+2025-08-27,Clothing,Jeans,2,764.97,32,CUST1090,Female,UPI,Delhi,1529.93
+2025-08-27,Electronics,Headphones,6,307.87,62,CUST1085,Male,UPI,Mumbai,1847.24
+2025-08-27,Groceries,Biscuits,1,734.54,53,CUST1170,Female,UPI,Pune,734.54
+2025-08-27,Electronics,Keyboard,3,2700.38,52,CUST1109,Female,UPI,Jaipur,8101.13
+2025-08-27,Clothing,Jacket,6,2358.42,52,CUST1012,Male,UPI,Pune,14150.53
+2025-08-27,Clothing,T-Shirt,3,1893.12,28,CUST1315,Male,Credit Card,Delhi,5679.37
+2025-08-27,Electronics,Power Bank,4,1187.23,48,CUST1052,Female,UPI,Pune,4748.92
+2025-08-28,Home & Kitchen,Bedsheet,4,668.06,38,CUST1183,Male,Credit Card,Gurugram,2672.23
+2025-08-28,Clothing,T-Shirt,1,1067.21,22,CUST1184,Other,UPI,Gurugram,1067.21
+2025-08-29,Home & Kitchen,Bedsheet,6,978.42,49,CUST1399,Male,Cash,Delhi,5870.52
+2025-08-29,Home & Kitchen,Cookware Set,3,2191.55,65,CUST1005,Male,Credit Card,Gurugram,6574.64
+2025-08-30,Electronics,USB Cable,5,573.78,54,CUST1126,Male,UPI,Delhi,2868.91
+2025-08-30,Sports,Skipping Rope,5,3236.01,33,CUST1373,Male,UPI,Jaipur,16180.07
+2025-08-30,Electronics,USB Cable,1,4718.28,46,CUST1030,Male,UPI,Mumbai,4718.28
+2025-08-30,Beauty,Sunscreen,5,1617.21,36,CUST1363,Male,Credit Card,Mumbai,8086.07
+2025-08-31,Clothing,T-Shirt,2,694.9,34,CUST1414,Male,UPI,Jaipur,1389.8
+2025-08-31,Clothing,Hoodie,1,1310.37,53,CUST1308,Male,Credit Card,Jaipur,1310.37
+2025-08-31,Clothing,Hoodie,2,1906.98,47,CUST1201,Female,UPI,Mumbai,3813.96
+2025-08-31,Groceries,Coffee,5,105.45,18,CUST1212,Male,Debit Card,Jaipur,527.24
+2025-08-31,Clothing,Jacket,1,2875.17,52,CUST1344,Male,UPI,Jaipur,2875.17
+2025-08-31,Sports,Cricket Bat,4,1935.8,48,CUST1359,Female,Credit Card,Delhi,7743.2
+2025-09-01,Sports,Cricket Bat,3,2402.66,20,CUST1379,Other,UPI,Delhi,7207.99
+2025-09-01,Home & Kitchen,Storage Box,2,2309.94,39,CUST1198,Male,UPI,Pune,4619.89
+2025-09-01,Electronics,Headphones,3,2098.53,65,CUST1398,Male,Debit Card,Jaipur,6295.59
+2025-09-02,Home & Kitchen,Water Bottle,2,2073.16,51,CUST1225,Male,Cash,Jaipur,4146.31
+2025-09-02,Electronics,Keyboard,3,2671.21,61,CUST1424,Male,Cash,Delhi,8013.62
+2025-09-02,Sports,Yoga Mat,5,2859.69,34,CUST1215,Female,UPI,Pune,14298.47
+2025-09-02,Groceries,Biscuits,6,732.36,26,CUST1361,Female,Credit Card,Pune,4394.13
+2025-09-02,Groceries,Cooking Oil,3,251.1,39,CUST1197,Female,Credit Card,Gurugram,753.3
+2025-09-02,Clothing,Jeans,1,1590.69,59,CUST1151,Male,Credit Card,Jaipur,1590.69
+2025-09-03,Sports,Cricket Bat,2,511.95,32,CUST1155,Female,Cash,Delhi,1023.91
+2025-09-03,Home & Kitchen,Storage Box,2,904.59,57,CUST1141,Other,UPI,Jaipur,1809.18
+2025-09-03,Beauty,Sunscreen,2,182.14,54,CUST1272,Female,Credit Card,Delhi,364.27
+2025-09-04,Groceries,Milk,6,448.75,53,CUST1232,Female,Cash,Delhi,2692.5
+2025-09-04,Home & Kitchen,Bedsheet,4,2034.78,27,CUST1212,Male,UPI,Jaipur,8139.12
+2025-09-04,Groceries,Coffee,1,693.2,57,CUST1419,Male,UPI,Jaipur,693.2
+2025-09-04,Groceries,Rice,2,435.51,45,CUST1168,Female,Credit Card,Delhi,871.02
+2025-09-05,Clothing,Jacket,1,2682.58,51,CUST1366,Male,UPI,Gurugram,2682.58
+2025-09-05,Clothing,Jeans,4,1228.74,52,CUST1440,Male,Debit Card,Gurugram,4914.98
+2025-09-05,Groceries,Cooking Oil,1,239.75,64,CUST1238,Male,Cash,Mumbai,239.75
+2025-09-05,Electronics,Mouse,5,2755.79,65,CUST1103,Other,Debit Card,Mumbai,13778.95
+2025-09-05,Beauty,Shampoo,6,242.19,22,CUST1314,Other,Credit Card,Pune,1453.13
+2025-09-05,Sports,Dumbbells,3,2770.13,20,CUST1373,Male,UPI,Gurugram,8310.38
+2025-09-06,Electronics,Keyboard,1,2527.4,24,CUST1310,Male,UPI,Delhi,2527.4
+2025-09-06,Groceries,Biscuits,6,747.97,44,CUST1019,Male,UPI,Mumbai,4487.8
+2025-09-07,Electronics,Mouse,3,3591.25,65,CUST1216,Male,Debit Card,Pune,10773.76
+2025-09-07,Sports,Football,2,1195.94,40,CUST1081,Male,Debit Card,Gurugram,2391.89
+2025-09-07,Sports,Dumbbells,2,1365.94,20,CUST1206,Male,UPI,Pune,2731.88
+2025-09-07,Sports,Yoga Mat,2,2462.09,48,CUST1445,Male,UPI,Mumbai,4924.18
+2025-09-08,Groceries,Milk,2,622.79,19,CUST1097,Male,UPI,Jaipur,1245.58
+2025-09-08,Beauty,Shampoo,1,1316.14,24,CUST1097,Female,UPI,Jaipur,1316.14
+2025-09-08,Clothing,Hoodie,5,1128.47,44,CUST1033,Male,Credit Card,Gurugram,5642.34
+2025-09-08,Groceries,Coffee,4,349.4,25,CUST1417,Female,UPI,Gurugram,1397.6
+2025-09-08,Groceries,Rice,6,309.32,51,CUST1312,Male,Credit Card,Pune,1855.91
+2025-09-09,Home & Kitchen,Storage Box,6,792.96,18,CUST1124,Female,UPI,Gurugram,4757.74
+2025-09-09,Home & Kitchen,Lamp,4,778.33,21,CUST1029,Female,Credit Card,Jaipur,3113.3
+2025-09-10,Clothing,Sneakers,6,546.23,22,CUST1147,Female,UPI,Delhi,3277.37
+2025-09-10,Home & Kitchen,Lamp,5,2227.64,31,CUST1190,Female,Cash,Jaipur,11138.21
+2025-09-11,Groceries,Milk,4,886.43,28,CUST1180,Male,UPI,Gurugram,3545.73
+2025-09-11,Home & Kitchen,Storage Box,4,702.91,41,CUST1133,Male,Cash,Gurugram,2811.64
+2025-09-12,Groceries,Milk,2,899.18,52,CUST1036,Male,Credit Card,Pune,1798.36
+2025-09-12,Home & Kitchen,Bedsheet,3,2135.31,56,CUST1151,Male,UPI,Gurugram,6405.93
+2025-09-12,Electronics,Keyboard,4,1284.3,52,CUST1381,Female,UPI,Mumbai,5137.19
+2025-09-12,Groceries,Cooking Oil,1,827.91,42,CUST1270,Male,Credit Card,Pune,827.91
+2025-09-12,Home & Kitchen,Lamp,4,903.39,27,CUST1163,Female,UPI,Delhi,3613.57
+2025-09-12,Clothing,T-Shirt,1,1618.65,37,CUST1038,Female,Cash,Jaipur,1618.65
+2025-09-13,Clothing,Jacket,6,2697.52,62,CUST1082,Female,UPI,Gurugram,16185.1
+2025-09-13,Groceries,Coffee,4,296.65,35,CUST1427,Male,Debit Card,Delhi,1186.58
+2025-09-13,Beauty,Moisturizer,1,861.48,31,CUST1187,Male,Credit Card,Pune,861.48
+2025-09-13,Groceries,Coffee,1,363.35,60,CUST1124,Female,Net Banking,Mumbai,363.35
+2025-09-13,Electronics,Headphones,1,4899.72,60,CUST1442,Other,Cash,Mumbai,4899.72
+2025-09-13,Groceries,Coffee,3,196.03,52,CUST1040,Female,Credit Card,Jaipur,588.09
+2025-09-14,Groceries,Cooking Oil,3,771.34,32,CUST1439,Female,UPI,Gurugram,2314.02
+2025-09-14,Clothing,Jacket,4,1950.58,29,CUST1111,Female,UPI,Pune,7802.32
+2025-09-14,Electronics,Keyboard,4,5349.38,18,CUST1031,Female,UPI,Jaipur,21397.53
+2025-09-15,Clothing,Sneakers,1,2535.01,43,CUST1191,Male,Debit Card,Jaipur,2535.01
+2025-09-15,Groceries,Coffee,4,86.35,50,CUST1315,Female,Credit Card,Jaipur,345.4
+2025-09-15,Groceries,Milk,6,892.64,49,CUST1313,Male,Credit Card,Pune,5355.81
+2025-09-16,Sports,Football,6,1077.0,42,CUST1368,Female,Credit Card,Delhi,6461.98
+2025-09-16,Groceries,Cooking Oil,5,146.82,27,CUST1121,Female,UPI,Delhi,734.08
+2025-09-16,Groceries,Biscuits,3,720.48,30,CUST1221,Female,Cash,Jaipur,2161.45
+2025-09-17,Beauty,Sunscreen,4,1020.01,59,CUST1291,Male,Cash,Gurugram,4080.03
+2025-09-17,Sports,Dumbbells,5,1870.81,30,CUST1032,Male,Credit Card,Pune,9354.06
+2025-09-17,Electronics,Power Bank,3,5523.78,44,CUST1418,Male,Debit Card,Mumbai,16571.34
+2025-09-18,Electronics,Headphones,6,5380.42,29,CUST1313,Female,UPI,Gurugram,32282.5
+2025-09-18,Clothing,Hoodie,6,427.82,23,CUST1097,Male,Credit Card,Jaipur,2566.95
+2025-09-19,Beauty,Shampoo,4,792.94,63,CUST1043,Female,UPI,Jaipur,3171.77
+2025-09-19,Clothing,T-Shirt,5,2877.4,44,CUST1244,Male,UPI,Pune,14386.98
+2025-09-19,Clothing,T-Shirt,2,2201.69,60,CUST1124,Male,UPI,Pune,4403.37
+2025-09-19,Groceries,Coffee,5,436.29,52,CUST1137,Female,UPI,Mumbai,2181.46
+2025-09-19,Electronics,Keyboard,5,4673.91,44,CUST1164,Male,Net Banking,Mumbai,23369.54
+2025-09-19,Clothing,T-Shirt,6,858.72,36,CUST1189,Male,UPI,Delhi,5152.34
+2025-09-20,Sports,Cricket Bat,4,2204.24,38,CUST1132,Male,Debit Card,Pune,8816.96
+2025-09-20,Beauty,Shampoo,3,1201.92,38,CUST1010,Male,Debit Card,Jaipur,3605.77
+2025-09-21,Home & Kitchen,Bedsheet,3,564.17,52,CUST1047,Other,Credit Card,Delhi,1692.52
+2025-09-21,Home & Kitchen,Cookware Set,2,1807.79,49,CUST1088,Male,Cash,Jaipur,3615.59
+2025-09-21,Home & Kitchen,Storage Box,4,1871.01,38,CUST1028,Female,UPI,Gurugram,7484.04
+2025-09-21,Groceries,Biscuits,1,755.76,43,CUST1013,Male,Cash,Pune,755.76
+2025-09-21,Electronics,Keyboard,4,643.31,47,CUST1426,Male,Debit Card,Jaipur,2573.25
+2025-09-21,Groceries,Biscuits,5,534.4,62,CUST1324,Male,Debit Card,Mumbai,2671.99
+2025-09-21,Beauty,Perfume,1,556.79,33,CUST1287,Female,Credit Card,Gurugram,556.79
+2025-09-22,Home & Kitchen,Lamp,4,2368.61,63,CUST1022,Male,UPI,Delhi,9474.43
+2025-09-22,Clothing,T-Shirt,5,2743.88,47,CUST1018,Male,Cash,Gurugram,13719.4
+2025-09-22,Clothing,T-Shirt,3,1905.63,21,CUST1020,Female,UPI,Jaipur,5716.89
+2025-09-22,Clothing,Hoodie,2,2783.69,56,CUST1230,Male,Debit Card,Delhi,5567.39
+2025-09-23,Clothing,Hoodie,5,934.66,56,CUST1314,Female,UPI,Delhi,4673.29
+2025-09-23,Beauty,Face Wash,3,1278.65,19,CUST1200,Female,UPI,Jaipur,3835.96
+2025-09-24,Electronics,Keyboard,4,3263.19,26,CUST1258,Male,Cash,Gurugram,13052.77
+2025-09-24,Clothing,Sneakers,6,1187.46,28,CUST1011,Male,UPI,Mumbai,7124.75
+2025-09-24,Beauty,Shampoo,5,605.69,28,CUST1274,Male,UPI,Jaipur,3028.43
+2025-09-24,Electronics,Keyboard,2,2304.87,45,CUST1329,Male,UPI,Jaipur,4609.75
+2025-09-24,Groceries,Milk,5,48.14,21,CUST1290,Female,Cash,Jaipur,240.7
+2025-09-25,Beauty,Moisturizer,2,1509.22,24,CUST1396,Male,UPI,Delhi,3018.43
+2025-09-25,Clothing,Jeans,3,3177.16,62,CUST1385,Female,Credit Card,Jaipur,9531.49
+2025-09-25,Beauty,Perfume,3,1002.78,56,CUST1204,Male,Cash,Mumbai,3008.33
+2025-09-26,Home & Kitchen,Bedsheet,1,1409.63,55,CUST1265,Male,Credit Card,Jaipur,1409.63
+2025-09-26,Clothing,T-Shirt,5,809.26,43,CUST1420,Female,UPI,Delhi,4046.32
+2025-09-26,Beauty,Moisturizer,2,1413.87,19,CUST1405,Male,Credit Card,Pune,2827.73
+2025-09-26,Clothing,Hoodie,1,2201.81,38,CUST1062,Female,UPI,Delhi,2201.81
+2025-09-26,Sports,Cricket Bat,3,2525.67,20,CUST1340,Female,Credit Card,Pune,7577.01
+2025-09-26,Beauty,Shampoo,4,369.66,65,CUST1364,Male,Credit Card,Delhi,1478.64
+2025-09-26,Home & Kitchen,Storage Box,3,1620.78,45,CUST1043,Male,Cash,Gurugram,4862.33
+2025-09-26,Beauty,Perfume,2,1137.92,26,CUST1250,Male,Debit Card,Gurugram,2275.84
+2025-09-26,Groceries,Rice,5,732.53,54,CUST1139,Female,UPI,Pune,3662.67
+2025-09-27,Clothing,Hoodie,4,611.58,55,CUST1430,Female,Cash,Pune,2446.33
+2025-09-27,Electronics,Mouse,4,2803.23,48,CUST1365,Male,Cash,Mumbai,11212.92
+2025-09-27,Home & Kitchen,Storage Box,5,1355.2,60,CUST1130,Male,UPI,Mumbai,6776.0
+2025-09-27,Home & Kitchen,Lamp,6,230.84,34,CUST1358,Male,UPI,Gurugram,1385.03
+2025-09-27,Clothing,Sneakers,5,1044.97,46,CUST1402,Female,Cash,Pune,5224.85
+2025-09-27,Clothing,Hoodie,2,1805.27,32,CUST1018,Female,Cash,Mumbai,3610.55
+2025-09-27,Electronics,Mouse,4,4184.91,47,CUST1422,Female,Credit Card,Pune,16739.64
+2025-09-27,Home & Kitchen,Cookware Set,3,574.72,18,CUST1300,Female,Credit Card,Delhi,1724.17
+2025-09-28,Clothing,T-Shirt,2,2225.14,24,CUST1305,Female,UPI,Delhi,4450.28
+2025-09-28,Beauty,Shampoo,2,1273.18,20,CUST1018,Female,UPI,Gurugram,2546.36
+2025-09-29,Beauty,Sunscreen,2,934.63,60,CUST1121,Female,UPI,Jaipur,1869.26
+2025-09-29,Clothing,T-Shirt,5,567.99,46,CUST1231,Female,Credit Card,Gurugram,2839.95
+2025-09-29,Home & Kitchen,Storage Box,4,2778.91,19,CUST1450,Female,UPI,Mumbai,11115.65
+2025-09-29,Clothing,Jeans,3,1722.9,31,CUST1120,Female,Credit Card,Mumbai,5168.71
+2025-09-29,Groceries,Cooking Oil,4,820.71,42,CUST1119,Female,Debit Card,Pune,3282.85
+2025-09-30,Sports,Football,5,3218.38,49,CUST1237,Male,UPI,Pune,16091.9
+2025-09-30,Home & Kitchen,Water Bottle,4,1265.8,19,CUST1041,Male,UPI,Mumbai,5063.18
+2025-09-30,Groceries,Coffee,1,186.22,19,CUST1367,Female,Credit Card,Gurugram,186.22
+2025-10-01,Home & Kitchen,Storage Box,3,1061.11,41,CUST1118,Male,Cash,Delhi,3183.34
+2025-10-01,Groceries,Cooking Oil,6,725.21,65,CUST1046,Male,UPI,Gurugram,4351.23
+2025-10-01,Clothing,T-Shirt,1,3038.44,46,CUST1198,Female,Credit Card,Mumbai,3038.44
+2025-10-01,Beauty,Sunscreen,6,636.98,27,CUST1210,Female,Cash,Gurugram,3821.91
+2025-10-02,Beauty,Perfume,2,822.64,34,CUST1432,Female,Debit Card,Jaipur,1645.29
+2025-10-02,Beauty,Moisturizer,3,1174.9,48,CUST1231,Other,UPI,Mumbai,3524.69
+2025-10-02,Electronics,Headphones,1,6361.84,31,CUST1226,Male,Debit Card,Delhi,6361.84
+2025-10-03,Electronics,Keyboard,5,2308.83,52,CUST1040,Male,UPI,Jaipur,11544.13
+2025-10-04,Electronics,USB Cable,1,5585.19,53,CUST1106,Female,Credit Card,Delhi,5585.19
+2025-10-04,Electronics,Mouse,1,4947.0,42,CUST1037,Female,Debit Card,Mumbai,4947.0
+2025-10-04,Beauty,Moisturizer,3,432.6,45,CUST1389,Male,UPI,Mumbai,1297.8
+2025-10-04,Beauty,Sunscreen,6,167.47,39,CUST1131,Female,Net Banking,Pune,1004.83
+2025-10-05,Home & Kitchen,Storage Box,6,2650.79,56,CUST1228,Female,Credit Card,Gurugram,15904.74
+2025-10-05,Groceries,Coffee,5,691.04,65,CUST1068,Female,UPI,Gurugram,3455.18
+2025-10-05,Electronics,Mouse,6,3043.4,32,CUST1159,Male,Cash,Pune,18260.41
+2025-10-05,Clothing,Sneakers,4,1719.98,39,CUST1285,Male,UPI,Gurugram,6879.92
+2025-10-06,Electronics,Power Bank,4,1463.14,60,CUST1028,Male,Credit Card,Jaipur,5852.54
+2025-10-06,Beauty,Shampoo,2,245.28,27,CUST1182,Female,Credit Card,Gurugram,490.57
+2025-10-06,Groceries,Coffee,3,772.52,20,CUST1258,Male,Cash,Gurugram,2317.56
+2025-10-06,Sports,Yoga Mat,5,2088.41,34,CUST1108,Female,UPI,Delhi,10442.06
+2025-10-06,Sports,Cricket Bat,3,3119.79,33,CUST1209,Male,Cash,Delhi,9359.37
+2025-10-07,Beauty,Shampoo,5,1541.17,65,CUST1301,Female,UPI,Pune,7705.85
+2025-10-07,Clothing,Jeans,6,900.53,33,CUST1253,Female,Cash,Jaipur,5403.19
+2025-10-07,Groceries,Cooking Oil,1,741.15,29,CUST1323,Female,UPI,Gurugram,741.15
+2025-10-07,Clothing,T-Shirt,2,1768.49,55,CUST1220,Female,Credit Card,Gurugram,3536.97
+2025-10-08,Electronics,Mouse,5,2316.98,60,CUST1396,Male,Credit Card,Jaipur,11584.88
+2025-10-08,Groceries,Cooking Oil,6,324.82,48,CUST1130,Male,Net Banking,Pune,1948.89
+2025-10-08,Sports,Skipping Rope,1,2618.07,40,CUST1111,Female,Debit Card,Delhi,2618.07
+2025-10-09,Home & Kitchen,Storage Box,5,1414.04,21,CUST1087,Female,UPI,Delhi,7070.2
+2025-10-09,Clothing,Sneakers,1,301.39,46,CUST1136,Male,UPI,Delhi,301.39
+2025-10-09,Clothing,Sneakers,5,2131.47,43,CUST1085,Female,UPI,Delhi,10657.35
+2025-10-09,Home & Kitchen,Cookware Set,5,432.2,24,CUST1445,Male,Cash,Gurugram,2160.99
+2025-10-09,Electronics,Power Bank,6,2294.73,47,CUST1318,Female,UPI,Gurugram,13768.37
+2025-10-09,Groceries,Coffee,5,297.27,63,CUST1198,Other,Net Banking,Pune,1486.35
+2025-10-09,Clothing,Hoodie,6,2153.92,42,CUST1195,Female,UPI,Jaipur,12923.52
+2025-10-10,Groceries,Cooking Oil,2,335.92,27,CUST1424,Male,Cash,Gurugram,671.83
+2025-10-10,Sports,Dumbbells,3,284.16,40,CUST1389,Male,UPI,Mumbai,852.49
+2025-10-10,Sports,Yoga Mat,3,715.03,27,CUST1200,Female,Credit Card,Jaipur,2145.08
+2025-10-10,Groceries,Rice,4,830.49,55,CUST1125,Female,Debit Card,Pune,3321.95
+2025-10-11,Beauty,Perfume,3,203.16,38,CUST1300,Female,Credit Card,Delhi,609.48
+2025-10-11,Clothing,Jeans,1,1548.74,19,CUST1439,Female,Debit Card,Gurugram,1548.74
+2025-10-11,Beauty,Perfume,5,1418.63,61,CUST1026,Male,Debit Card,Delhi,7093.17
+2025-10-11,Electronics,Power Bank,5,6479.17,55,CUST1238,Male,UPI,Gurugram,32395.84
+2025-10-11,Groceries,Milk,2,621.42,50,CUST1388,Male,Credit Card,Delhi,1242.84
+2025-10-12,Electronics,USB Cable,6,5223.41,48,CUST1366,Female,UPI,Delhi,31340.49
+2025-10-12,Groceries,Cooking Oil,4,316.96,31,CUST1317,Male,UPI,Mumbai,1267.83
+2025-10-12,Groceries,Rice,6,791.97,47,CUST1164,Female,Cash,Gurugram,4751.81
+2025-10-12,Clothing,Hoodie,2,1245.1,39,CUST1388,Male,Credit Card,Mumbai,2490.21
+2025-10-12,Electronics,Headphones,4,3360.3,42,CUST1015,Male,Net Banking,Gurugram,13441.19
+2025-10-12,Beauty,Face Wash,5,1460.57,60,CUST1347,Male,Cash,Mumbai,7302.83
+2025-10-12,Clothing,Sneakers,6,3054.21,28,CUST1447,Male,UPI,Jaipur,18325.26
+2025-10-12,Sports,Yoga Mat,2,286.02,35,CUST1070,Male,UPI,Jaipur,572.04
+2025-10-12,Electronics,Keyboard,5,3494.8,43,CUST1352,Female,UPI,Jaipur,17473.98
+2025-10-12,Electronics,USB Cable,3,3839.36,25,CUST1131,Female,Credit Card,Mumbai,11518.07
+2025-10-13,Groceries,Biscuits,1,253.36,24,CUST1133,Female,Cash,Mumbai,253.36
+2025-10-13,Clothing,Jacket,5,2270.36,34,CUST1370,Male,Cash,Jaipur,11351.78
+2025-10-13,Groceries,Milk,5,591.84,63,CUST1147,Female,UPI,Delhi,2959.18
+2025-10-13,Clothing,Sneakers,5,2234.24,35,CUST1257,Male,Net Banking,Jaipur,11171.21
+2025-10-13,Clothing,T-Shirt,1,2620.52,61,CUST1093,Male,Debit Card,Gurugram,2620.52
+2025-10-14,Beauty,Face Wash,3,580.35,50,CUST1388,Female,Credit Card,Mumbai,1741.04
+2025-10-14,Electronics,Headphones,4,1449.52,24,CUST1029,Female,UPI,Jaipur,5798.07
+2025-10-14,Home & Kitchen,Cookware Set,6,1604.5,18,CUST1260,Female,Credit Card,Pune,9627.0
+2025-10-14,Groceries,Coffee,3,308.74,37,CUST1413,Male,UPI,Pune,926.21
+2025-10-14,Electronics,Power Bank,2,6259.69,26,CUST1307,Female,Cash,Jaipur,12519.37
+2025-10-14,Sports,Dumbbells,1,2256.02,38,CUST1323,Male,UPI,Pune,2256.02
+2025-10-14,Beauty,Face Wash,1,628.67,48,CUST1018,Female,Debit Card,Mumbai,628.67
+2025-10-14,Clothing,T-Shirt,5,2741.85,33,CUST1429,Female,UPI,Mumbai,13709.23
+2025-10-15,Groceries,Milk,2,47.92,41,CUST1153,Female,UPI,Mumbai,95.84
+2025-10-15,Groceries,Rice,6,610.41,62,CUST1309,Male,UPI,Jaipur,3662.46
+2025-10-15,Clothing,Sneakers,6,1049.93,38,CUST1174,Male,UPI,Mumbai,6299.59
+2025-10-15,Electronics,Power Bank,1,1513.21,31,CUST1341,Other,Cash,Jaipur,1513.21
+2025-10-15,Electronics,Headphones,2,1536.37,64,CUST1369,Female,Cash,Delhi,3072.75
+2025-10-16,Clothing,Jeans,1,982.21,54,CUST1152,Male,Cash,Pune,982.21
+2025-10-17,Groceries,Cooking Oil,4,290.97,49,CUST1118,Female,Debit Card,Pune,1163.87
+2025-10-17,Clothing,Jacket,6,375.03,64,CUST1235,Male,UPI,Delhi,2250.2
+2025-10-17,Clothing,Sneakers,1,1124.5,31,CUST1326,Female,Cash,Mumbai,1124.5
+2025-10-17,Electronics,Keyboard,4,1743.07,32,CUST1430,Male,UPI,Delhi,6972.27
+2025-10-17,Groceries,Coffee,6,720.42,52,CUST1225,Male,UPI,Pune,4322.53
+2025-10-17,Sports,Cricket Bat,1,804.13,51,CUST1243,Female,Credit Card,Jaipur,804.13
+2025-10-18,Groceries,Rice,2,458.44,63,CUST1277,Male,Cash,Delhi,916.88
+2025-10-18,Groceries,Coffee,5,112.02,24,CUST1178,Female,UPI,Delhi,560.11
+2025-10-18,Electronics,Keyboard,3,4395.72,42,CUST1321,Female,Debit Card,Gurugram,13187.16
+2025-10-18,Electronics,Power Bank,1,5124.19,52,CUST1201,Female,Credit Card,Jaipur,5124.19
+2025-10-18,Clothing,Jeans,6,1057.03,40,CUST1388,Female,UPI,Mumbai,6342.16
+2025-10-18,Electronics,USB Cable,4,3288.7,47,CUST1118,Male,Debit Card,Jaipur,13154.8
+2025-10-19,Home & Kitchen,Cookware Set,4,258.21,50,CUST1117,Male,UPI,Delhi,1032.86
+2025-10-19,Groceries,Rice,5,839.66,53,CUST1245,Other,Credit Card,Delhi,4198.3
+2025-10-20,Beauty,Face Wash,4,1651.57,21,CUST1290,Female,UPI,Pune,6606.26
+2025-10-20,Groceries,Cooking Oil,6,109.94,58,CUST1088,Female,Net Banking,Gurugram,659.66
+2025-10-20,Home & Kitchen,Bedsheet,3,1585.0,24,CUST1428,Male,Credit Card,Delhi,4755.01
+2025-10-20,Groceries,Rice,4,182.16,18,CUST1443,Female,UPI,Jaipur,728.63
+2025-10-20,Beauty,Perfume,6,1729.41,28,CUST1388,Male,Cash,Jaipur,10376.45
+2025-10-20,Groceries,Milk,2,478.04,28,CUST1292,Female,Cash,Pune,956.08
+2025-10-20,Electronics,Power Bank,1,3929.92,51,CUST1316,Male,Credit Card,Gurugram,3929.92
+2025-10-20,Home & Kitchen,Bedsheet,2,1154.47,38,CUST1253,Male,Debit Card,Delhi,2308.95
+2025-10-21,Electronics,Mouse,3,1209.55,58,CUST1436,Male,UPI,Gurugram,3628.66
+2025-10-21,Sports,Football,1,2809.77,32,CUST1246,Female,Cash,Delhi,2809.77
+2025-10-21,Groceries,Rice,5,88.28,38,CUST1140,Male,UPI,Delhi,441.4
+2025-10-21,Sports,Football,1,988.9,21,CUST1083,Male,UPI,Pune,988.9
+2025-10-21,Groceries,Biscuits,4,523.2,65,CUST1329,Male,UPI,Mumbai,2092.8
+2025-10-21,Groceries,Cooking Oil,1,676.35,36,CUST1379,Female,UPI,Mumbai,676.35
+2025-10-21,Clothing,Hoodie,6,787.5,40,CUST1449,Female,UPI,Delhi,4724.99
+2025-10-22,Groceries,Biscuits,3,382.43,53,CUST1288,Other,UPI,Gurugram,1147.29
+2025-10-22,Groceries,Cooking Oil,3,216.02,29,CUST1371,Male,Debit Card,Pune,648.07
+2025-10-23,Groceries,Milk,4,773.2,35,CUST1275,Female,UPI,Delhi,3092.8
+2025-10-23,Clothing,Jeans,3,1611.56,53,CUST1188,Male,Cash,Pune,4834.67
+2025-10-23,Clothing,T-Shirt,5,2386.15,24,CUST1119,Female,Credit Card,Jaipur,11930.75
+2025-10-23,Home & Kitchen,Cookware Set,4,2506.52,22,CUST1031,Male,Net Banking,Gurugram,10026.08
+2025-10-23,Clothing,Hoodie,4,2321.82,46,CUST1260,Female,Cash,Delhi,9287.26
+2025-10-24,Groceries,Cooking Oil,3,358.59,29,CUST1264,Female,UPI,Delhi,1075.77
+2025-10-25,Electronics,Headphones,6,6095.31,22,CUST1447,Female,UPI,Mumbai,36571.86
+2025-10-25,Groceries,Milk,1,672.95,21,CUST1185,Female,Cash,Gurugram,672.95
+2025-10-26,Sports,Cricket Bat,1,1942.75,47,CUST1069,Male,UPI,Jaipur,1942.75
+2025-10-26,Sports,Dumbbells,3,462.05,30,CUST1079,Female,UPI,Mumbai,1386.16
+2025-10-27,Electronics,Mouse,5,3083.04,35,CUST1378,Male,Cash,Gurugram,15415.19
+2025-10-27,Groceries,Milk,5,789.27,35,CUST1297,Female,UPI,Jaipur,3946.36
+2025-10-27,Sports,Cricket Bat,6,1138.46,29,CUST1347,Male,Credit Card,Delhi,6830.78
+2025-10-27,Groceries,Coffee,5,775.95,18,CUST1351,Female,Debit Card,Gurugram,3879.77
+2025-10-27,Sports,Football,4,2111.35,42,CUST1096,Female,Debit Card,Mumbai,8445.42
+2025-10-28,Clothing,Jacket,2,1387.55,51,CUST1217,Male,UPI,Gurugram,2775.11
+2025-10-28,Electronics,Keyboard,3,5574.58,46,CUST1236,Male,UPI,Mumbai,16723.75
+2025-10-29,Beauty,Moisturizer,1,1179.87,47,CUST1262,Male,Net Banking,Delhi,1179.87
+2025-10-29,Electronics,Mouse,1,734.7,55,CUST1394,Female,UPI,Delhi,734.7
+2025-10-29,Home & Kitchen,Bedsheet,4,2034.33,47,CUST1227,Female,UPI,Delhi,8137.34
+2025-10-29,Clothing,Hoodie,2,1859.25,39,CUST1213,Female,UPI,Gurugram,3718.49
+2025-10-29,Clothing,Sneakers,4,793.31,48,CUST1361,Male,UPI,Pune,3173.22
+2025-10-29,Groceries,Milk,3,671.26,64,CUST1304,Female,Credit Card,Pune,2013.79
+2025-10-30,Sports,Yoga Mat,5,187.53,38,CUST1161,Female,Debit Card,Mumbai,937.66
+2025-10-30,Home & Kitchen,Storage Box,5,2253.13,28,CUST1095,Male,Debit Card,Pune,11265.67
+2025-10-30,Electronics,Mouse,2,1775.74,59,CUST1395,Female,Net Banking,Jaipur,3551.49
+2025-10-30,Groceries,Milk,5,145.22,18,CUST1057,Female,UPI,Gurugram,726.12
+2025-10-31,Clothing,Jeans,3,2513.66,63,CUST1147,Female,Credit Card,Jaipur,7540.97
+2025-10-31,Sports,Skipping Rope,2,3480.66,61,CUST1273,Male,UPI,Jaipur,6961.32
+2025-10-31,Groceries,Biscuits,1,872.97,31,CUST1140,Male,UPI,Jaipur,872.97
+2025-10-31,Groceries,Milk,3,604.82,44,CUST1167,Male,UPI,Delhi,1814.47
+2025-10-31,Electronics,Keyboard,1,5093.17,41,CUST1097,Other,Net Banking,Gurugram,5093.17
+2025-11-01,Groceries,Biscuits,1,595.71,20,CUST1350,Other,Cash,Jaipur,595.71
+2025-11-01,Clothing,Sneakers,3,2011.66,20,CUST1228,Male,Credit Card,Jaipur,6034.98
+2025-11-01,Home & Kitchen,Storage Box,6,771.07,44,CUST1304,Male,Debit Card,Mumbai,4626.43
+2025-11-02,Home & Kitchen,Cookware Set,6,160.24,52,CUST1056,Other,Debit Card,Delhi,961.44
+2025-11-02,Clothing,Hoodie,1,676.37,19,CUST1281,Female,Credit Card,Jaipur,676.37
+2025-11-02,Clothing,T-Shirt,5,1755.69,38,CUST1068,Female,UPI,Gurugram,8778.44
+2025-11-02,Clothing,Sneakers,6,671.43,64,CUST1178,Male,Debit Card,Delhi,4028.55
+2025-11-02,Electronics,Power Bank,3,5554.18,58,CUST1086,Female,UPI,Pune,16662.54
+2025-11-03,Beauty,Moisturizer,1,446.68,38,CUST1335,Male,Net Banking,Pune,446.68
+2025-11-03,Groceries,Cooking Oil,2,648.83,45,CUST1397,Female,UPI,Jaipur,1297.66
+2025-11-03,Electronics,USB Cable,3,2559.19,34,CUST1124,Female,UPI,Gurugram,7677.58
+2025-11-03,Groceries,Rice,6,428.11,58,CUST1366,Male,UPI,Gurugram,2568.66
+2025-11-03,Groceries,Cooking Oil,5,227.74,50,CUST1235,Male,Cash,Mumbai,1138.7
+2025-11-03,Clothing,Hoodie,5,2494.82,44,CUST1422,Female,Credit Card,Mumbai,12474.12
+2025-11-04,Sports,Cricket Bat,2,3056.58,34,CUST1105,Female,Debit Card,Mumbai,6113.15
+2025-11-04,Clothing,T-Shirt,5,1885.85,50,CUST1378,Female,Credit Card,Jaipur,9429.23
+2025-11-04,Electronics,Mouse,4,4486.9,55,CUST1426,Other,Debit Card,Pune,17947.59
+2025-11-04,Groceries,Coffee,2,255.38,33,CUST1336,Female,UPI,Gurugram,510.75
+2025-11-04,Home & Kitchen,Bedsheet,3,2639.31,25,CUST1017,Male,UPI,Jaipur,7917.94
+2025-11-04,Groceries,Rice,1,722.46,28,CUST1377,Male,UPI,Mumbai,722.46
+2025-11-05,Beauty,Face Wash,6,1545.3,36,CUST1435,Male,UPI,Delhi,9271.78
+2025-11-05,Home & Kitchen,Cookware Set,6,866.93,29,CUST1372,Male,Credit Card,Mumbai,5201.58
+2025-11-05,Groceries,Cooking Oil,2,513.69,23,CUST1316,Female,UPI,Delhi,1027.38
+2025-11-05,Sports,Yoga Mat,3,3047.28,42,CUST1110,Female,Cash,Pune,9141.84
+2025-11-05,Clothing,Jeans,6,2490.19,42,CUST1101,Male,Cash,Jaipur,14941.13
+2025-11-06,Sports,Skipping Rope,4,2595.24,48,CUST1318,Male,UPI,Gurugram,10380.95
+2025-11-06,Groceries,Coffee,5,138.31,39,CUST1312,Female,UPI,Jaipur,691.55
+2025-11-06,Home & Kitchen,Water Bottle,5,1810.64,21,CUST1076,Female,Credit Card,Delhi,9053.18
+2025-11-07,Clothing,Sneakers,6,2357.03,25,CUST1146,Female,UPI,Pune,14142.18
+2025-11-07,Groceries,Coffee,2,721.64,32,CUST1189,Male,UPI,Delhi,1443.27
+2025-11-07,Beauty,Moisturizer,4,1655.89,32,CUST1232,Female,Credit Card,Jaipur,6623.55
+2025-11-07,Groceries,Cooking Oil,2,718.74,46,CUST1101,Female,Cash,Pune,1437.48
+2025-11-07,Electronics,Mouse,5,6342.37,52,CUST1404,Male,Credit Card,Delhi,31711.86
+2025-11-07,Clothing,T-Shirt,3,1073.83,24,CUST1374,Male,Debit Card,Mumbai,3221.5
+2025-11-07,Beauty,Moisturizer,6,627.3,55,CUST1153,Female,UPI,Delhi,3763.78
+2025-11-07,Groceries,Cooking Oil,4,443.4,55,CUST1369,Female,UPI,Mumbai,1773.62
+2025-11-07,Groceries,Coffee,3,248.49,34,CUST1313,Male,Cash,Mumbai,745.48
+2025-11-08,Clothing,Hoodie,5,1344.5,54,CUST1072,Male,UPI,Pune,6722.48
+2025-11-08,Beauty,Sunscreen,3,679.64,58,CUST1098,Female,Debit Card,Delhi,2038.93
+2025-11-08,Sports,Yoga Mat,3,1923.6,64,CUST1103,Male,Net Banking,Jaipur,5770.81
+2025-11-08,Electronics,Mouse,1,5703.35,44,CUST1433,Male,UPI,Gurugram,5703.35
+2025-11-08,Groceries,Milk,3,405.32,55,CUST1192,Other,Debit Card,Gurugram,1215.95
+2025-11-08,Groceries,Cooking Oil,3,886.87,23,CUST1329,Female,UPI,Mumbai,2660.62
+2025-11-08,Home & Kitchen,Cookware Set,2,1946.63,43,CUST1359,Female,Net Banking,Jaipur,3893.25
+2025-11-09,Electronics,Mouse,3,5656.88,54,CUST1014,Male,Cash,Pune,16970.63
+2025-11-09,Home & Kitchen,Lamp,4,1111.06,18,CUST1399,Male,Credit Card,Jaipur,4444.25
+2025-11-09,Sports,Dumbbells,3,2293.33,19,CUST1391,Other,Credit Card,Gurugram,6880.0
+2025-11-09,Clothing,Hoodie,5,2145.57,45,CUST1285,Male,Credit Card,Pune,10727.84
+2025-11-09,Clothing,Jacket,2,2003.39,64,CUST1135,Female,Cash,Gurugram,4006.79
+2025-11-10,Groceries,Milk,1,886.72,35,CUST1331,Male,Cash,Pune,886.72
+2025-11-10,Clothing,T-Shirt,3,2601.17,29,CUST1119,Female,Credit Card,Mumbai,7803.51
+2025-11-10,Electronics,USB Cable,6,2383.67,44,CUST1023,Male,Cash,Mumbai,14302.02
+2025-11-10,Sports,Dumbbells,3,626.8,30,CUST1061,Female,Credit Card,Mumbai,1880.41
+2025-11-10,Clothing,Sneakers,4,2259.61,20,CUST1444,Male,Credit Card,Mumbai,9038.44
+2025-11-11,Beauty,Moisturizer,5,807.15,62,CUST1374,Male,Debit Card,Delhi,4035.75
+2025-11-11,Home & Kitchen,Storage Box,2,1562.96,59,CUST1326,Male,Net Banking,Gurugram,3125.93
+2025-11-11,Groceries,Milk,1,216.59,27,CUST1044,Female,Debit Card,Mumbai,216.59
+2025-11-12,Home & Kitchen,Cookware Set,2,1022.36,58,CUST1112,Female,UPI,Pune,2044.73
+2025-11-12,Clothing,Jacket,2,2048.68,35,CUST1149,Female,UPI,Gurugram,4097.36
+2025-11-12,Beauty,Moisturizer,4,1575.87,58,CUST1050,Male,Credit Card,Pune,6303.5
+2025-11-13,Clothing,Jacket,3,860.01,33,CUST1191,Female,Cash,Pune,2580.03
+2025-11-13,Sports,Yoga Mat,4,2167.54,55,CUST1032,Male,Credit Card,Jaipur,8670.14
+2025-11-13,Clothing,T-Shirt,5,2063.68,26,CUST1096,Male,UPI,Pune,10318.4
+2025-11-13,Groceries,Rice,5,260.17,36,CUST1005,Male,UPI,Gurugram,1300.87
+2025-11-14,Home & Kitchen,Lamp,6,2530.32,39,CUST1176,Male,Net Banking,Jaipur,15181.95
+2025-11-15,Beauty,Moisturizer,4,1551.8,28,CUST1359,Male,Net Banking,Jaipur,6207.19
+2025-11-16,Home & Kitchen,Lamp,3,2261.24,51,CUST1149,Male,UPI,Pune,6783.71
+2025-11-16,Home & Kitchen,Cookware Set,5,611.59,45,CUST1313,Male,UPI,Delhi,3057.96
+2025-11-16,Electronics,Headphones,2,2195.14,18,CUST1438,Female,Cash,Gurugram,4390.29
+2025-11-16,Electronics,Keyboard,1,3450.26,25,CUST1424,Male,Debit Card,Gurugram,3450.26
+2025-11-17,Electronics,USB Cable,1,5739.89,58,CUST1048,Male,UPI,Pune,5739.89
+2025-11-17,Home & Kitchen,Cookware Set,6,2060.43,23,CUST1079,Male,UPI,Gurugram,12362.6
+2025-11-17,Groceries,Cooking Oil,4,726.28,45,CUST1320,Female,UPI,Delhi,2905.11
+2025-11-18,Sports,Football,1,2526.56,20,CUST1328,Female,Credit Card,Delhi,2526.56
+2025-11-18,Beauty,Face Wash,3,180.81,51,CUST1420,Male,UPI,Delhi,542.42
+2025-11-18,Groceries,Milk,4,236.12,32,CUST1101,Male,Debit Card,Mumbai,944.49
+2025-11-19,Beauty,Shampoo,2,563.95,18,CUST1007,Male,Cash,Gurugram,1127.9
+2025-11-20,Beauty,Face Wash,5,961.4,34,CUST1307,Female,UPI,Mumbai,4807.02
+2025-11-20,Electronics,USB Cable,6,2061.91,46,CUST1064,Male,Cash,Mumbai,12371.46
+2025-11-20,Beauty,Shampoo,3,1661.13,19,CUST1405,Female,Debit Card,Delhi,4983.4
+2025-11-20,Clothing,Sneakers,3,803.13,19,CUST1026,Male,Debit Card,Jaipur,2409.38
+2025-11-21,Electronics,Keyboard,1,5980.3,18,CUST1145,Female,Credit Card,Pune,5980.3
+2025-11-21,Groceries,Biscuits,1,36.93,50,CUST1230,Male,UPI,Gurugram,36.93
+2025-11-22,Sports,Yoga Mat,4,2877.28,52,CUST1044,Female,UPI,Pune,11509.12
+2025-11-22,Sports,Football,6,804.53,44,CUST1246,Female,Credit Card,Mumbai,4827.15
+2025-11-22,Groceries,Rice,1,257.9,26,CUST1423,Male,Net Banking,Pune,257.9
+2025-11-22,Home & Kitchen,Cookware Set,4,2210.84,27,CUST1049,Male,Debit Card,Pune,8843.35
+2025-11-22,Home & Kitchen,Storage Box,5,2015.92,44,CUST1369,Female,Credit Card,Jaipur,10079.58
+2025-11-23,Clothing,Sneakers,3,1039.3,52,CUST1268,Male,Debit Card,Mumbai,3117.89
+2025-11-23,Sports,Yoga Mat,1,1228.01,34,CUST1003,Male,Cash,Mumbai,1228.01
+2025-11-23,Clothing,Jeans,5,1231.38,54,CUST1266,Female,Cash,Pune,6156.92
+2025-11-24,Groceries,Rice,4,141.41,28,CUST1317,Male,UPI,Gurugram,565.63
+2025-11-24,Clothing,Jeans,6,314.72,43,CUST1018,Male,Debit Card,Jaipur,1888.34
+2025-11-24,Clothing,Jacket,4,415.32,45,CUST1208,Female,UPI,Gurugram,1661.26
+2025-11-24,Home & Kitchen,Water Bottle,6,2479.36,32,CUST1252,Female,UPI,Delhi,14876.16
+2025-11-24,Groceries,Milk,2,733.44,35,CUST1301,Male,Debit Card,Gurugram,1466.88
+2025-11-24,Groceries,Coffee,1,366.94,45,CUST1446,Female,Cash,Mumbai,366.94
+2025-11-25,Electronics,Mouse,5,5831.58,24,CUST1005,Male,Cash,Delhi,29157.89
+2025-11-26,Beauty,Perfume,5,239.26,28,CUST1072,Male,UPI,Mumbai,1196.28
+2025-11-26,Sports,Yoga Mat,6,667.33,60,CUST1095,Female,Debit Card,Mumbai,4003.95
+2025-11-26,Electronics,Mouse,4,5552.63,35,CUST1218,Male,Credit Card,Jaipur,22210.53
+2025-11-26,Clothing,T-Shirt,5,1065.8,58,CUST1009,Male,UPI,Jaipur,5328.98
+2025-11-26,Clothing,T-Shirt,4,1940.36,37,CUST1218,Male,Net Banking,Pune,7761.43
+2025-11-26,Home & Kitchen,Bedsheet,3,687.21,28,CUST1060,Male,UPI,Pune,2061.64
+2025-11-27,Clothing,Jacket,5,643.96,54,CUST1039,Male,UPI,Jaipur,3219.79
+2025-11-27,Electronics,USB Cable,4,1252.11,27,CUST1275,Female,Cash,Jaipur,5008.45
+2025-11-28,Electronics,USB Cable,5,1216.78,21,CUST1225,Male,UPI,Delhi,6083.89
+2025-11-28,Sports,Dumbbells,6,1518.91,31,CUST1202,Female,Credit Card,Pune,9113.47
+2025-11-28,Beauty,Sunscreen,5,406.94,42,CUST1167,Male,Credit Card,Mumbai,2034.72
+2025-11-28,Groceries,Coffee,6,350.54,53,CUST1224,Male,Credit Card,Gurugram,2103.24
+2025-11-28,Electronics,Mouse,4,958.95,58,CUST1219,Male,Credit Card,Gurugram,3835.79
+2025-11-28,Groceries,Biscuits,2,148.25,20,CUST1327,Male,Credit Card,Pune,296.49
+2025-11-29,Electronics,Headphones,3,4483.47,36,CUST1036,Male,Cash,Delhi,13450.4
+2025-11-30,Clothing,T-Shirt,2,1749.7,63,CUST1012,Male,Debit Card,Pune,3499.39
+2025-12-01,Home & Kitchen,Storage Box,1,2589.06,37,CUST1446,Male,UPI,Delhi,2589.06
+2025-12-01,Clothing,Hoodie,6,2255.64,51,CUST1196,Male,Cash,Gurugram,13533.85
+2025-12-01,Groceries,Milk,5,247.53,56,CUST1104,Male,Net Banking,Gurugram,1237.65
+2025-12-01,Groceries,Cooking Oil,2,408.09,57,CUST1186,Female,Cash,Delhi,816.18
+2025-12-01,Home & Kitchen,Cookware Set,3,2584.81,64,CUST1364,Male,UPI,Jaipur,7754.44
+2025-12-01,Electronics,Headphones,3,5899.5,60,CUST1329,Male,Credit Card,Pune,17698.5
+2025-12-02,Electronics,Mouse,2,6262.23,65,CUST1434,Male,UPI,Gurugram,12524.46
+2025-12-02,Clothing,Hoodie,3,3184.98,19,CUST1251,Female,Debit Card,Mumbai,9554.95
+2025-12-02,Groceries,Biscuits,6,436.11,23,CUST1196,Male,UPI,Delhi,2616.66
+2025-12-02,Beauty,Perfume,6,1766.63,52,CUST1399,Male,Cash,Delhi,10599.78
+2025-12-02,Groceries,Coffee,5,75.49,43,CUST1215,Other,UPI,Pune,377.43
+2025-12-02,Electronics,Keyboard,1,801.05,50,CUST1429,Female,Credit Card,Gurugram,801.05
+2025-12-03,Electronics,Headphones,2,6078.0,61,CUST1157,Male,Credit Card,Mumbai,12156.0
+2025-12-03,Groceries,Rice,3,104.87,52,CUST1448,Female,UPI,Gurugram,314.6
+2025-12-03,Clothing,Jeans,5,2712.98,61,CUST1370,Male,UPI,Delhi,13564.9
+2025-12-03,Beauty,Face Wash,4,271.04,49,CUST1242,Male,UPI,Delhi,1084.18
+2025-12-04,Groceries,Rice,1,456.29,26,CUST1343,Male,Net Banking,Jaipur,456.29
+2025-12-04,Groceries,Biscuits,6,646.42,32,CUST1449,Male,Cash,Jaipur,3878.5
+2025-12-04,Home & Kitchen,Water Bottle,1,813.5,53,CUST1388,Female,UPI,Mumbai,813.5
+2025-12-04,Home & Kitchen,Water Bottle,3,1338.87,25,CUST1104,Female,UPI,Delhi,4016.6
+2025-12-04,Clothing,T-Shirt,3,1688.34,19,CUST1223,Female,Debit Card,Gurugram,5065.03
+2025-12-04,Beauty,Moisturizer,2,1254.07,22,CUST1180,Male,Debit Card,Gurugram,2508.13
+2025-12-04,Sports,Dumbbells,6,2383.92,45,CUST1204,Female,UPI,Mumbai,14303.55
+2025-12-05,Clothing,Sneakers,3,2637.18,22,CUST1118,Other,Cash,Jaipur,7911.54
+2025-12-05,Groceries,Milk,1,259.42,20,CUST1004,Female,Debit Card,Gurugram,259.42
+2025-12-05,Clothing,Jacket,4,3095.83,46,CUST1080,Male,Cash,Jaipur,12383.3
+2025-12-05,Groceries,Rice,6,896.77,60,CUST1441,Male,UPI,Pune,5380.62
+2025-12-05,Home & Kitchen,Lamp,5,1461.35,51,CUST1411,Female,Debit Card,Mumbai,7306.74
+2025-12-05,Groceries,Cooking Oil,5,760.15,61,CUST1254,Female,Debit Card,Delhi,3800.75
+2025-12-06,Groceries,Rice,1,807.77,50,CUST1282,Female,Credit Card,Delhi,807.77
+2025-12-06,Clothing,Sneakers,5,3037.39,25,CUST1034,Female,Cash,Jaipur,15186.96
+2025-12-06,Electronics,Power Bank,5,3245.65,49,CUST1028,Male,Cash,Gurugram,16228.27
+2025-12-07,Clothing,Hoodie,3,2182.04,37,CUST1224,Male,UPI,Pune,6546.13
+2025-12-07,Home & Kitchen,Lamp,5,953.74,30,CUST1447,Female,Credit Card,Pune,4768.72
+2025-12-07,Clothing,Hoodie,2,344.2,27,CUST1035,Male,UPI,Delhi,688.4
+2025-12-08,Beauty,Sunscreen,2,1035.38,65,CUST1434,Male,UPI,Mumbai,2070.77
+2025-12-08,Groceries,Milk,6,794.46,57,CUST1366,Female,UPI,Pune,4766.77
+2025-12-08,Clothing,Jacket,3,2179.12,41,CUST1076,Male,Credit Card,Gurugram,6537.36
+2025-12-08,Clothing,Jacket,5,1982.76,21,CUST1446,Male,Cash,Gurugram,9913.8
+2025-12-08,Home & Kitchen,Bedsheet,4,2093.75,35,CUST1135,Male,UPI,Mumbai,8375.0
+2025-12-08,Electronics,Keyboard,1,2137.68,31,CUST1005,Female,UPI,Delhi,2137.68
+2025-12-08,Groceries,Coffee,2,130.8,21,CUST1342,Male,Cash,Mumbai,261.6
+2025-12-09,Home & Kitchen,Bedsheet,1,233.69,24,CUST1208,Male,Debit Card,Mumbai,233.69
+2025-12-09,Groceries,Cooking Oil,3,833.67,54,CUST1130,Female,UPI,Pune,2501.0
+2025-12-09,Groceries,Milk,2,447.81,55,CUST1162,Male,UPI,Jaipur,895.61
+2025-12-09,Home & Kitchen,Water Bottle,3,2528.5,32,CUST1020,Male,UPI,Jaipur,7585.51
+2025-12-10,Groceries,Biscuits,5,679.16,41,CUST1263,Male,Net Banking,Mumbai,3395.79
+2025-12-10,Beauty,Face Wash,1,1523.89,57,CUST1306,Male,UPI,Gurugram,1523.89
+2025-12-10,Sports,Skipping Rope,3,1463.63,56,CUST1264,Male,UPI,Delhi,4390.9
+2025-12-12,Beauty,Sunscreen,3,1123.15,38,CUST1372,Male,Debit Card,Gurugram,3369.45
+2025-12-12,Home & Kitchen,Lamp,5,990.71,48,CUST1011,Male,Cash,Pune,4953.54
+2025-12-12,Electronics,Mouse,1,1078.41,39,CUST1430,Male,UPI,Mumbai,1078.41
+2025-12-12,Home & Kitchen,Bedsheet,5,2136.79,56,CUST1399,Male,Debit Card,Jaipur,10683.94
+2025-12-13,Home & Kitchen,Storage Box,4,1248.55,56,CUST1407,Female,UPI,Mumbai,4994.21
+2025-12-13,Clothing,Jacket,1,3159.53,35,CUST1270,Female,Net Banking,Mumbai,3159.53
+2025-12-13,Groceries,Milk,1,58.3,19,CUST1250,Other,Net Banking,Pune,58.3
+2025-12-13,Home & Kitchen,Lamp,3,1666.23,60,CUST1231,Female,UPI,Jaipur,4998.7
+2025-12-13,Clothing,Jacket,1,1993.37,32,CUST1021,Female,Credit Card,Mumbai,1993.37
+2025-12-14,Beauty,Perfume,5,886.61,57,CUST1053,Male,UPI,Mumbai,4433.04
+2025-12-14,Beauty,Face Wash,5,1082.7,36,CUST1222,Male,Credit Card,Gurugram,5413.51
+2025-12-14,Groceries,Biscuits,5,325.97,25,CUST1236,Male,Cash,Jaipur,1629.85
+2025-12-14,Groceries,Biscuits,1,284.19,45,CUST1230,Female,UPI,Gurugram,284.19
+2025-12-14,Electronics,Power Bank,3,2926.22,57,CUST1421,Female,Credit Card,Jaipur,8778.65
+2025-12-15,Home & Kitchen,Lamp,5,904.07,33,CUST1078,Female,UPI,Pune,4520.33
+2025-12-15,Home & Kitchen,Water Bottle,6,2781.71,26,CUST1190,Female,Debit Card,Jaipur,16690.27
+2025-12-15,Electronics,Headphones,5,2856.58,60,CUST1242,Male,Cash,Jaipur,14282.9
+2025-12-16,Clothing,Jeans,3,3098.85,39,CUST1312,Female,Credit Card,Pune,9296.56
+2025-12-16,Electronics,USB Cable,1,5958.96,61,CUST1427,Female,Debit Card,Pune,5958.96
+2025-12-16,Beauty,Sunscreen,4,608.07,51,CUST1232,Female,Net Banking,Gurugram,2432.29
+2025-12-16,Groceries,Milk,5,624.59,23,CUST1075,Female,Net Banking,Mumbai,3122.97
+2025-12-17,Groceries,Cooking Oil,5,699.95,21,CUST1027,Male,Credit Card,Mumbai,3499.76
+2025-12-17,Beauty,Shampoo,2,1071.15,32,CUST1126,Male,Debit Card,Jaipur,2142.3
+2025-12-17,Clothing,Hoodie,1,1578.57,51,CUST1187,Female,UPI,Gurugram,1578.57
+2025-12-17,Groceries,Cooking Oil,3,718.85,33,CUST1408,Male,Credit Card,Mumbai,2156.55
+2025-12-17,Groceries,Milk,2,238.84,34,CUST1005,Male,UPI,Gurugram,477.69
+2025-12-17,Electronics,Headphones,5,3310.66,28,CUST1068,Male,UPI,Delhi,16553.31
+2025-12-17,Electronics,USB Cable,1,1201.51,39,CUST1023,Female,UPI,Jaipur,1201.51
+2025-12-17,Home & Kitchen,Cookware Set,1,2445.35,33,CUST1011,Female,Cash,Delhi,2445.35
+2025-12-17,Beauty,Moisturizer,6,416.16,25,CUST1099,Male,Credit Card,Jaipur,2496.96
+2025-12-18,Groceries,Cooking Oil,3,437.18,29,CUST1192,Male,UPI,Delhi,1311.54
+2025-12-18,Clothing,Jeans,6,2386.81,61,CUST1418,Female,Net Banking,Mumbai,14320.89
+2025-12-18,Home & Kitchen,Lamp,6,2470.99,20,CUST1325,Female,UPI,Mumbai,14825.94
+2025-12-18,Home & Kitchen,Storage Box,3,1002.2,52,CUST1039,Male,UPI,Jaipur,3006.59
+2025-12-18,Electronics,Mouse,4,3676.65,49,CUST1113,Male,UPI,Delhi,14706.6
+2025-12-18,Home & Kitchen,Lamp,3,2393.21,63,CUST1257,Male,Debit Card,Mumbai,7179.64
+2025-12-18,Electronics,Keyboard,2,1215.72,53,CUST1317,Male,UPI,Mumbai,2431.44
+2025-12-18,Sports,Skipping Rope,3,263.13,39,CUST1432,Male,UPI,Gurugram,789.39
+2025-12-18,Sports,Skipping Rope,1,3038.6,54,CUST1225,Male,Credit Card,Delhi,3038.6
+2025-12-19,Beauty,Sunscreen,3,1446.92,41,CUST1225,Male,Debit Card,Mumbai,4340.75
+2025-12-19,Clothing,Sneakers,3,687.41,58,CUST1134,Male,Credit Card,Gurugram,2062.24
+2025-12-20,Groceries,Milk,2,743.78,53,CUST1368,Female,UPI,Jaipur,1487.56
+2025-12-20,Electronics,Keyboard,4,3341.25,23,CUST1429,Female,UPI,Delhi,13365.01
+2025-12-20,Sports,Football,5,3288.97,27,CUST1407,Male,Cash,Delhi,16444.85
+2025-12-20,Beauty,Perfume,6,1597.25,34,CUST1204,Male,Debit Card,Pune,9583.47
+2025-12-20,Electronics,Power Bank,5,4326.61,57,CUST1154,Male,Cash,Jaipur,21633.05
+2025-12-20,Electronics,USB Cable,4,5142.74,47,CUST1277,Female,Credit Card,Jaipur,20570.95
+2025-12-20,Home & Kitchen,Storage Box,5,160.45,19,CUST1167,Male,Credit Card,Jaipur,802.25
+2025-12-21,Sports,Cricket Bat,6,242.71,59,CUST1006,Female,Credit Card,Jaipur,1456.28
+2025-12-21,Groceries,Cooking Oil,2,550.14,18,CUST1046,Male,Debit Card,Pune,1100.28
+2025-12-21,Clothing,Jacket,5,2344.68,48,CUST1436,Other,UPI,Delhi,11723.38
+2025-12-21,Home & Kitchen,Storage Box,6,202.38,33,CUST1363,Female,Cash,Jaipur,1214.29
+2025-12-22,Sports,Cricket Bat,3,1901.59,52,CUST1314,Male,Credit Card,Mumbai,5704.77
+2025-12-22,Home & Kitchen,Lamp,3,2131.64,18,CUST1207,Male,Credit Card,Delhi,6394.93
+2025-12-22,Home & Kitchen,Cookware Set,2,1779.81,18,CUST1401,Female,Debit Card,Gurugram,3559.63
+2025-12-23,Home & Kitchen,Bedsheet,1,1606.05,59,CUST1129,Female,UPI,Jaipur,1606.05
+2025-12-23,Beauty,Sunscreen,4,111.95,40,CUST1085,Female,Credit Card,Mumbai,447.81
+2025-12-23,Clothing,Hoodie,6,2224.16,58,CUST1086,Female,UPI,Jaipur,13344.99
+2025-12-24,Home & Kitchen,Lamp,6,1427.35,20,CUST1168,Female,Cash,Jaipur,8564.11
+2025-12-24,Clothing,Jacket,6,2785.62,28,CUST1324,Other,Cash,Jaipur,16713.7
+2025-12-24,Clothing,Jeans,5,3032.13,60,CUST1160,Male,Credit Card,Gurugram,15160.63
+2025-12-24,Groceries,Rice,5,773.76,24,CUST1263,Male,Credit Card,Pune,3868.79
+2025-12-24,Home & Kitchen,Storage Box,2,1889.51,27,CUST1338,Male,Debit Card,Mumbai,3779.01
+2025-12-25,Electronics,Power Bank,6,1480.56,62,CUST1009,Male,UPI,Mumbai,8883.38
+2025-12-25,Electronics,Power Bank,4,5143.16,25,CUST1095,Female,Cash,Delhi,20572.63
+2025-12-26,Groceries,Rice,1,708.65,46,CUST1308,Female,Cash,Pune,708.65
+2025-12-26,Electronics,Power Bank,4,574.7,41,CUST1402,Female,Net Banking,Gurugram,2298.81
+2025-12-26,Home & Kitchen,Cookware Set,4,1987.83,42,CUST1001,Male,Debit Card,Gurugram,7951.31
+2025-12-26,Sports,Skipping Rope,1,1334.15,24,CUST1429,Male,Credit Card,Delhi,1334.15
+2025-12-26,Clothing,Hoodie,3,1366.34,50,CUST1405,Male,Debit Card,Jaipur,4099.03
+2025-12-26,Electronics,Headphones,3,553.6,43,CUST1274,Female,Debit Card,Delhi,1660.81
+2025-12-27,Home & Kitchen,Lamp,5,2619.33,40,CUST1308,Male,Credit Card,Gurugram,13096.67
+2025-12-28,Electronics,Power Bank,5,3963.1,40,CUST1111,Female,UPI,Delhi,19815.5
+2025-12-28,Groceries,Cooking Oil,3,605.32,64,CUST1307,Female,Credit Card,Gurugram,1815.96
+2025-12-28,Beauty,Shampoo,4,441.85,51,CUST1035,Male,Credit Card,Mumbai,1767.39
+2025-12-28,Beauty,Shampoo,4,1104.91,32,CUST1153,Male,Cash,Jaipur,4419.63
+2025-12-29,Groceries,Coffee,4,538.99,59,CUST1178,Female,Cash,Mumbai,2155.95
+2025-12-29,Clothing,T-Shirt,2,1081.98,46,CUST1362,Male,Cash,Gurugram,2163.96
+2025-12-30,Home & Kitchen,Storage Box,2,435.38,51,CUST1197,Female,UPI,Pune,870.75
+2025-12-30,Beauty,Sunscreen,2,1281.56,57,CUST1410,Male,UPI,Gurugram,2563.12
+2025-12-30,Beauty,Face Wash,5,1026.88,28,CUST1367,Female,Credit Card,Delhi,5134.41
+2025-12-30,Clothing,T-Shirt,3,2899.93,54,CUST1027,Female,UPI,Mumbai,8699.78
+2025-12-30,Beauty,Sunscreen,6,1391.88,51,CUST1415,Female,UPI,Jaipur,8351.26
+2025-12-30,Beauty,Perfume,4,676.49,34,CUST1179,Male,UPI,Delhi,2705.97
+2025-12-30,Beauty,Shampoo,2,467.47,39,CUST1311,Female,UPI,Pune,934.95
+2025-12-31,Electronics,Mouse,1,492.02,19,CUST1149,Female,UPI,Gurugram,492.02
+2025-12-31,Home & Kitchen,Bedsheet,2,2359.74,41,CUST1322,Female,Credit Card,Delhi,4719.48
+2025-12-31,Beauty,Face Wash,5,989.42,48,CUST1295,Male,Cash,Delhi,4947.09
+2025-12-31,Home & Kitchen,Lamp,3,2354.75,28,CUST1230,Female,UPI,Jaipur,7064.26
+2025-12-31,Groceries,Biscuits,1,106.03,25,CUST1351,Male,Net Banking,Jaipur,106.03
