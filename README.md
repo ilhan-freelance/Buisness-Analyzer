@@ -71,8 +71,8 @@ Full client-side ML clustering, Disaster Simulator, and Fragility Score run inst
 
 ### Option 2: Python / Streamlit Local Server
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+pip install -r streamlit/requirements.txt
+streamlit run streamlit/app.py
 ```
 
 ---
@@ -82,13 +82,13 @@ streamlit run app.py
 ### A. Deploy to Vercel (1-Click, Zero Config)
 1. Push this repository to GitHub
 2. Import project in [vercel.com](https://vercel.com/new)
-3. Framework Preset: **Other** (Root directory has `index.html` + `vercel.json`)
-4. Click **Deploy** — your live app URL is generated in under 15 seconds!
+3. Framework Preset: **Other** / Static
+4. Click **Deploy** — your live app URL is generated in under 10 seconds!
 
 ### B. Deploy on Streamlit Cloud
 1. Push this repository to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your repo and set `app.py` as the main file
+3. Connect your repo and set main file path to `streamlit/app.py`
 4. Click **Deploy**
 
 ---
