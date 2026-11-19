@@ -1,5 +1,5 @@
 {
-  "buildCommand": "mkdir -p public && cp index.html public/ && cp sample_retail_data.csv public/",
+  "framework": null,
   "outputDirectory": "public",
   "cleanUrls": true
 }
