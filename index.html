@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retail Crash-Test Engine — Stress-Test Your Business</title>
+  <!-- Tailwind CSS & Plotly & PapaParse CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <style>
+    body {
+      background-color: #0b0e14;
+      color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .card {
+      background: #131722;
+      border: 1px solid #1e2638;
+      border-radius: 12px;
+    }
+    .kpi-val {
+      font-size: 1.75rem;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+
+  <!-- Minimal Header -->
+  <header class="border-b border-[#1e2638] bg-[#0f131d] px-6 py-3.5 sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <span class="text-2xl">🚨</span>
+        <div>
+          <h1 class="text-base font-bold text-white tracking-tight">Retail Crash-Test Engine</h1>
+          <p class="text-[11px] text-slate-400">Sales Analytics • Disaster Stress-Testing • Risk Mitigation Precautions</p>
+        </div>
+      </div>
+
+      <div id="header-actions" class="hidden items-center gap-3">
+        <span id="active-filename" class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700"></span>
+        <button onclick="resetToUpload()" class="text-xs text-slate-400 hover:text-white underline">
+          Change CSV
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-6xl mx-auto p-6 flex-1 w-full">
+
+    <!-- ======================================================== -->
+    <!-- STATE 1: INITIAL UPLOAD SCREEN (NO DATA PRE-LOADED) -->
+    <!-- ======================================================== -->
+    <div id="upload-screen" class="max-w-xl mx-auto my-12 space-y-6 text-center">
+      <div class="space-y-2">
+        <h2 class="text-2xl font-black text-white">Upload Your Retail Sales CSV</h2>
+        <p class="text-xs text-slate-400 max-w-md mx-auto">
+          Upload any sales CSV to audit business fragility, stress-test crisis scenarios, and generate actionable risk mitigation precautions.
+        </p>
+      </div>
+
+      <!-- Drag & Drop Zone -->
+      <div 
+        id="drop-zone"
+        onclick="document.getElementById('file-input').click()"
+        ondragover="event.preventDefault(); this.classList.add('border-emerald-500')"
+        ondragleave="this.classList.remove('border-emerald-500')"
+        ondrop="handleDrop(event)"
+        class="card border-2 border-dashed border-slate-700 hover:border-emerald-500/60 p-10 rounded-2xl cursor-pointer transition-all space-y-4"
+      >
+        <div class="w-14 h-14 mx-auto rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-2xl">
+          📁
+        </div>
+        <div>
+          <span class="text-sm font-bold text-white block">Drop CSV File Here, or Click to Browse</span>
+          <span class="text-xs text-slate-500 mt-1 block">Expected columns: Date, Category, Quantity, Price, Age, etc.</span>
+        </div>
+        <input type="file" id="file-input" accept=".csv" class="hidden" onchange="handleFileSelect(event)">
+      </div>
+
+      <!-- Quick Sample Data Option -->
+      <div class="flex items-center justify-center gap-3 pt-2">
+        <span class="text-xs text-slate-500">Don't have a retail dataset on hand?</span>
+        <button onclick="loadSampleData()" class="px-4 py-2 text-xs font-bold rounded-lg bg-emerald-500 hover:bg-emerald-600 text-slate-950 transition-all shadow-md">
+          ⚡ Test with Sample Retail Store (1,500 Rows)
+        </button>
+      </div>
+    </div>
+
+    <!-- Processing Overlay (Brief analysis animation) -->
+    <div id="loading-spinner" class="hidden max-w-sm mx-auto my-20 p-8 card text-center space-y-4">
+      <div class="w-10 h-10 mx-auto border-4 border-slate-700 border-t-emerald-400 rounded-full animate-spin"></div>
+      <div>
+        <span id="loading-text" class="text-sm font-bold text-white block">Parsing Transactions...</span>
+        <span class="text-xs text-slate-400 mt-1 block">Computing risk vectors and fragility metrics</span>
+      </div>
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- STATE 2: CLEAN ANALYZED DASHBOARD (SHOWN AFTER UPLOAD) -->
+    <!-- ======================================================== -->
+    <div id="dashboard-screen" class="hidden space-y-8">
+
+      <!-- SECTION 1: 4 KEY METRICS -->
+      <div class="space-y-3">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400">1. Executive Overview & Business Fragility</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="card p-4 border-l-4 border-l-emerald-400">
+            <span class="text-[11px] text-slate-400 uppercase font-semibold">Total Revenue</span>
+            <div id="kpi-revenue" class="kpi-val text-white mt-0.5">$0</div>
+            <span id="kpi-txns" class="text-[11px] text-slate-500">0 transactions</span>
+          </div>
+          <div class="card p-4 border-l-4 border-l-purple-400">
+            <span class="text-[11px] text-slate-400 uppercase font-semibold">Avg Order Value (AOV)</span>
+            <div id="kpi-aov" class="kpi-val text-white mt-0.5">$0</div>
+            <span class="text-[11px] text-slate-500">Per customer checkout</span>
+          </div>
+          <div class="card p-4 border-l-4 border-l-amber-400">
+            <span class="text-[11px] text-slate-400 uppercase font-semibold">Top Category Share</span>
+            <div id="kpi-top-cat" class="kpi-val text-amber-400 mt-0.5">0%</div>
+            <span id="kpi-top-cat-name" class="text-[11px] text-slate-500">Highest dependency</span>
+          </div>
+          <div class="card p-4 border-l-4 border-l-rose-400">
+            <span class="text-[11px] text-slate-400 uppercase font-semibold">Business Fragility Score</span>
+            <div class="flex items-baseline gap-1 mt-0.5">
+              <span id="kpi-fragility" class="kpi-val text-rose-400">0</span>
+              <span class="text-xs text-slate-500">/ 100</span>
+            </div>
+            <span id="kpi-risk-label" class="text-[11px] font-bold text-rose-400">High Risk</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 2: 2 CLEAN CHARTS -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="card p-4 space-y-2">
+          <span class="text-xs font-bold text-white block">Revenue Distribution by Product Category</span>
+          <div id="chart-category" class="w-full h-[220px]"></div>
+        </div>
+        <div class="card p-4 space-y-2">
+          <span class="text-xs font-bold text-white block">Monthly Sales Seasonality Trend</span>
+          <div id="chart-monthly" class="w-full h-[220px]"></div>
+        </div>
+      </div>
+
+      <!-- SECTION 3: PRECAUTIONS (HOW TO FIX THE RISK) -->
+      <div class="space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <h2 class="text-sm font-bold text-white flex items-center gap-2">
+              <span>🛡️</span> 2. Recommended Precautions & Action Plan
+            </h2>
+            <p class="text-xs text-slate-400">Identified vulnerabilities and concrete operational steps to mitigate business risk:</p>
+          </div>
+          <button onclick="downloadReport()" class="px-3.5 py-1.5 text-xs font-bold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 flex items-center gap-1.5 self-start">
+            <span>📥</span> Download Action Plan (.md)
+          </button>
+        </div>
+
+        <div id="precautions-container" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Dynamically filled with clean actionable precautions in pure English -->
+        </div>
+
+        <!-- Interactive Score Improvement Tester -->
+        <div class="card p-4 bg-emerald-950/20 border-emerald-500/30 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div class="space-y-1">
+            <span class="text-xs font-bold text-emerald-400 block">⚡ Live Precaution Impact Tester:</span>
+            <p class="text-xs text-slate-300">
+              Simulate risk reduction after implementing safety stock, vendor diversification, and retention programs:
+            </p>
+          </div>
+          <div class="flex items-center gap-3">
+            <label class="flex items-center gap-2 cursor-pointer text-xs text-white">
+              <input type="checkbox" id="check-precautions" onchange="togglePrecautionFix()" class="w-4 h-4 accent-emerald-400 cursor-pointer">
+              <span>Apply Recommended Precautions</span>
+            </label>
+            <span id="score-reduction-badge" class="hidden text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-1 rounded-full font-bold">
+              Fragility Score: 48 ➔ 14 (Low Risk / Safe)
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 4: DISASTER SIMULATOR (CRASH TEST) -->
+      <div class="space-y-4">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-sm font-bold text-white flex items-center gap-2">
+              <span>💥</span> 3. Disaster Stress-Test Simulator
+            </h2>
+            <p class="text-xs text-slate-400">Simulate market shocks to evaluate cashflow resilience and survival capacity:</p>
+          </div>
+          <div class="flex gap-2">
+            <button onclick="setDisaster(10, 20, 5)" class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 hover:text-white border border-slate-700">Mild Shock</button>
+            <button onclick="setDisaster(40, 60, 20)" class="px-2.5 py-1 text-xs rounded bg-slate-800 text-amber-300 hover:text-white border border-slate-700">Major Crisis</button>
+            <button onclick="setDisaster(60, 100, 40)" class="px-2.5 py-1 text-xs rounded bg-slate-800 text-rose-300 hover:text-white border border-slate-700">Total Collapse</button>
+          </div>
+        </div>
+
+        <!-- 3 Sliders -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 card p-4">
+          <div>
+            <div class="flex justify-between text-xs font-semibold mb-1">
+              <span>Competitor Attack</span>
+              <span id="val-competitor" class="text-amber-400 font-mono">20%</span>
+            </div>
+            <input type="range" id="slider-competitor" min="0" max="100" value="20" oninput="runSim()" class="w-full accent-amber-400 cursor-pointer">
+            <span class="text-[10px] text-slate-500">Loss of price-sensitive customer volume</span>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs font-semibold mb-1">
+              <span>Supply Disruption</span>
+              <span id="val-supply" class="text-rose-400 font-mono">30%</span>
+            </div>
+            <input type="range" id="slider-supply" min="0" max="100" value="30" oninput="runSim()" class="w-full accent-rose-400 cursor-pointer">
+            <span class="text-[10px] text-slate-500">Top-category inventory stockout</span>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs font-semibold mb-1">
+              <span>Inflation Contraction</span>
+              <span id="val-inflation" class="text-indigo-400 font-mono">10%</span>
+            </div>
+            <input type="range" id="slider-inflation" min="0" max="100" value="10" oninput="runSim()" class="w-full accent-indigo-400 cursor-pointer">
+            <span class="text-[10px] text-slate-500">General retail consumer spend reduction</span>
+          </div>
+        </div>
+
+        <!-- Impact Outcome Row -->
+        <div class="grid grid-cols-3 gap-4">
+          <div class="card p-3.5 text-center">
+            <span class="text-[11px] text-slate-400 uppercase block">Post-Crash Revenue</span>
+            <span id="sim-post" class="text-lg font-bold text-amber-400 font-mono">$0</span>
+          </div>
+          <div class="card p-3.5 text-center">
+            <span class="text-[11px] text-slate-400 uppercase block">Estimated Revenue Loss</span>
+            <span id="sim-loss" class="text-lg font-bold text-rose-400 font-mono">-$0</span>
+          </div>
+          <div class="card p-3.5 text-center">
+            <span class="text-[11px] text-slate-400 uppercase block">Business Survival Rate</span>
+            <span id="sim-survival" class="text-lg font-bold text-emerald-400 font-mono">0%</span>
+          </div>
+        </div>
+
+        <!-- Before vs After Chart -->
+        <div class="card p-4">
+          <div id="chart-sim" class="w-full h-[260px]"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- JAVASCRIPT ANALYTICS & EVENT LOGIC -->
+  <!-- ======================================================== -->
+  <script>
+    let analyticsData = null;
+
+    // Reset back to upload
+    function resetToUpload() {
+      document.getElementById('upload-screen').classList.remove('hidden');
+      document.getElementById('loading-spinner').classList.add('hidden');
+      document.getElementById('dashboard-screen').classList.add('hidden');
+      document.getElementById('header-actions').classList.add('hidden');
+      document.getElementById('file-input').value = '';
+      analyticsData = null;
+    }
+
+    // File Drag & Drop
+    function handleDrop(e) {
+      e.preventDefault();
+      document.getElementById('drop-zone').classList.remove('border-emerald-500');
+      if (e.dataTransfer.files.length) {
+        parseCSV(e.dataTransfer.files[0]);
+      }
+    }
+
+    function handleFileSelect(e) {
+      if (e.target.files.length) {
+        parseCSV(e.target.files[0]);
+      }
+    }
+
+    function parseCSV(file) {
+      showLoading("Parsing " + file.name + "...");
+      Papa.parse(file, {
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+          if (results.data && results.data.length > 5) {
+            setTimeout(() => {
+              processDataset(results.data, file.name);
+            }, 350);
+          } else {
+            hideLoading();
+            alert("CSV file appears empty or improperly formatted.");
+          }
+        }
+      });
+    }
+
+    function showLoading(text) {
+      document.getElementById('upload-screen').classList.add('hidden');
+      document.getElementById('dashboard-screen').classList.add('hidden');
+      document.getElementById('loading-spinner').classList.remove('hidden');
+      document.getElementById('loading-text').innerText = text;
+    }
+
+    function hideLoading() {
+      document.getElementById('loading-spinner').classList.add('hidden');
+    }
+
+    // Load Sample Data on Demand (Only when clicked)
+    function loadSampleData() {
+      showLoading("Generating sample retail transactions (1,500 rows)...");
+      setTimeout(() => {
+        const categories = ['Electronics', 'Clothing', 'Beauty', 'Home & Kitchen'];
+        const priceRanges = {
+          'Electronics': [150, 1100],
+          'Clothing': [25, 140],
+          'Beauty': [15, 80],
+          'Home & Kitchen': [35, 240]
+        };
+        const rows = [];
+        for (let i = 1; i <= 1500; i++) {
+          let cat = 'Electronics';
+          const r = Math.random();
+          if (r < 0.28) cat = 'Electronics';
+          else if (r < 0.58) cat = 'Clothing';
+          else if (r < 0.82) cat = 'Beauty';
+          else cat = 'Home & Kitchen';
+
+          const month = Math.floor(Math.random() * 12) + 1;
+          const day = Math.floor(Math.random() * 28) + 1;
+          const qty = Math.random() < 0.4 ? 1 : Math.random() < 0.7 ? 2 : Math.random() < 0.9 ? 3 : 4;
+          const pRange = priceRanges[cat];
+          const price = Math.round((pRange[0] + Math.random() * (pRange[1] - pRange[0])) * 10) / 10;
+          const total = Math.round(qty * price * 10) / 10;
+
+          rows.push({
+            'Transaction ID': 'T' + i,
+            'Date': `2023-${String(month).padStart(2,'0')}-${String(day).padStart(2,'0')}`,
+            'Product Category': cat,
+            'Quantity': qty,
+            'Price per Unit': price,
+            'Total Amount': total,
+            'Month': month
+          });
+        }
+        processDataset(rows, "Sample Retail Data (1,500 Rows)");
+      }, 350);
+    }
+
+    // Process & Analyze
+    function processDataset(data, fileName) {
+      let totalRev = 0;
+      const catMap = {};
+      const monthMap = new Array(12).fill(0);
+
+      data.forEach(d => {
+        let amt = d['Total Amount'];
+        if (!amt && d['Quantity'] && d['Price per Unit']) {
+          amt = d['Quantity'] * d['Price per Unit'];
+        }
+        amt = Number(amt) || 0;
+        totalRev += amt;
+
+        // Category
+        const cat = d['Product Category'] || 'Other';
+        catMap[cat] = (catMap[cat] || 0) + amt;
+
+        // Month
+        let m = d['Month'];
+        if (!m && d['Date']) {
+          m = (new Date(d['Date'])).getMonth() + 1;
+        }
+        if (m >= 1 && m <= 12) {
+          monthMap[m - 1] += amt;
+        }
+      });
+
+      const txns = data.length;
+      const aov = txns ? totalRev / txns : 0;
+
+      // Top category
+      let topCat = 'None', topCatVal = 0;
+      for (const c in catMap) {
+        if (catMap[c] > topCatVal) {
+          topCatVal = catMap[c];
+          topCat = c;
+        }
+      }
+      const topCatPct = totalRev ? (topCatVal / totalRev) * 100 : 0;
+
+      // Volatility
+      const meanM = totalRev / 12;
+      const stdM = Math.sqrt(monthMap.reduce((s, v) => s + Math.pow(v - meanM, 2), 0) / 12);
+      const mVol = meanM ? (stdM / meanM) * 100 : 0;
+
+      // Fragility Score
+      const fragility = Math.min(100, Math.round((0.45 * Math.min(topCatPct, 100) + 0.30 * 40 + 0.25 * Math.min(mVol * 1.8, 100)) * 10) / 10);
+
+      analyticsData = {
+        totalRev,
+        txns,
+        aov,
+        catMap,
+        topCat,
+        topCatPct,
+        monthMap,
+        mVol,
+        fragility,
+        fileName
+      };
+
+      hideLoading();
+      document.getElementById('upload-screen').classList.add('hidden');
+      document.getElementById('dashboard-screen').classList.remove('hidden');
+      document.getElementById('header-actions').classList.remove('hidden');
+      document.getElementById('header-actions').classList.add('flex');
+      document.getElementById('active-filename').innerText = fileName;
+
+      renderDashboard();
+    }
+
+    function renderDashboard() {
+      const d = analyticsData;
+
+      // Metrics
+      document.getElementById('kpi-revenue').innerText = '$' + Math.round(d.totalRev).toLocaleString();
+      document.getElementById('kpi-txns').innerText = d.txns.toLocaleString() + ' orders';
+      document.getElementById('kpi-aov').innerText = '$' + d.aov.toFixed(1);
+      document.getElementById('kpi-top-cat').innerText = d.topCatPct.toFixed(1) + '%';
+      document.getElementById('kpi-top-cat-name').innerText = 'In ' + d.topCat;
+      document.getElementById('kpi-fragility').innerText = d.fragility.toFixed(0);
+
+      const riskLabel = document.getElementById('kpi-risk-label');
+      if (d.fragility >= 65) {
+        riskLabel.innerText = '🔴 High Risk';
+        riskLabel.className = 'text-[11px] font-bold text-rose-400';
+      } else if (d.fragility >= 35) {
+        riskLabel.innerText = '🟡 Moderate Risk';
+        riskLabel.className = 'text-[11px] font-bold text-amber-400';
+      } else {
+        riskLabel.innerText = '🟢 Safe & Resilient';
+        riskLabel.className = 'text-[11px] font-bold text-emerald-400';
+      }
+
+      // Category Donut
+      Plotly.newPlot('chart-category', [{
+        type: 'pie',
+        labels: Object.keys(d.catMap),
+        values: Object.values(d.catMap),
+        hole: 0.55,
+        marker: { colors: ['#667eea', '#f093fb', '#f5576c', '#4facfe'] },
+        textinfo: 'label+percent',
+        textfont: { size: 11, color: '#fff' }
+      }], {
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        margin: { t: 10, b: 10, l: 10, r: 10 },
+        showlegend: false
+      }, { responsive: true, displayModeBar: false });
+
+      // Monthly Trend
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      Plotly.newPlot('chart-monthly', [{
+        type: 'scatter',
+        mode: 'lines+markers',
+        x: months,
+        y: d.monthMap,
+        line: { color: '#00d4aa', width: 2.5 },
+        marker: { size: 5, color: '#00d4aa' }
+      }], {
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        font: { color: '#94a3b8', size: 10 },
+        margin: { t: 10, b: 25, l: 45, r: 10 },
+        xaxis: { gridcolor: '#1e2638' },
+        yaxis: { gridcolor: '#1e2638', tickprefix: '$' }
+      }, { responsive: true, displayModeBar: false });
+
+      // Render Simple Actionable Precautions in English
+      renderPrecautions();
+
+      // Trigger Sim
+      runSim();
+    }
+
+    // 3 Actionable Precautions (Clean Executive English)
+    function renderPrecautions() {
+      const d = analyticsData;
+      const container = document.getElementById('precautions-container');
+
+      container.innerHTML = `
+        <div class="card p-4 space-y-2 border-t-2 border-t-rose-400">
+          <span class="text-xs font-bold text-white flex items-center gap-1.5">
+            <span>📦</span> 1. Supplier Diversification
+          </span>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Over <strong>${d.topCatPct.toFixed(1)}% of revenue</strong> relies on a single category (<span class="text-white font-medium">${d.topCat}</span>).
+          </p>
+          <div class="text-[11px] text-emerald-400 bg-emerald-500/10 p-2 rounded">
+            <strong>Precaution:</strong> Contract at least one secondary vendor and establish a 45-day safety inventory buffer.
+          </div>
+        </div>
+
+        <div class="card p-4 space-y-2 border-t-2 border-t-amber-400">
+          <span class="text-xs font-bold text-white flex items-center gap-1.5">
+            <span>💎</span> 2. VIP Retention Shield
+          </span>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            High customer dependency means any churn in top buyers causes an immediate revenue crash.
+          </p>
+          <div class="text-[11px] text-emerald-400 bg-emerald-500/10 p-2 rounded">
+            <strong>Precaution:</strong> Introduce tiered VIP incentives and personalized offers to lock in high-value repeat spenders.
+          </div>
+        </div>
+
+        <div class="card p-4 space-y-2 border-t-2 border-t-indigo-400">
+          <span class="text-xs font-bold text-white flex items-center gap-1.5">
+            <span>💰</span> 3. Cashflow Buffer Reserve
+          </span>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Post-season demand troughs risk fixed overhead deficits during lean trading months.
+          </p>
+          <div class="text-[11px] text-emerald-400 bg-emerald-500/10 p-2 rounded">
+            <strong>Precaution:</strong> Maintain a dedicated emergency cash reserve of at least $${Math.round(d.totalRev * 0.15).toLocaleString()} (60-day runway).
+          </div>
+        </div>
+      `;
+    }
+
+    // Precaution Toggle
+    function togglePrecautionFix() {
+      const checked = document.getElementById('check-precautions').checked;
+      const badge = document.getElementById('score-reduction-badge');
+      const kpiFragility = document.getElementById('kpi-fragility');
+      const riskLabel = document.getElementById('kpi-risk-label');
+
+      if (checked) {
+        const safeScore = Math.max(12, Math.round(analyticsData.fragility * 0.3));
+        kpiFragility.innerText = safeScore;
+        kpiFragility.className = 'kpi-val text-emerald-400';
+        riskLabel.innerText = '🟢 Safe & Resilient';
+        riskLabel.className = 'text-[11px] font-bold text-emerald-400';
+
+        badge.innerText = `Fragility Score: ${analyticsData.fragility.toFixed(0)} ➔ ${safeScore} (Low Risk / Safe)`;
+        badge.classList.remove('hidden');
+      } else {
+        kpiFragility.innerText = analyticsData.fragility.toFixed(0);
+        kpiFragility.className = 'kpi-val text-rose-400';
+        riskLabel.innerText = '🔴 High Risk';
+        riskLabel.className = 'text-[11px] font-bold text-rose-400';
+        badge.classList.add('hidden');
+      }
+    }
+
+    // Disaster Simulator
+    function setDisaster(c, s, i) {
+      document.getElementById('slider-competitor').value = c;
+      document.getElementById('slider-supply').value = s;
+      document.getElementById('slider-inflation').value = i;
+      runSim();
+    }
+
+    function runSim() {
+      if (!analyticsData) return;
+      const c = Number(document.getElementById('slider-competitor').value);
+      const s = Number(document.getElementById('slider-supply').value);
+      const inf = Number(document.getElementById('slider-inflation').value);
+
+      document.getElementById('val-competitor').innerText = c + '%';
+      document.getElementById('val-supply').innerText = s + '%';
+      document.getElementById('val-inflation').innerText = inf + '%';
+
+      const base = analyticsData.totalRev;
+      const lossC = (base * 0.22) * (c / 100);
+      const lossS = (analyticsData.topCatPct / 100 * base) * (s / 100) * 0.25;
+      const lossI = base * (inf / 100);
+
+      const totalLoss = lossC + lossS + lossI;
+      const post = Math.max(0, base - totalLoss);
+      const survival = (post / base) * 100;
+
+      document.getElementById('sim-post').innerText = '$' + Math.round(post).toLocaleString();
+      document.getElementById('sim-loss').innerText = '-$' + Math.round(totalLoss).toLocaleString();
+      document.getElementById('sim-survival').innerText = survival.toFixed(1) + '%';
+
+      // Bar comparison
+      const cats = Object.keys(analyticsData.catMap);
+      const origVals = Object.values(analyticsData.catMap);
+      const postVals = cats.map((cat, idx) => {
+        let val = origVals[idx];
+        if (cat === analyticsData.topCat) val -= val * (s / 100) * 0.25;
+        val -= val * (inf / 100);
+        return Math.max(0, val);
+      });
+
+      Plotly.newPlot('chart-sim', [
+        { name: 'Baseline Revenue', x: cats, y: origVals, type: 'bar', marker: { color: '#00d4aa' } },
+        { name: 'Post-Crash Inflows', x: cats, y: postVals, type: 'bar', marker: { color: '#ff4b4b' } }
+      ], {
+        barmode: 'group',
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        font: { color: '#94a3b8', size: 10 },
+        margin: { t: 20, b: 35, l: 45, r: 10 },
+        xaxis: { gridcolor: '#1e2638' },
+        yaxis: { gridcolor: '#1e2638', tickprefix: '$' },
+        legend: { orientation: 'h', y: 1.15 }
+      }, { responsive: true, displayModeBar: false });
+    }
+
+    // Markdown Report Download
+    function downloadReport() {
+      const d = analyticsData;
+      const text = `# 🚨 Retail Crash-Test Action Report
+**Dataset File:** ${d.fileName}
+**Total Revenue:** $${Math.round(d.totalRev).toLocaleString()}
+**Fragility Score:** ${d.fragility}/100
+
+---
+
+## 3 Critical Risk Mitigation Precautions
+1. **Supply Chain:** Top category ${d.topCat} accounts for ${d.topCatPct.toFixed(1)}% of total sales. Maintain a 45-day safety buffer stock and contract a secondary supplier.
+2. **VIP Retention:** Protect high-value repeat spenders through targeted loyalty perks to prevent competitor poaching.
+3. **Emergency Cash Reserve:** Establish an operational buffer of $${Math.round(d.totalRev * 0.15).toLocaleString()} to cover overhead expenses during low-season demand troughs.
+`;
+      const blob = new Blob([text], { type: 'text/markdown' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = "Retail_Crash_Test_Action_Plan.md";
+      a.click();
+    }
+  </script>
+</body>
+</html>
